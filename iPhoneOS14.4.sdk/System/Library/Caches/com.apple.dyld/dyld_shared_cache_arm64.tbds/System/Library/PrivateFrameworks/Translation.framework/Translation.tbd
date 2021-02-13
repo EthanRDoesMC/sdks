@@ -1,0 +1,47 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/Translation.framework/Translation
+current-version:       128.4.1
+compatibility-version: 0
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ __LTBuildVersion, __LTDeviceName,
+                            __LTLanguageCodeToSupportedLocale, __LTProductName,
+                            __LTProductType, __LTProductVersion,
+                            __LTTranslationErrorDomain,
+                            __LTTranslationModelTaskString,
+                            __LTTranslationServiceDelegateXPCInterface,
+                            __LTTranslationServiceXPCInterface,
+                            _kLTUnknownLanguageCode ]
+    objc-classes:         [ __LTAlignment, __LTBatchTextTranslationRequest,
+                            __LTCombinedEngine,
+                            __LTCombinedRouteParagraphTranslationRequest,
+                            __LTDaemon, __LTInstallRequest,
+                            __LTLanguageDetectionResult, __LTLanguageDetector,
+                            __LTLanguageDetectorFeatureCombinationModel,
+                            __LTLanguageInstallationStatus, __LTLanguageManager,
+                            __LTLanguagePairOfflineAvailability, __LTLocalePair,
+                            __LTParagraphTranslationRequest,
+                            __LTSafariLatencyLoggingRequest, __LTSpeakRequest,
+                            __LTSpeechLIDLoggingRequest,
+                            __LTSpeechRecognitionBin,
+                            __LTSpeechRecognitionResult,
+                            __LTSpeechRecognitionSausage,
+                            __LTSpeechRecognitionTokensAlternative,
+                            __LTSpeechTranscription,
+                            __LTSpeechTranslationRequest,
+                            __LTTextLanguageDetectionResult,
+                            __LTTextLanguageDetector,
+                            __LTTextToSpeechTranslationRequest,
+                            __LTTextTranslationRequest,
+                            __LTTranslateSettingsController,
+                            __LTTranslationCandidate, __LTTranslationContext,
+                            __LTTranslationFeedback, __LTTranslationRange,
+                            __LTTranslationRequest, __LTTranslationResult,
+                            __LTTranslationSense,
+                            __LTTranslationSensesLoggingRequest,
+                            __LTTranslationSession, __LTTranslationSpan,
+                            __LTTranslationStatistics, __LTTranslationToken,
+                            __LTTranslator ]
+...

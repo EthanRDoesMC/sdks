@@ -1,0 +1,28 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/FrontBoardUIServices.framework/FrontBoardUIServices
+current-version:       0
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    re-exports:           [ /System/Library/PrivateFrameworks/FrontBoardServices.framework/FrontBoardServices ]
+    symbols:              [ _FBUIGetUserAgent, _FBUIGetUserAgentInternal,
+                            _FBUISFrontBoardUIServicesVersionNumber,
+                            _FBUISFrontBoardUIServicesVersionString,
+                            _FBUISceneErrorCodeDescription,
+                            _FBUISceneErrorDomain ]
+    objc-classes:         [ _FBUICurrentProcess, _FBUIProcess,
+                            _FBUIProcessAssertion, _FBUIProcessManager, _FBUIScene,
+                            _FBUISceneActionsEvent, _FBUISceneAgent,
+                            _FBUISceneClient, _FBUISceneClientIdentity,
+                            _FBUISceneEvent, _FBUISceneEventResponse,
+                            _FBUISceneHost, _FBUISceneIdentity,
+                            _FBUISceneInvalidationEvent, _FBUISceneManager,
+                            _FBUISceneParameters, _FBUISceneSpecification,
+                            _FBUISceneUpdateClientSettingsEvent,
+                            _FBUISceneUpdateSettingsEvent, _FBUISceneWorkspace,
+                            _FBUIUserAgent, _UIApplicationSceneAgent,
+                            _UIApplicationSceneSpecification ]
+    objc-ivars:           [ _FBUIUserAgent._systemApp ]
+...

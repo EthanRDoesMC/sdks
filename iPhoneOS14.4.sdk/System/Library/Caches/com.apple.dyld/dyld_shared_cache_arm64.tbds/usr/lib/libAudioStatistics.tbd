@@ -1,0 +1,60 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /usr/lib/libAudioStatistics.dylib
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _CAReporterProxyKeyReporterID,
+                            _CAReporterProxyKeyServiceType,
+                            _CAReportingApplicationName,
+                            _CAReportingAriadnePlistFilePath,
+                            _CAReportingClientCopyConfiguration,
+                            _CAReportingClientCreateReporterID,
+                            _CAReportingClientCreateReporterIDFromSessionID,
+                            _CAReportingClientCreateTestReporterID,
+                            _CAReportingClientDestroyReporterID,
+                            _CAReportingClientGetAudioServiceType,
+                            _CAReportingClientNameCoreAudio,
+                            _CAReportingClientSendMessage,
+                            _CAReportingClientSendSingleMessage,
+                            _CAReportingClientSetAudioServiceType,
+                            _CAReportingClientSetConfiguration,
+                            _CAReportingClientStartReporter,
+                            _CAReportingClientStopReporter,
+                            _CAReportingDelayPerfEndSnapShot,
+                            _CAReportingInternalEventEpochTime,
+                            _CAReportingInternalEventProcessUptimeMS,
+                            _CAReportingInternalEventSystemUptimeSec,
+                            _CAReportingLogsDirectory, _CAReportingPerfProcesses,
+                            _CAReportingPerfProjectName,
+                            _CAReportingRTCReportingTimeOut,
+                            _CAReportingServiceNameAlarms,
+                            _CAReportingServiceNameAlerts,
+                            _CAReportingServiceNameAudioDeviceUsage,
+                            _CAReportingServiceNameGeneric,
+                            _CAReportingServiceNameHaptics,
+                            _CAReportingServiceNameLongFormAudio,
+                            _CAReportingServiceNameNonLongFormAudio,
+                            _CAReportingServiceNameSiri,
+                            _CAReportingServiceNameSoundAutoConfig,
+                            _CAReportingServiceNameStandAlone,
+                            _CAReportingServiceNameTelephony,
+                            _CAReportingServiceNameTest,
+                            _CAReportingServiceNameUnknown,
+                            _CAReportingSessionBlacklistFieldsKey,
+                            _CAReportingSessionThrottleSecondsKey,
+                            _CAReportingTestName, _CAReportingTraceType,
+                            _CAReportingTraceTypeArtrace,
+                            _CAReportingTraceTypeKtrace,
+                            _CAReportingUtilityAllowSessionTransactions,
+                            _CAReportingUtilityExtractSessionIDFromReporterID,
+                            _CAReportingUtilityGenerateServiceNameFromServiceType,
+                            _CAReportingUtilityGenerateServiceTypeFromServiceName,
+                            _CAReportingUtilityIsInternalBuild,
+                            _CAReportingUtilityShouldSendMessage,
+                            _CAReportingVersionNumber,
+                            _CreateSharedCAReportingClient ]
+    objc-classes:         [ _CAReporter, _CATestReporter ]
+...

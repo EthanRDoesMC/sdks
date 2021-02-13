@@ -1,0 +1,45 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          "/System/Library/PrivateFrameworks/SportsVoices.framework/SportsVoices"
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _SVPlistErrorDefault, _SVPlistNotificationDefault,
+                            _SVSnODetailDefault, _SVSnOMilestoneDefault,
+                            _SVSpeakWordsNotificationDefault,
+                            _SWUtilsApplicationTraceDefault,
+                            _SWUtilsBluetoothTraceDefault,
+                            _SWUtilsPacketTraceDefault ]
+    objc-classes:         [ _AttributeKey, _Cell, _CompoundSlot,
+                            _ConditionalProduction, _Decomposer,
+                            _DecomposerDelegate, _Directory, _DisjunctionSlot,
+                            _GenericProduction, _GrammarPart, _KleeneSlot,
+                            _NegationSlot, _NewProduction, _Parser, _Player, _Rule,
+                            _SWUtils, _SimpleSlot, _SimpleSlotSequence, _Slot,
+                            _SlotSequence, _SlotsInContext, _SpecialCharacters ]
+    objc-ivars:           [ _AttributeKey._index, _AttributeKey._key,
+                            _Cell._attributes, _Cell._type, _CompoundSlot._slots,
+                            _ConditionalProduction._delimiter,
+                            _ConditionalProduction._expansions,
+                            _ConditionalProduction._signature,
+                            _Decomposer._availableSoundFiles,
+                            _Decomposer._bundle, _Decomposer._cache,
+                            _Decomposer._debugging, _Decomposer._delegate,
+                            _Decomposer._iterations,
+                            _DecomposerDelegate._overridesForParts,
+                            _DecomposerDelegate._overridesForWhole,
+                            _Directory._orderedSubparts, _Directory._subparts,
+                            _GrammarPart._depth, _GrammarPart._name,
+                            _GrammarPart._order, _NewProduction._indices,
+                            _NewProduction._overlays, _Parser._debugging,
+                            _Parser._grammarsPlist, _Parser._productionRules,
+                            _Parser._theGrammar, _Player._bundle,
+                            _Player._directory, _Rule._leftHandSide, _Rule._repeat,
+                            _Rule._rightHandSide, _SimpleSlot._cell,
+                            _SlotSequence._slots, _SlotsInContext._postContext,
+                            _SlotsInContext._preContext,
+                            _SlotsInContext._preContextReversed,
+                            _SlotsInContext._significantSlots ]
+...

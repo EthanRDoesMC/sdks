@@ -1,0 +1,13 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          "/System/Library/SpringBoardPlugins/NowPlayingArtLockScreen.lockbundle/NowPlayingArtLockScreen"
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    objc-classes:         [ _NowPlayingArtPluginController, __NowPlayingArtView ]
+    objc-ivars:           [ _NowPlayingArtPluginController._systemMediaController,
+                            __NowPlayingArtView._artworkView,
+                            __NowPlayingArtView._orientation ]
+...

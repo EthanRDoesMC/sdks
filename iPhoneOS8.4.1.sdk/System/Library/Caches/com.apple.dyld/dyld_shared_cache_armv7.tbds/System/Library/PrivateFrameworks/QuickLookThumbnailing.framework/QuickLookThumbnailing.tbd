@@ -1,0 +1,59 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/QuickLookThumbnailing.framework/QuickLookThumbnailing
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _GSDocumentThumbnailsNameSpace,
+                            _QLThumbnail1024x1024SizeKey,
+                            _QLThumbnailAdditionBaseImageName,
+                            _QLThumbnailAdditionMetadataKey,
+                            _QLThumbnailAdditionName,
+                            _QLThumbnailDictionaryXattrName, _QLThumbnailError,
+                            _QLThumbnailErrorDomain,
+                            _QLThumbnailInfoPlistFileName,
+                            _QLThumbnailMetadataContentRectKey,
+                            _QLThumbnailMetadataFileNameKey,
+                            _QLThumbnailMetadataFileNamesDictionaryKey,
+                            _QLThumbnailMetadataFileVersionKey,
+                            _QLThumbnailMetadataFlavorKey,
+                            _QLThumbnailMetadataMaximumDimensionKey,
+                            _QLThumbnailMetadataQLPropertiesKey,
+                            _QLThumbnailMetadataVersionKey,
+                            _QLThumbnailMetadataVersionNumber,
+                            _QLThumbnailMetadataXattrName,
+                            _QLThumbnailsServiceErrorCode,
+                            _QLThumbnailsServiceErrorDomain, _QLURLThumbnailsKey,
+                            _QuickLookThumbnailingVersionNumber,
+                            _QuickLookThumbnailingVersionString,
+                            __QLCacheVersionCopyDescription,
+                            __QLCacheVersionCopySerializedData,
+                            __QLCacheVersionCreateFromURL,
+                            __QLCacheVersionCreateWithBytes,
+                            __QLCacheVersionCreateWithData,
+                            __QLCacheVersionIsEqual,
+                            __QLCacheVersionIsEqualIncludingGeneratorVersion,
+                            __QLCopyResourcePropertyForKey,
+                            __QLSetResourcePropertyForKey ]
+    objc-classes:         [ _QLThumbnailAddition, _QLThumbnailAdditionCache,
+                            _QLThumbnailCachedAddition, _QLThumbnailServiceProxy,
+                            _QLThumbnailStoreRetrievalOperation ]
+    objc-ivars:           [ _QLThumbnailAddition._addition,
+                            _QLThumbnailAddition._additionURL,
+                            _QLThumbnailAddition._additionURLSandboxToken,
+                            _QLThumbnailAddition._metadata,
+                            _QLThumbnailAddition._thumbnailDataDictionary,
+                            _QLThumbnailAdditionCache._additionsCache,
+                            _QLThumbnailCachedAddition._addition,
+                            _QLThumbnailCachedAddition._fileID,
+                            _QLThumbnailServiceProxy._connection,
+                            _QLThumbnailServiceProxy._proxy,
+                            _QLThumbnailStoreRetrievalOperation._addition,
+                            _QLThumbnailStoreRetrievalOperation._allowsThumbnailGeneration,
+                            _QLThumbnailStoreRetrievalOperation._documentURL,
+                            _QLThumbnailStoreRetrievalOperation._error,
+                            _QLThumbnailStoreRetrievalOperation._executing,
+                            _QLThumbnailStoreRetrievalOperation._finished ]
+...

@@ -1,0 +1,24 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/MessageProtection.framework/MessageProtection
+current-version:       52.30.1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _SecExposeStream, _SecMPFIAppendSerialization,
+                            _SecMPFIPurgeAllFromKeychain,
+                            _SecMPFIPurgeFromKeychain, _SecMPFullIdentityCreate,
+                            _SecMPFullIdentityCreateFromCertNames,
+                            _SecMPFullIdentityCreateFromData,
+                            _SecMPFullIdentityCreateFromRefs,
+                            _SecMPFullIdentityCreateOTRSessionWith,
+                            _SecMPFullIdentityCreateOTRSessionWithWithFlags,
+                            _SecMPFullIdentityCreateWithAccess,
+                            _SecMPPIAppendSerialization,
+                            _SecMPPublicIdentityCopyFromPrivate,
+                            _SecMPPublicIdentityCreateFromData,
+                            _SecMPSignAndProtectMessage,
+                            _SecMPVerifyAndExposeMessage, _SecProtectStream,
+                            _ccn_read_uint, _ccn_write_uint, _ccn_write_uint_size ]
+...

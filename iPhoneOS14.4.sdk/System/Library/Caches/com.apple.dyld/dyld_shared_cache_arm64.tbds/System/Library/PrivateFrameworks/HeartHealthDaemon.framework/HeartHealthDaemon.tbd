@@ -1,0 +1,24 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/HeartHealthDaemon.framework/HeartHealthDaemon
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _kHLPowerLogActionConnected,
+                            _kHLPowerLogActionDisconnected,
+                            _kHLPowerLogActionKey, _kHLPowerLogActionStartActive,
+                            _kHLPowerLogActionStartPassive,
+                            _kHLPowerLogActionStopUpdates,
+                            _kHLPowerLogBundleIdentifierKey, _kHLPowerLogEvent,
+                            _kHLPowerLogPIDKey ]
+    objc-classes:         [ _HDHRCardioFitnessFeatureAvailabilityManager,
+                            _HDHRCardioFitnessPairedDeviceSupportedRegionProvider,
+                            _HDHRCardioFitnessStoreServer,
+                            _HDHRDailyHeartRateManager,
+                            _HDHRHealthLiteDataCollector,
+                            _HDHRNotificationManager,
+                            _HDHeartRateProfileExtension,
+                            _HKHRCardioFitnessFeatureStatusManagerServer ]
+...

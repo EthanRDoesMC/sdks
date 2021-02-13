@@ -1,0 +1,23 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PreferenceBundles/MobileSlideShowSettings.bundle/MobileSlideShowSettings
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _kCPLExistNonLocalOriginalsKey,
+                            _kCPLNonLocalOriginalsCountKey,
+                            _kCPLNonLocalOriginalsFileSizeKey,
+                            _kCPLNonLocalOriginalsPhotoCountKey,
+                            _kCPLNonLocalOriginalsVideoCountKey,
+                            _kCameraCaptureGroupSpecifierID ]
+    objc-classes:         [ _MSSCameraCodecSettingsController,
+                            _MSSCameraPreserveSettingsController,
+                            _MSSCameraSlomoSettingsController,
+                            _MSSCameraVideoSettingsController,
+                            _MSSCellularDataSettingsController,
+                            _MSSPhotoStreamInAccountSettingsController,
+                            _MSSSettingsController, _SettingsBaseController,
+                            __MSSCellularDataEnabledInvocation ]
+...

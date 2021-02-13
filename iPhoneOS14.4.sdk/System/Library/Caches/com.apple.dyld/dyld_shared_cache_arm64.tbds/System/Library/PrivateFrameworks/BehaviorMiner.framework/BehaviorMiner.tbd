@@ -1,0 +1,28 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/BehaviorMiner.framework/BehaviorMiner
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _BMAutomationSuggestionsConfig,
+                            _BMCreateShortcutFilter, _BMErrorDomain,
+                            _BMEventInterval, _BMHourSlotForHourOfDay,
+                            _BMIsNotAppExtension,
+                            _BMItemNormalizedValueFromValue,
+                            _BMItemValueFromNormalizedValue, _BMLog,
+                            _BMMaxPhotoPeople, _BMMaxPhotoScenes,
+                            _BMStorageURLForDomain, _BMTemporalItemsForDate,
+                            _BehaviorMinerVersionNumber,
+                            _BehaviorMinerVersionString, _hourOfDaySlotDuration,
+                            _projectId, _trialNamespaceId, _trialNamespaceName ]
+    objc-classes:         [ _BMAprioriPatternMiner, _BMBasketExtractor,
+                            _BMBehaviorDatabaseMetadata, _BMBehaviorRetriever,
+                            _BMBehaviorStorage, _BMCoreRoutineProvider,
+                            _BMDatedBasket, _BMEvent, _BMEventExtractor,
+                            _BMInteractionProvider, _BMItem, _BMItemMO, _BMItemType,
+                            _BMManagedObjectConverter, _BMMiningTask,
+                            _BMMiningTaskConfig, _BMRetrievalFilter, _BMRule,
+                            _BMRuleExtractor, _BMRuleMO ]
+...

@@ -1,0 +1,15 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/SearchBundles/MobileMail.searchBundle/MobileMail
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    objc-classes:         [ _MFMessageDatastore,
+                            __MessageDatastoreContentResultSearchContext ]
+    objc-ivars:           [ __MessageDatastoreContentResultSearchContext._identifier,
+                            __MessageDatastoreContentResultSearchContext._results,
+                            __MessageDatastoreContentResultSearchContext._search,
+                            __MessageDatastoreContentResultSearchContext._semaphore ]
+...

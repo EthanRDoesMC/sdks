@@ -1,0 +1,51 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          "/System/Library/AccessibilityBundles/PreferencesFramework.axbundle/PreferencesFramework"
+current-version:       0
+compatibility-version: 0
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _UITextInputNextToUseInputModeDidChangeKey,
+                            _UITextInputNextToUseInputModeDidChangeNotification,
+                            __Failover, _accessibilityLocalizedString ]
+    objc-classes:         [ _AXPreferencesFrameworkGlue,
+                            _PSControlTableCellAccessibility,
+                            _PSEditableTableCellAccessibility,
+                            _PSInternationalLanguageControllerAccessibility,
+                            _PSInternationalLanguageSetupControllerAccessibility,
+                            _PSLargeTextControllerAccessibility,
+                            _PSListControllerAccessibility,
+                            _PSMagnifyControllerAccessibility,
+                            _PSPasscodeFieldAccessibility,
+                            _PSRootControllerAccessibility,
+                            _PSSegmentableSliderAccessibility,
+                            _PSSetupControllerAccessibility,
+                            _PSSliderTableCellAccessibility,
+                            _PSSoftwareUpdateTitleCellAccessibility,
+                            _PSSpecifierAccessibility,
+                            _PSStaticTextTableCellAccessibility,
+                            _PSTableCellAccessibility,
+                            _PSUITableViewCellAccessibility,
+                            _PSUsageSizeHeaderAccessibility,
+                            _PreferencesTableViewAccessibility,
+                            ___PSControlTableCellAccessibility_super,
+                            ___PSEditableTableCellAccessibility_super,
+                            ___PSInternationalLanguageControllerAccessibility_super,
+                            ___PSInternationalLanguageSetupControllerAccessibility_super,
+                            ___PSLargeTextControllerAccessibility_super,
+                            ___PSListControllerAccessibility_super,
+                            ___PSMagnifyControllerAccessibility_super,
+                            ___PSPasscodeFieldAccessibility_super,
+                            ___PSRootControllerAccessibility_super,
+                            ___PSSegmentableSliderAccessibility_super,
+                            ___PSSetupControllerAccessibility_super,
+                            ___PSSliderTableCellAccessibility_super,
+                            ___PSSoftwareUpdateTitleCellAccessibility_super,
+                            ___PSSpecifierAccessibility_super,
+                            ___PSStaticTextTableCellAccessibility_super,
+                            ___PSTableCellAccessibility_super,
+                            ___PSUITableViewCellAccessibility_super,
+                            ___PSUsageSizeHeaderAccessibility_super,
+                            ___PreferencesTableViewAccessibility_super ]
+...

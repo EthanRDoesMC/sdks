@@ -1,0 +1,61 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          "/System/Library/AccessibilityBundles/MediaPlayerUIFramework.axbundle/MediaPlayerUIFramework"
+current-version:       0
+compatibility-version: 0
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _UITextInputNextToUseInputModeDidChangeKey,
+                            _UITextInputNextToUseInputModeDidChangeNotification,
+                            _accessibilityMPUILocalizedString ]
+    objc-classes:         [ _AXMediaPlayerUIGlue,
+                            _MPUChronologicalProgressViewAccessibility,
+                            _MPUCollectionViewCellAccessibility,
+                            _MPUCompletionFooterViewAccessibility,
+                            _MPUCoverZoomViewControllerAccessibility,
+                            _MPUDownloadProgressIndicatorAccessibility,
+                            _MPUEmphasizedTextAccessibility,
+                            _MPUHalfTintedTransportButtonAccessibility,
+                            _MPULyricsViewAccessibility,
+                            _MPUMarqueeViewAccessibility,
+                            _MPUNowPlayingIndicatorViewAccessibility,
+                            _MPUNowPlayingTitlesViewAccessibility,
+                            _MPUNowPlayingViewControllerAccessibility,
+                            _MPURatingControlAccessibility,
+                            _MPUSkipLimitViewAccessibility,
+                            _MPUSystemMediaControlsViewAccessibility,
+                            _MPUSystemMediaControlsViewControllerAccessibility,
+                            _MPUTableViewControllerAccessibility,
+                            _MPUTextButtonAccessibility,
+                            _MPUTextDrawingViewAccessibility,
+                            _MPUThinDetailSliderAccessibility,
+                            _MPUTransportButtonAccessibility,
+                            _MPUTransportControlAccessibility,
+                            _MPUTransportControlsViewAccessibility,
+                            _MPUVibrantContentEffectViewAccessibility,
+                            ___MPUChronologicalProgressViewAccessibility_super,
+                            ___MPUCollectionViewCellAccessibility_super,
+                            ___MPUCompletionFooterViewAccessibility_super,
+                            ___MPUCoverZoomViewControllerAccessibility_super,
+                            ___MPUDownloadProgressIndicatorAccessibility_super,
+                            ___MPUEmphasizedTextAccessibility_super,
+                            ___MPUHalfTintedTransportButtonAccessibility_super,
+                            ___MPULyricsViewAccessibility_super,
+                            ___MPUMarqueeViewAccessibility_super,
+                            ___MPUNowPlayingIndicatorViewAccessibility_super,
+                            ___MPUNowPlayingTitlesViewAccessibility_super,
+                            ___MPUNowPlayingViewControllerAccessibility_super,
+                            ___MPURatingControlAccessibility_super,
+                            ___MPUSkipLimitViewAccessibility_super,
+                            ___MPUSystemMediaControlsViewAccessibility_super,
+                            ___MPUSystemMediaControlsViewControllerAccessibility_super,
+                            ___MPUTableViewControllerAccessibility_super,
+                            ___MPUTextButtonAccessibility_super,
+                            ___MPUTextDrawingViewAccessibility_super,
+                            ___MPUThinDetailSliderAccessibility_super,
+                            ___MPUTransportButtonAccessibility_super,
+                            ___MPUTransportControlAccessibility_super,
+                            ___MPUTransportControlsViewAccessibility_super,
+                            ___MPUVibrantContentEffectViewAccessibility_super ]
+...

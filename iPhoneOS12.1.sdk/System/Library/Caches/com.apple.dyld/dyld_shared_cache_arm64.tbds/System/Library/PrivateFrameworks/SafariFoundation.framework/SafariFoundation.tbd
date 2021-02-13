@@ -1,0 +1,36 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/SafariFoundation.framework/SafariFoundation
+current-version:       606.2.104
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _SFAutoFillHelperErrorDomain,
+                            _SFAutoFillPasswordsPreferenceKey,
+                            _SFAutoFillWebUIPreferencesDomain,
+                            _SFCredentialProviderDeveloperEntitlement,
+                            _SFCredentialProviderExtensionPointIdentifier,
+                            _SFCredentialProviderShowsConfigurationUIKey,
+                            _SFCredentialProviderSystemEntitlement,
+                            _SFDefaultValueForPasswordAndCreditCardAutoFillPreferenceKey,
+                            _SFExternalCredentialIdentityStoreErrorDomain,
+                            _SFPasswordCredentialIdentityInvalidRowIdentifier,
+                            _SFPasswordGenerationNoLengthLimit,
+                            _SFSharablePasswordURLSchemeForAirDrop,
+                            _maximumNumberOfWebCredentialEntriesToReturnForAppID ]
+    objc-classes:         [ _SFAutoFillFeatureManager, _SFAutoFillHelperProxy,
+                            _SFCredentialProviderExtensionHelperProxy,
+                            _SFCredentialProviderExtensionManager,
+                            _SFCredentialProviderExtensionState,
+                            _SFDomainAssociationUtilities,
+                            _SFExternalCredentialIdentityStore,
+                            _SFExternalCredentialIdentityStoreManager,
+                            _SFPasswordCredentialIdentity, _SFSafariCredential,
+                            _SFSafariCredentialStore, _SFSharablePassword,
+                            _SFSharablePasswordReceiver,
+                            _SFSharedWebCredentialsDatabaseEntry,
+                            _SFStrongPasswordGenerator, _SFSuggestedUser,
+                            _SFSuggestedUserProvider,
+                            __SFSharablePasswordEncryptionInformation ]
+...

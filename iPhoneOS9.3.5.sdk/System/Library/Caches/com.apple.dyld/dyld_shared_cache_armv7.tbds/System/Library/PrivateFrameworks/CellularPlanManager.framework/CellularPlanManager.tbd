@@ -1,0 +1,42 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/CellularPlanManager.framework/CellularPlanManager
+current-version:       0
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _CTCellularPlanConnectionPropertiesKey,
+                            _CTCellularPlanErrorDomain,
+                            _CTCellularPlanInfoDidChangeNotification,
+                            _CTCellularPlanItemIdentifierHomePlan,
+                            _CTCellularPlanItemIdentifierHomePlanWithRoaming,
+                            _CTCellularPlanLaunchOptionsCsnKey,
+                            _CTCellularPlanLaunchOptionsFlowTypeIsSequoiaKey,
+                            _CTCellularPlanLaunchOptionsIccidKey,
+                            _CTCellularPlanLaunchOptionsParametersKey,
+                            _CTCellularPlanLaunchOptionsUseBootstrapRoamingInternetBypassKey,
+                            _CTCellularPlanProxyKey,
+                            _CTCellularPlanRequestUrlsKey,
+                            _CTCellularPlanSocketTimeoutKey,
+                            _CTCellularPlanSubscriptionDidUpdateNotification,
+                            _CTCellularPlanSubscriptionKey,
+                            _CTCellularPlanXpcWhitelistSet,
+                            _kCTDaemonReadyNotification,
+                            _kCellularPlanDaemonService ]
+    objc-classes:         [ _CTCellularPlan, _CTCellularPlanArrayValidator,
+                            _CTCellularPlanBoolValidator,
+                            _CTCellularPlanDataValidator,
+                            _CTCellularPlanDateParser,
+                            _CTCellularPlanDictionaryValidator,
+                            _CTCellularPlanError, _CTCellularPlanItem,
+                            _CTCellularPlanJsonResponseParser,
+                            _CTCellularPlanLogger, _CTCellularPlanManager,
+                            _CTCellularPlanNumberValidator,
+                            _CTCellularPlanProfile, _CTCellularPlanRequest,
+                            _CTCellularPlanStringValidator,
+                            _CTCellularPlanSubCacheValidator,
+                            _CTCellularPlanSubscription,
+                            _CTCellularPlanSubscriptionDataUsage,
+                            _CTCellularPlanSubscriptionParser ]
+...

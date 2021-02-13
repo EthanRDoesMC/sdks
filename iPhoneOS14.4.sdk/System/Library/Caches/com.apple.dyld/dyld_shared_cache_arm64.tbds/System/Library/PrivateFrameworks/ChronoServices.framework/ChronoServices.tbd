@@ -1,0 +1,54 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/ChronoServices.framework/ChronoServices
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _CHSAppearanceColorSchemeDescription,
+                            _CHSAvocadoSizeClassFromString,
+                            _CHSDescriptionForAvocadoSizeClass,
+                            _CHSDescriptionForAvocadoSizeClassMask,
+                            _CHSDescriptionForWidgetVisibility, _CHSErrorDomain,
+                            _CHSExpireLocationGracePeriods, _CHSFlushPowerlog,
+                            _CHSIsWidgetExtensionPoint, _CHSLogChronoServices,
+                            _CHSNSURLSessiondServiceInfoKeyIsHighPriority,
+                            _CHSNSURLSessiondServiceInfoKeySessionIdentifier,
+                            _CHSSetMetricsSpecification,
+                            _CHSWidgetEnvironmentDataForBundleIdentifier,
+                            _CHSWidgetFamilyDescription,
+                            _CHSWidgetFamilyFromString,
+                            _CHSWidgetFamilyMaskContainsFamily,
+                            _CHSWidgetFamilyMaskDescription,
+                            _CHSWidgetFamilyMaskEnumerateFamilies,
+                            _CHSWidgetFamilyMaskFromWidgetFamily,
+                            _CHSWidgetLocationDescription,
+                            _CHSWidgetTextSizeAdjustmentDescription,
+                            _CHSWidgetVisibilityKey, _ChronoLoggingSubsystem,
+                            _ChronoServicesVersionNumber,
+                            _ChronoServicesVersionString,
+                            _NSStringForAvocadoSizeClass,
+                            _NSStringFromWidgetFamily,
+                            _NSStringFromWidgetLocation,
+                            _chs_debugDescriptionForErrorCode ]
+    objc-classes:         [ _CHSApplicationProcessStateChangeConsumer,
+                            _CHSAvocadoDescriptor, _CHSAvocadoDescriptorProvider,
+                            _CHSAvocadoDescriptorsBox,
+                            _CHSChronoServicesConnection,
+                            _CHSChronoServicesToolConnection,
+                            _CHSChronoToolServiceSpecification,
+                            _CHSChronoWidgetServiceSpecification,
+                            _CHSConfiguredWidgetContainerConsumer,
+                            _CHSConfiguredWidgetContainerDescriptor,
+                            _CHSConfiguredWidgetContainerDescriptorsBox,
+                            _CHSConfiguredWidgetDescriptor,
+                            _CHSLocalizableString,
+                            _CHSMutableWidgetMetricsSpecification,
+                            _CHSNSURLSessiondService, _CHSPlaceholderRequest,
+                            _CHSProactiveService, _CHSScreenshotManager,
+                            _CHSSizeConfiguration, _CHSTimelineController,
+                            _CHSToolSupportService, _CHSURLSessionToken,
+                            _CHSWidget, _CHSWidgetKey, _CHSWidgetKeysBox,
+                            _CHSWidgetMetrics, _CHSWidgetMetricsSpecification ]
+...

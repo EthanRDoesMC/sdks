@@ -1,0 +1,58 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/Frameworks/AuthenticationServices.framework/AuthenticationServices
+current-version:       610.4.3
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _ASAuthorizationAppleIDProviderCredentialRevokedNotification,
+                            _ASAuthorizationErrorDomain,
+                            _ASAuthorizationOperationImplicit,
+                            _ASAuthorizationOperationLogin,
+                            _ASAuthorizationOperationLogout,
+                            _ASAuthorizationOperationRefresh,
+                            _ASAuthorizationProviderAuthorizationOperationConfigurationRemoved,
+                            _ASAuthorizationScopeEmail,
+                            _ASAuthorizationScopeFullName,
+                            _ASCredentialIdentityStoreErrorDomain,
+                            _ASExtensionErrorDomain,
+                            _ASExtensionLocalizedFailureReasonErrorKey,
+                            _ASWebAuthenticationSessionErrorDomain ]
+    objc-classes:         [ _ASAccountAuthenticationModificationController,
+                            _ASAccountAuthenticationModificationExtensionContext,
+                            _ASAccountAuthenticationModificationReplacePasswordWithSignInWithAppleRequest,
+                            _ASAccountAuthenticationModificationRequest,
+                            _ASAccountAuthenticationModificationUpgradePasswordToStrongPasswordRequest,
+                            _ASAccountAuthenticationModificationViewController,
+                            _ASAuthorization, _ASAuthorizationAppleIDButton,
+                            _ASAuthorizationAppleIDCredential,
+                            _ASAuthorizationAppleIDProvider,
+                            _ASAuthorizationAppleIDRequest,
+                            _ASAuthorizationController,
+                            _ASAuthorizationOpenIDRequest,
+                            _ASAuthorizationPasswordProvider,
+                            _ASAuthorizationPasswordRequest,
+                            _ASAuthorizationProviderExtensionAuthorizationRequest,
+                            _ASAuthorizationRequest,
+                            _ASAuthorizationSingleSignOnCredential,
+                            _ASAuthorizationSingleSignOnProvider,
+                            _ASAuthorizationSingleSignOnRequest,
+                            _ASCredentialIdentityStore,
+                            _ASCredentialIdentityStoreState,
+                            _ASCredentialProviderExtensionContext,
+                            _ASCredentialProviderViewController,
+                            _ASCredentialServiceIdentifier,
+                            _ASPasswordCredential, _ASPasswordCredentialIdentity,
+                            _ASWebAuthenticationSession,
+                            __ASAccountAuthenticationModificationExtensionHostContext,
+                            __ASAccountAuthenticationModificationExtensionManager,
+                            __ASAccountAuthenticationModificationHostViewController,
+                            __ASAccountAuthenticationModificationRemoteViewController,
+                            __ASCredentialListViewController,
+                            __ASCredentialProviderExtensionConfigurationViewController,
+                            __ASCredentialProviderExtensionHostContext,
+                            __ASExtensionViewController,
+                            __ASIncomingCallObserver,
+                            __ASPasswordCredentialAuthenticationViewController ]
+...

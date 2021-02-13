@@ -1,0 +1,15 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/ContextKitExtraction.framework/ContextKitExtraction
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _ContextKitExtractionVersionNumber,
+                            _ContextKitExtractionVersionString ]
+    objc-classes:         [ _CKContextContentProvider,
+                            _CKContextContentProviderManager,
+                            _CKContextContentProviderUIScene, _CKContextDonation,
+                            _CKContextDonationItem, _CKContextExecutor ]
+...

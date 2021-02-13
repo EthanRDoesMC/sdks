@@ -1,0 +1,42 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/CoreSuggestions.framework/CoreSuggestions
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _MIN_PADDING, _SGDelimitedStringsDeserialize,
+                            _SGDelimitedStringsSerialize,
+                            _SGDelimitedStringsSerializeArray, _SGErrorDomain,
+                            _SGLogFlush, _SGLogGetLogLevel, _SGLogGetOutputLevel,
+                            _SGLogSetLogLevel, _SGLogSetOutputLevel, _SGLogV,
+                            _SGSqliteDatabaseErrorCode, _SGWeakLinkClass,
+                            _SGWeakLinkStringConstant, _SGWeakLinkSymbol,
+                            __GetLoggingLevelForKey, __SGLog,
+                            __SetLoggingLevelForKey, _convertToText, _kSGEnabled,
+                            _kSGLogFacilityDaemon, _kSGLogFacilityHarvest,
+                            _kSGLogFacilityService, _kSGLoggingLevel,
+                            _kSGShowPastEvents, _kSGSuggestionsBundleIdentifier,
+                            _kSGSuggestionsReHarvestKey,
+                            _kSGSuggestionsSettingsChanged,
+                            _kSGSuggestionsSettingsSuiteIdentifier,
+                            _kSGTimeToLeaveAlertsEnabled,
+                            _kSGTimeToLeaveLocationEnabled ]
+    objc-classes:         [ _SGContact, _SGContactMatch, _SGDRelevantContacts,
+                            _SGDSuggestManagerInterface, _SGDaemonConnection,
+                            _SGDetection, _SGDeviceState, _SGEKEventConversions,
+                            _SGEmailAddress, _SGEntityTag, _SGEvent,
+                            _SGHarvesterService, _SGLabeledObject, _SGLevenshtein,
+                            _SGLocation, _SGMailMessage, _SGMailMessageKey,
+                            _SGMonochrome, _SGName, _SGOrigin, _SGPhoneNumber,
+                            _SGPostalAddress, _SGRealtimeContact, _SGRealtimeEvent,
+                            _SGRecordId, _SGSimpleCalendarEvent,
+                            _SGSimpleMailHeaderKeyValue, _SGSimpleMailMessage,
+                            _SGSimpleNamedEmailAddress, _SGSimpleTimeRange,
+                            _SGSuggestionsService ]
+    objc-ivars:           [ _SGOrigin._contextSnippet,
+                            _SGOrigin._contextSnippetRange, _SGOrigin._date,
+                            _SGOrigin._externalKey, _SGOrigin._sourceKey,
+                            _SGOrigin._title, _SGOrigin._type ]
+...

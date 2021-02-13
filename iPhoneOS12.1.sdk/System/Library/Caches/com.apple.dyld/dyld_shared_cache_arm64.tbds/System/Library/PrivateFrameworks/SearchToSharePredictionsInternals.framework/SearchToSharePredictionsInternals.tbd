@@ -1,0 +1,30 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/SearchToSharePredictionsInternals.framework/SearchToSharePredictionsInternals
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _SGQPBundleIdentifierMessages,
+                            _SearchToSharePredictionsInternalsVersionNumber,
+                            _SearchToSharePredictionsInternalsVersionString,
+                            _sgqpFilter, _sgqpLogHandle, _sgqpMap, _sgqpMapAndFilter,
+                            _sgqpMapSelector ]
+    objc-classes:         [ _SGQPAsset, _SGQPAssetManager, _SGQPDatabaseMigrations,
+                            _SGQPEmotivePhraseDefinition, _SGQPEmotivePhrases,
+                            _SGQPLanguageContext, _SGQPLanguageDetection,
+                            _SGQPMLPredictor, _SGQPMetricsTracker,
+                            _SGQPMultiLabelModel,
+                            _SGQPMultiLabelRankingEvaluationPlan,
+                            _SGQPMutablePredictionsSession, _SGQPMutableSettings,
+                            _SGQPMutableUserSession,
+                            _SGQPParsecEntitiesPredictor, _SGQPPhrasebook,
+                            _SGQPPhrasebookBuilder, _SGQPPhrasebookBuilderEntry,
+                            _SGQPSessionTracker, _SGQPSettings, _SGQPSqlStore,
+                            _SGQPStoredMessage, _SGQueryPredictions ]
+    objc-ivars:           [ _SGQPPhrasebookBuilderEntry._normalizedText,
+                            _SGQPPhrasebookBuilderEntry._payload,
+                            _SGQPPhrasebookBuilderEntry._predictionType,
+                            _SGQPSettings._defaults ]
+...

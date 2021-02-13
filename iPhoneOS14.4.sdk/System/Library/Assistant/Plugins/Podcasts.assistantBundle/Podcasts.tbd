@@ -1,0 +1,49 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          "/System/Library/Assistant/Plugins/Podcasts.assistantBundle/Podcasts"
+current-version:       0
+compatibility-version: 0
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _CHILDREN_KEY, _FEEDURL_KEY, _MAX_PLAYBACK_RATE,
+                            _MIN_PLAYBACK_RATE,
+                            _MPAssistantWatchGetCompanionOriginUniqueIdentifier,
+                            _MPAssistantWatchGetCurrentAudioRoutingInfo,
+                            _MPAssistantWatchIsConnectedToCompanion,
+                            _NO_COUNT_SENTINEL, _NSStringFromRevisionType,
+                            _POAssistantDecodeHashedRouteUIDs,
+                            _PODCASTS_BUNDLE_ID, _PODCASTS_PLAYER_ID,
+                            _POLogContextCommand, _POLogContextSync,
+                            _POLogInitIfNeeded, _POLoggingContextCommand,
+                            _POLoggingContextSync, _POLoggingSubsystem,
+                            _POSAMPSuccessCode, _POSAMPUnknownErrorCode,
+                            _POUtilitiesAppNotInstalledError,
+                            _POUtilitiesDiscoveryFailedError,
+                            _POUtilitiesEmptyPlaybackIdentifierError,
+                            _POUtilitiesErrorDomain,
+                            _POUtilitiesMRSendCommandErrorDomain,
+                            _POUtilitiesNeedsNetworkError,
+                            _POUtilitiesNoActiveiTunesAccountError,
+                            _POUtilitiesWatchNeedsCompanionError, _TITLE_KEY,
+                            _UUID_KEY, _kMTCollectionViewInterItemSpacing,
+                            _kMTCollectionViewInterLineSpacing,
+                            _kMTCollectionViewVerticalSectionInset,
+                            _kMTPreferredArtworkSize, _kMTSharingArtworkSize,
+                            _kSetPlaybackQueueEnqueuerKeyDSID,
+                            _kSetPlaybackQueueRequesterSharedUserIdKey,
+                            _kSetPlaybackQueueSharedUserIdKey ]
+    objc-classes:         [ _MTAccountController,
+                            _MTMPCAssistantGenericPlaybackQueue,
+                            _MTPlaybackIdentifierUtil, _MTSingleton,
+                            _MTSingletonHolder, _MTURLCommandRequest,
+                            _POBasicPodcastAppSearch,
+                            _POBasicPodcastAppSearchCompleted, _PODataSource,
+                            _POPlayPodcastCollection, _POPlayPodcastEpisode,
+                            _POPlayPodcastStation, _POPlayPodcasts,
+                            _POPodcastCollection, _POPodcastModelObject,
+                            _POPodcastRevision, _POPodcastStation,
+                            _POPodcastSyncHandler,
+                            _POSubscribeToPodcastCollection, _POUtilities ]
+    objc-ivars:           [ _MTSingletonHolder._lock ]
+...

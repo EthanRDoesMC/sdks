@@ -1,0 +1,16 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/TipKit.framework/TipKit
+current-version:       0
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _TipKitVersionNumber, _TipKitVersionString,
+                            _kTPKContentViewFrameworkBundle ]
+    objc-classes:         [ _TPKContent, _TPKContentController, _TPKContentView,
+                            _TPKContentViewController, _TPKTipContent,
+                            _TPKTipContentCollectionHeaderView,
+                            _TPKTipContentCollectionViewCell,
+                            _TPKTipContentHintView, _TPKTipContentTableViewCell ]
+...

@@ -1,0 +1,23 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/CoreRecognition.framework/CoreRecognition
+current-version:       60.8
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _CRAdaptiveThresholdImage,
+                            _CRCodeRedeemerInfoCodeKey,
+                            _CRCodeRedeemerInfoErrorKey,
+                            _CROutputTypeCreditCardCardholderName,
+                            _CROutputTypeCreditCardExpirationDate,
+                            _CROutputTypeCreditCardNumber,
+                            _CoreRecognitionVersionNumber,
+                            _CoreRecognitionVersionString, __findCodeRectInImage,
+                            __findCodeRectInImageWithModel,
+                            __recognizeCodeImages, __segmentCodeImages,
+                            _createCGImageFromFile, _writeCGImageToPNG ]
+    objc-classes:         [ _CRCameraReader, _CRCameraReaderOutput,
+                            _CRCameraReaderOutputExpirationDate,
+                            _CRCodeRedeemerController ]
+...

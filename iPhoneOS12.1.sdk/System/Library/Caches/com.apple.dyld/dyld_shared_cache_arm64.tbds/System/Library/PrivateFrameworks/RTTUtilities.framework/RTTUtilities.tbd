@@ -1,0 +1,36 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/RTTUtilities.framework/RTTUtilities
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _AXCloudKitContainerIdentifier,
+                            _AXCloudKitErrorDomain,
+                            _AXCloudKitFinishedSchemaCheckKey,
+                            _AXCloudKitMaxRecordDataBytes, _AXCloudKitPushTopic,
+                            _AXCloudKitServerChangeTokenKey, _AXCloudKitZoneName,
+                            _AXTTYMessageKeyCallID, _AXTTYMessageKeyContactID,
+                            _AXTTYMessageKeyContactPathSearchAction,
+                            _AXTTYMessageKeyContactSearchAction,
+                            _AXTTYMessageKeyConversation,
+                            _AXTTYMessageKeyConversationUpdates,
+                            _AXTTYMessageKeyDeleteAction,
+                            _AXTTYMessageKeyReadAction, _AXTTYMessageKeyResult,
+                            _AXTTYMessageKeySettingsKey, _AXTTYMessageKeyUUID,
+                            _AXTTYMessageKeyValue, _AXTTYMessageKeyWriteAction,
+                            _AXTTYPreferredTransportMethodChangedNotification,
+                            _RTTUtilitiesVersionNumber,
+                            _RTTUtilitiesVersionString,
+                            _accessibilityRTTUtilitiesBundle, _ttyLocString,
+                            _ttyLocStringAndLocale ]
+    objc-classes:         [ _AXCloudKitHelper,
+                            _AXCloudKitHelperManagedObjectContext,
+                            _AXRTTSettingsListenerHelper,
+                            _AXTTYSimulatorSubscriptionContext, _RTTCall,
+                            _RTTController, _RTTConversation, _RTTDatabaseHelper,
+                            _RTTDictionaryManager, _RTTServer, _RTTSettings,
+                            _RTTTelephonyUtilities, _RTTUtterance, _TTYContactList,
+                            _TTYHistory ]
+...

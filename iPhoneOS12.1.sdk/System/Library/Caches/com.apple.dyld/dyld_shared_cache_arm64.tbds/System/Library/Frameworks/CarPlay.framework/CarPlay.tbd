@@ -1,0 +1,31 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/Frameworks/CarPlay.framework/CarPlay
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _CPColorMeetsContrastRequirement,
+                            _CPContrastRatioForColors,
+                            _CPContrastingColorForColor,
+                            _CPGuidanceStyleForColor, _CPLuminanceForColor,
+                            _CPMaximumListItemImageSize,
+                            _CPSanitizedBackgroundColor, _CPTemplateErrorDomain,
+                            _CarPlayFrameworkGeneralLogging,
+                            _CarPlayVersionNumber, _CarPlayVersionString,
+                            _kCPGridTemplateMaximumItems, _luminanceComponent ]
+    objc-classes:         [ _CPActionSheetTemplate, _CPAlertAction,
+                            _CPAlertTemplate, _CPBarButton,
+                            _CPEndpointListenerWrapper, _CPGridButton,
+                            _CPGridTemplate, _CPImageSet, _CPInterfaceController,
+                            _CPListItem, _CPListSection, _CPListTemplate,
+                            _CPManeuver, _CPMapButton, _CPMapTemplate,
+                            _CPNavigationAlert, _CPNavigationSession,
+                            _CPRequestEndpointAction, _CPRouteChoice,
+                            _CPSearchTemplate, _CPSessionConfiguration,
+                            _CPTemplate, _CPTravelEstimates, _CPTrip,
+                            _CPTripPreviewTextConfiguration,
+                            _CPVoiceControlState, _CPVoiceControlTemplate,
+                            _CPWindow ]
+...

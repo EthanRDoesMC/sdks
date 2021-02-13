@@ -1,0 +1,23 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/NanoGlanceSettings.framework/NanoGlanceSettings
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _GlanceSettingsChanged, _NGSActiveKey,
+                            _NGSAppBundleIdentifierKey, _NGSCannotBeDisabledKey,
+                            _NGSDomainKey, _NGSGlanceBundleIdentifierKey,
+                            _NGSGlanceDefinitionsKey, _NGSGlanceNameKey,
+                            _NGSIsDefaultGlanceKey, _NGSMaxActiveGlanceCount,
+                            _NGSNanoGlanceSettingsVersionNumber,
+                            _NGSNanoGlanceSettingsVersionString,
+                            _NGSPrelaunchGlanceKey,
+                            _NGSSelectedGlanceIdentifierKey,
+                            _NGSSettingsChangedNotification,
+                            _NGSSockPuppetAppIdentifierKey,
+                            _NGSSockPuppetBundleIdentifier ]
+    objc-classes:         [ _NGSGlance, _NGSInternalSettingsManager,
+                            _NGSSettingsManager ]
+...

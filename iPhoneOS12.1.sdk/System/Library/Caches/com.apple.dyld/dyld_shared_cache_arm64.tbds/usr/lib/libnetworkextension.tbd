@@ -1,0 +1,15 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /usr/lib/libnetworkextension.dylib
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _ne_filter_connection_queue,
+                            _ne_filter_copy_connection,
+                            _ne_filter_partial_input_frame_finalizer,
+                            _ne_filter_protocol_identifier,
+                            _ne_filter_request_connection,
+                            _ne_filter_send_message ]
+...

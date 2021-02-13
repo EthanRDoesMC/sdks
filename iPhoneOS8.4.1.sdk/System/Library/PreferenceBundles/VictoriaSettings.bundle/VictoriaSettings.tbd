@@ -1,0 +1,29 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          "/System/Library/PreferenceBundles/VictoriaSettings.bundle/VictoriaSettings"
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    objc-classes:         [ _NikeSettingsController,
+                            _NikeSettingsLinkingController,
+                            _NikeSettingsOrientationController,
+                            _NikeSettingsOrientationTableCell,
+                            _NikeSettingsWeightController,
+                            _STBaseSettingsController ]
+    objc-ivars:           [ _NikeSettingsController._isSyncing,
+                            _NikeSettingsController._mediaPicker,
+                            _NikeSettingsController._mediaPickerView,
+                            _NikeSettingsController._relinkConfirmAlert,
+                            _NikeSettingsController._syncBackgroundTaskIdentifier,
+                            _NikeSettingsController._syncController,
+                            _NikeSettingsLinkingController._isRemoteLinking,
+                            _NikeSettingsLinkingController._linkingManager,
+                            _NikeSettingsLinkingController._linkingView,
+                            _NikeSettingsLinkingController._titleLabel,
+                            _NikeSettingsOrientationTableCell._checkedIcon,
+                            _NikeSettingsOrientationTableCell._uncheckedIcon,
+                            _NikeSettingsWeightController._promptLabel,
+                            _NikeSettingsWeightController._weightPicker ]
+...

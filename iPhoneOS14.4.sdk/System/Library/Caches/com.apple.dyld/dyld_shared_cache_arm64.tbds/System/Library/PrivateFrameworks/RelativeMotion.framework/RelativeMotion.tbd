@@ -1,0 +1,14 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/RelativeMotion.framework/RelativeMotion
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _kRMErrorDomain ]
+    objc-classes:         [ _RMAttitude, _RMAudioListenerPoseManager, _RMDummyData,
+                            _RMDummyDataManager, _RMInternalServiceClient,
+                            _RMLogItem, _RMMediaSession, _RMMediaSessionOptions,
+                            _RMPose, _RMRelativeMotionManager ]
+...

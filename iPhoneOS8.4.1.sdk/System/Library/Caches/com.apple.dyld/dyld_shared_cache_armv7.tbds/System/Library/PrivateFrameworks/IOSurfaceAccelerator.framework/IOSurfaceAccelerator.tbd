@@ -1,0 +1,46 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/IOSurfaceAccelerator.framework/IOSurfaceAccelerator
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _IOSurfaceAcceleratorAbortCaptures,
+                            _IOSurfaceAcceleratorAbortTransfers,
+                            _IOSurfaceAcceleratorBlitSurface,
+                            _IOSurfaceAcceleratorBlitSurfaceWithSwap,
+                            _IOSurfaceAcceleratorCaptureSurface,
+                            _IOSurfaceAcceleratorConditionSignal,
+                            _IOSurfaceAcceleratorConditionalBlitSurface,
+                            _IOSurfaceAcceleratorConditionalBlitSurfaceWithSwap,
+                            _IOSurfaceAcceleratorConditionalTransferSurface,
+                            _IOSurfaceAcceleratorConditionalTransferSurfaceWithSwap,
+                            _IOSurfaceAcceleratorConfigurePerformanceStats,
+                            _IOSurfaceAcceleratorCreate,
+                            _IOSurfaceAcceleratorGetID,
+                            _IOSurfaceAcceleratorGetRunLoopSource,
+                            _IOSurfaceAcceleratorGetStatistics,
+                            _IOSurfaceAcceleratorGetTypeID,
+                            _IOSurfaceAcceleratorK2KTests,
+                            _IOSurfaceAcceleratorSetCustomFilter,
+                            _IOSurfaceAcceleratorSetFilterCoefficients,
+                            _IOSurfaceAcceleratorTransferSurface,
+                            _IOSurfaceAcceleratorTransferSurfaceWithSwap,
+                            _IOSurfaceAcceleratorTransformSurface,
+                            _kIOSurfaceAcceleratorDitherControl,
+                            _kIOSurfaceAcceleratorFixUpscaling,
+                            _kIOSurfaceAcceleratorForceMaxSpeedKey,
+                            _kIOSurfaceAcceleratorLockInScaler,
+                            _kIOSurfaceAcceleratorOptOutBlitClip,
+                            _kIOSurfaceAcceleratorSignalSwapFramebufferIDKey,
+                            _kIOSurfaceAcceleratorSignalSwapLayerIDKey,
+                            _kIOSurfaceAcceleratorSignalSwapSwapIDKey,
+                            _kIOSurfaceAcceleratorSkipAsyncCallback,
+                            _kIOSurfaceAcceleratorSymmetricTransformKey,
+                            _kIOSurfaceAcceleratorUseCustomFilter,
+                            _kIOSurfaceAcceleratorUseNearestFilter,
+                            _kIOSurfaceAcceleratorZeroFill, _prepareCustomFilter,
+                            _prepareSwap, _prepareTransformBuffersAndOptions,
+                            _prepareTransformRectangles ]
+...

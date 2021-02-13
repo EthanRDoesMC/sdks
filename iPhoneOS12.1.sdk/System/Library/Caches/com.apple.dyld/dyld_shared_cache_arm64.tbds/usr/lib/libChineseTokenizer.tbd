@@ -1,0 +1,17 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /usr/lib/libChineseTokenizer.dylib
+current-version:       28.15.3
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _ChineseTokenizerAdvanceToNextToken,
+                            _ChineseTokenizerCreate,
+                            _ChineseTokenizerGetCurrentTokenRange,
+                            _ChineseTokenizerGoToTokenAtIndex,
+                            _ChineseTokenizerRelease,
+                            _ChineseTokenizerSetCustomWordCheckBlock,
+                            _ChineseTokenizerSetDynamicLexicon,
+                            _ChineseTokenizerSetString ]
+...

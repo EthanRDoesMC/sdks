@@ -1,0 +1,41 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/NewsFoundation.framework/NewsFoundation
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _NFCallbackScopeAny, _NFCallbackScopeName,
+                            _NFCallbackScopeNames, _NFDefinitionKey,
+                            _NFInternalBuild, _NFSeedBuild,
+                            _OBJC_EHTYPE_$_NFContainerCircularDependencyDetectedException,
+                            _OBJC_EHTYPE_$_NFContainerContextMismatchException,
+                            _OBJC_EHTYPE_$_NFContainerDefinitionMismatchException,
+                            _OBJC_EHTYPE_$_NFContainerDefinitionNilFactoryException,
+                            _OBJC_EHTYPE_$_NFContainerDefinitionNotOverridableException,
+                            _OBJC_EHTYPE_$_NFContainerEnsuringNullableDefinitionException,
+                            _OBJC_EHTYPE_$_NFContainerException,
+                            _OBJC_EHTYPE_$_NFContainerMissingDefinitionException,
+                            _OBJC_EHTYPE_$_NFRouterException,
+                            _OBJC_EHTYPE_$_NFRouterRouteToNonRoutable,
+                            _kNFReachabilityChangedNotification, _zalgo,
+                            _zalgoIfMain ]
+    objc-classes:         [ _NFCallbackRegistration, _NFCallbackScope,
+                            _NFCallbackStore, _NFContainer,
+                            _NFContainerCircularDependencyDetectedException,
+                            _NFContainerContextMismatchException,
+                            _NFContainerDefinitionMismatchException,
+                            _NFContainerDefinitionNilFactoryException,
+                            _NFContainerDefinitionNotOverridableException,
+                            _NFContainerEnsuringNullableDefinitionException,
+                            _NFContainerException,
+                            _NFContainerMissingDefinitionException,
+                            _NFContainerRegistry, _NFContext, _NFDefinition,
+                            _NFEventManager, _NFMultiDelegate, _NFMutexLock,
+                            _NFObjectReuseManager, _NFPendingPromise, _NFPromise,
+                            _NFReachability, _NFRouter, _NFRouterException,
+                            _NFRouterRouteToNonRoutable, _NFStateMachine,
+                            _NFStateMachineEvent, _NFStateMachineState,
+                            _NFStateMachineTransition, _Void ]
+...

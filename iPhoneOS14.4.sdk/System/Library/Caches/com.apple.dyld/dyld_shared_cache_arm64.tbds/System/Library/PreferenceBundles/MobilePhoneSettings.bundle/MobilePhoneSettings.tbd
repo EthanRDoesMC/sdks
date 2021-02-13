@@ -1,0 +1,15 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PreferenceBundles/MobilePhoneSettings.bundle/MobilePhoneSettings
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _PHDefaultLog ]
+    objc-classes:         [ _PHSettingsRootListController, _PHViewController,
+                            _VMAccountButton, _VMAccountsView,
+                            _VMAccountsViewController, _VMAccountsViewDataSource,
+                            _VMNavigationController,
+                            _VMPasscodeChangeViewController, _VMViewController ]
+...

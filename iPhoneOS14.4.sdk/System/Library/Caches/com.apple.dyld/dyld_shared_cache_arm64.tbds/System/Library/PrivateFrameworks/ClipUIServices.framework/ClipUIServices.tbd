@@ -1,0 +1,16 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/ClipUIServices.framework/ClipUIServices
+current-version:       20.20
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _CPSBannerContainerViewBannerHasAccessibilityFocusKeyPath,
+                            _CPSBannerContainerViewBannerHiddenKeyPath,
+                            _CPSBannerContainerViewTrackingBannerDismissGestureKeyPath ]
+    objc-classes:         [ _CPSAppAttributionBanner, _CPSBannerContainerView,
+                            _CPSClipOverlayViewController,
+                            _CPSLaunchViewController,
+                            _CPSLocationConsentViewController ]
+...

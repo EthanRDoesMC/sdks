@@ -1,0 +1,14 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/AlgosScoreFramework.framework/AlgosScoreFramework
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    objc-classes:         [ _AlgosConnectionScore, _AlgosScoreCSVReader,
+                            _AlgosScoreCombiner, _AlgosScoreDataCSV,
+                            _AlgosScoreFaceTimeDataCSV, _AlgosScoreStreamDataCSV,
+                            _AlgosStreamScore ]
+    objc-ivars:           [ _AlgosScoreDataCSV.csvData ]
+...

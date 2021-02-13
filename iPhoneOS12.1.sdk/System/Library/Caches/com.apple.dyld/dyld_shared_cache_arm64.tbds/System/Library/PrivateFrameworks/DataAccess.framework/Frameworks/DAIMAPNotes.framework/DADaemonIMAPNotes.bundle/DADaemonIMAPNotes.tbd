@@ -1,0 +1,18 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/DataAccess.framework/Frameworks/DAIMAPNotes.framework/DADaemonIMAPNotes.bundle/DADaemonIMAPNotes
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    objc-classes:         [ _DAIMAPNotesAgent, _DAIMAPNotesDaemonAccount,
+                            _DAIMAPNotesFolder,
+                            _DAIMAPNotesFolderListConsumerQueueWrapper,
+                            _DAIMAPNotesFolderSyncRequest, _DAIMAPNotesUtils,
+                            _IMAPNotesLibrary, _IMAPNotesOutgoingMessage ]
+    objc-ivars:           [ _DAIMAPNotesFolderSyncRequest._noteContext,
+                            _IMAPNotesLibrary._account,
+                            _IMAPNotesLibrary._noteContext,
+                            _IMAPNotesLibrary._notesAccount ]
+...

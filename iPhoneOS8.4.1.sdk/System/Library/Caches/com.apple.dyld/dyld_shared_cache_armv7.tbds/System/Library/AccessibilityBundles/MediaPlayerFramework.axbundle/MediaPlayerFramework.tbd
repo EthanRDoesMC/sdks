@@ -1,0 +1,62 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/AccessibilityBundles/MediaPlayerFramework.axbundle/MediaPlayerFramework
+current-version:       0
+compatibility-version: 0
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _UITextInputNextToUseInputModeDidChangeKey,
+                            _UITextInputNextToUseInputModeDidChangeNotification,
+                            __Failover, _accessibilityLocalizedString,
+                            _rdioLocalizedString ]
+    objc-classes:         [ _AXMediaPlayerFrameworkGlue, _MPAVItemAccessibility,
+                            _MPAVRoutingTableViewCellAccessibility,
+                            _MPAlternateTracksViewControllerAccessibility,
+                            _MPAudioRouteCellAccessibility,
+                            _MPButtonAccessibility, _MPDetailSliderAccessibility,
+                            _MPInlineTransportControlsAccessibility,
+                            _MPInlineVideoControllerAccessibility,
+                            _MPMediaPickerControllerAccessibility,
+                            _MPMediaPickerViewAccessibility,
+                            _MPPadFullScreenTransportControlsAccessibility,
+                            _MPPlaybackControlsViewAccessibility,
+                            _MPPlaybackTitlesViewAccessibility,
+                            _MPReflectionImageViewAccessibility,
+                            _MPSwipableViewAccessibility,
+                            _MPTransportButtonAccessibility,
+                            _MPTransportControlsAccessibility,
+                            _MPUITableViewCellAccessibility,
+                            _MPVideoBackgroundViewAccessibility,
+                            _MPVideoPlaybackOverlayViewAccessibility,
+                            _MPVideoViewAccessibility,
+                            _MPVideoViewControllerAccessibility,
+                            _MPVolumeSliderAccessibility,
+                            _MPVolumeViewAccessibility,
+                            _MediaPlayerUINavigationButtonAccessibility,
+                            ___MPAVItemAccessibility_super,
+                            ___MPAVRoutingTableViewCellAccessibility_super,
+                            ___MPAlternateTracksViewControllerAccessibility_super,
+                            ___MPAudioRouteCellAccessibility_super,
+                            ___MPButtonAccessibility_super,
+                            ___MPDetailSliderAccessibility_super,
+                            ___MPInlineTransportControlsAccessibility_super,
+                            ___MPInlineVideoControllerAccessibility_super,
+                            ___MPMediaPickerControllerAccessibility_super,
+                            ___MPMediaPickerViewAccessibility_super,
+                            ___MPPadFullScreenTransportControlsAccessibility_super,
+                            ___MPPlaybackControlsViewAccessibility_super,
+                            ___MPPlaybackTitlesViewAccessibility_super,
+                            ___MPReflectionImageViewAccessibility_super,
+                            ___MPSwipableViewAccessibility_super,
+                            ___MPTransportButtonAccessibility_super,
+                            ___MPTransportControlsAccessibility_super,
+                            ___MPUITableViewCellAccessibility_super,
+                            ___MPVideoBackgroundViewAccessibility_super,
+                            ___MPVideoPlaybackOverlayViewAccessibility_super,
+                            ___MPVideoViewAccessibility_super,
+                            ___MPVideoViewControllerAccessibility_super,
+                            ___MPVolumeSliderAccessibility_super,
+                            ___MPVolumeViewAccessibility_super,
+                            ___MediaPlayerUINavigationButtonAccessibility_super ]
+...

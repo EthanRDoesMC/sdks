@@ -1,0 +1,45 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/StoreBookkeeper.framework/StoreBookkeeper
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _SBKKeyValuePayloadPairWithPreferredClass,
+                            _SBKLogFilter, _SBKLogProductionKeyBag,
+                            _SBKLogRuntimeOverride,
+                            _SBKLogRuntimeOverridePattern,
+                            _SBKPreferencesDidChangeNotification,
+                            _SBKStoreAccount,
+                            _SBKStoreAccountLastFailedSyncIdentifier,
+                            _SBKStoreAccountLastSyncedIdentifier,
+                            _SBKSyncAnchorVersionBase,
+                            _SBKSyncAnchorVersionMaximum, _SBKTimeStamp,
+                            _SBKUniversalPlaybackPositionMediaItemPropertyAlbumTitle,
+                            _SBKUniversalPlaybackPositionMediaItemPropertyBookmarkTime,
+                            _SBKUniversalPlaybackPositionMediaItemPropertyEntityType,
+                            _SBKUniversalPlaybackPositionMediaItemPropertyHasBeenPlayed,
+                            _SBKUniversalPlaybackPositionMediaItemPropertyItemArtist,
+                            _SBKUniversalPlaybackPositionMediaItemPropertyMetadataTimestamp,
+                            _SBKUniversalPlaybackPositionMediaItemPropertyPlayCount,
+                            _SBKUniversalPlaybackPositionMediaItemPropertyPodcastGUID,
+                            _SBKUniversalPlaybackPositionMediaItemPropertyPodcastURL,
+                            _SBKUniversalPlaybackPositionMediaItemPropertyStoreID,
+                            _SBKUniversalPlaybackPositionMediaItemPropertySubscriptionStoreID,
+                            _SBKUniversalPlaybackPositionMediaItemPropertyTitle,
+                            _SBKUniversalPlaybackPositionStoreDidSynchronizeNotification ]
+    objc-classes:         [ _SBKLoadDomainVersionRequestHandler, _SBKLogger,
+                            _SBKMutableStoreURLBagContext, _SBKPreferences,
+                            _SBKPullValueTransaction, _SBKPushValueTransaction,
+                            _SBKRequestHandler, _SBKResponse,
+                            _SBKStoreAuthenticationController,
+                            _SBKStoreURLBagContext, _SBKSyncRequestHandler,
+                            _SBKSyncTransaction, _SBKTransaction,
+                            _SBKTransactionController,
+                            _SBKUniversalPlaybackPositionMetadata,
+                            _SBKUniversalPlaybackPositionStore ]
+    objc-ivars:           [ _SBKLogger._auxPath, _SBKLogger._fileHandle,
+                            _SBKLogger._filter, _SBKLogger._pid,
+                            _SBKLogger._procName, _SBKLogger._runtimeOverride ]
+...

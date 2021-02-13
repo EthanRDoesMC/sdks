@@ -1,0 +1,18 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/PowerlogFullOperators.framework/PowerlogFullOperators
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _kPLPMUAgentSensors,
+                            _kPLPersistentConnectionAgentCache,
+                            _kPLPersistentConnectionAgentConfig,
+                            _kPLScheduledWakeAgentEventForwardNameScheduledEvent,
+                            _kPLSmartPLServiceEventPointSmartTrigger,
+                            _kPLSyslogAgentLogLine ]
+    objc-classes:         [ _BBSmartPL, _PLPMUAgent, _PLPersistentConnectionAgent,
+                            _PLScheduledWakeAgent, _PLSmartPLService,
+                            _PLSyslogAgent ]
+...

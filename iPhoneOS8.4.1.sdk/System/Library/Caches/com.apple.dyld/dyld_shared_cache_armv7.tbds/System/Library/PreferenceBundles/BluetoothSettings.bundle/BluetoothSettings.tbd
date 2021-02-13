@@ -1,0 +1,43 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PreferenceBundles/BluetoothSettings.bundle/BluetoothSettings
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _BTSUnregisterHealthDeviceNotification, _intSort ]
+    objc-classes:         [ _BTAlert, _BTSBundleController, _BTSDebugController,
+                            _BTSDevice, _BTSDeviceClassic,
+                            _BTSDeviceConfigController, _BTSDeviceLE,
+                            _BTSDevicesController, _BTSPairController,
+                            _BTSPairSetup, _BTSSPPairingRequest, _BTTableCell,
+                            _DevicesHeaderView ]
+    objc-ivars:           [ _BTAlert._alert, _BTAlert._delegate, _BTAlert._device,
+                            _BTSBundleController._displayedInRootMenu,
+                            _BTSBundleController._initialState,
+                            _BTSBundleController._offStr,
+                            _BTSBundleController._onStr,
+                            _BTSBundleController._specifier,
+                            _BTSBundleController._unavailableStr,
+                            _BTSDebugController.stdoutPath,
+                            _BTSDeviceConfigController._device,
+                            _BTSDeviceConfigController._dismissed,
+                            _BTSDeviceConfigController._forgetGroupSpecifiers,
+                            _BTSDeviceConfigController._isWatch,
+                            _BTSDeviceConfigController._lastSelectedSyncGroup,
+                            _BTSDeviceConfigController._messagingEnabled,
+                            _BTSDeviceConfigController._messagingSpecifiers,
+                            _BTSDeviceConfigController._supportsMAP,
+                            _BTSDeviceConfigController._syncContactsSpecifiers,
+                            _BTSDeviceConfigController._syncGroupsSpecifiers,
+                            _BTSDeviceConfigController._syncSettings,
+                            _BTSPairController._device,
+                            _BTSPairController._dismissed,
+                            _BTSPairController._promptFormat,
+                            _BTSSPPairingRequest._alert,
+                            _BTSSPPairingRequest._delegate,
+                            _BTSSPPairingRequest._device,
+                            _BTSSPPairingRequest._pairingStyle,
+                            _BTSSPPairingRequest._specifier ]
+...

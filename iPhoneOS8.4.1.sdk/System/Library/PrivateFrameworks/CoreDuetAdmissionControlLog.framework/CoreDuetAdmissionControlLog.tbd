@@ -1,0 +1,28 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          "/System/Library/PrivateFrameworks/CoreDuetAdmissionControlLog.framework/CoreDuetAdmissionControlLog"
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _CoreDuetAdmissionControlLogVersionNumber,
+                            _CoreDuetAdmissionControlLogVersionString,
+                            _kCDAdmissionControlAdmissionRoleTypeString,
+                            _kCDAdmissionControlEventTypeString,
+                            _kCDAdmissionControlUpdateTypeString ]
+    objc-classes:         [ _CDAdmissionControlLogReader,
+                            _CDAdmissionControlLogWriter, _WeakPowerLogInterface ]
+    objc-ivars:           [ _CDAdmissionControlLogReader._ablemsg,
+                            _CDAdmissionControlLogReader._aslclient,
+                            _CDAdmissionControlLogReader._invalidKeys,
+                            _CDAdmissionControlLogWriter._ablemsg,
+                            _CDAdmissionControlLogWriter._aslclient,
+                            _CDAdmissionControlLogWriter._facility,
+                            _CDAdmissionControlLogWriter._logfile,
+                            _CDAdmissionControlLogWriter._powerLog,
+                            _WeakPowerLogInterface._PLBatteryLifeMonitorLogCoreDuetAdmissionEvent,
+                            _WeakPowerLogInterface._PLBatteryLifeMonitorLogCoreDuetEvent,
+                            _WeakPowerLogInterface._PLBatteryLifeMonitorLogCoreDuetPredictionEvents,
+                            _WeakPowerLogInterface._PLLib ]
+...

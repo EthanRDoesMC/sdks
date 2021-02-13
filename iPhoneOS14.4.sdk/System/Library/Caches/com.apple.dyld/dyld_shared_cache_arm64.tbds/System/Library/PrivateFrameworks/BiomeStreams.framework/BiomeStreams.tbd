@@ -1,0 +1,65 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/BiomeStreams.framework/BiomeStreams
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _BMMachServiceNameFileAccessService,
+                            _BMPBAppLaunchEventReadFrom,
+                            _BMPBContextualActionEventReadFrom,
+                            _BMPBIntentEventReadFrom, _BiomeStreamsVersionNumber,
+                            _BiomeStreamsVersionString ]
+    objc-classes:         [ _BMAppClipLaunchEvent, _BMAppClipLaunchSource,
+                            _BMAppClipLaunchStream, _BMAppLaunchEvent,
+                            _BMAppLaunchStream, _BMBookmarkNode,
+                            _BMBookmarkWrapper, _BMContextualActionContent,
+                            _BMContextualActionEvent,
+                            _BMContextualActionParameter,
+                            _BMContextualActionsStream,
+                            _BMCoreDuetDiscoverabilitySignalsSource,
+                            _BMCoreDuetMediaUsageSource,
+                            _BMCoreDuetMediaUsageStore, _BMCoreDuetStream,
+                            _BMDiscoverabilitySignalEvent,
+                            _BMDiscoverabilitySignalStream,
+                            _BMEventAppAssociatingImplementor, _BMEventBase,
+                            _BMEventBinarySteppingImplementor, _BMEventContext,
+                            _BMEventTimeElapsingImplementor, _BMIntentEvent,
+                            _BMIntentStream, _BMKnowledgeContextMapping,
+                            _BMKnowledgeContextPublisher, _BMMediaUsageEvent,
+                            _BMMediaUsageStream, _BMPBAppLaunchEvent,
+                            _BMPBContextualActionEvent, _BMPBIntentEvent,
+                            _BMPublicStreamsPruner, _BMSource, _BMStoreSource,
+                            _BMStoreStream, _BMStoreStreamPublisher,
+                            _BMStoreTypedEvent, _BMStoreValidator, _BMStream,
+                            _BMStreamQuery, _BMStreams, _BMStreamsAccessClient,
+                            _BMStreamsAccessRequest, _BMStreamsAccessService,
+                            _BMTestEvent, _BMTestStream, _BPSBiomeStorePublisher,
+                            _BPSKnowledgeStorePublisher, __BPSBookmarkedInner,
+                            __BPSInnerBiomeSubscription,
+                            __BPSInnerKnowledgeSubscription ]
+    objc-ivars:           [ _BMPBAppLaunchEvent._absoluteTimestamp,
+                            _BMPBAppLaunchEvent._bundleID,
+                            _BMPBAppLaunchEvent._duration,
+                            _BMPBAppLaunchEvent._has,
+                            _BMPBAppLaunchEvent._launchReason,
+                            _BMPBAppLaunchEvent._launchType,
+                            _BMPBAppLaunchEvent._string,
+                            _BMPBContextualActionEvent._actionName,
+                            _BMPBContextualActionEvent._appName,
+                            _BMPBContextualActionEvent._contents,
+                            _BMPBContextualActionEvent._identifier,
+                            _BMPBContextualActionEvent._parameters,
+                            _BMPBIntentEvent._absoluteTimestamp,
+                            _BMPBIntentEvent._bundleID, _BMPBIntentEvent._has,
+                            _BMPBIntentEvent._intentClass,
+                            _BMPBIntentEvent._intentHandlingStatus,
+                            _BMPBIntentEvent._intentType,
+                            _BMPBIntentEvent._intentVerb,
+                            _BMPBIntentEvent._interaction,
+                            _BMPBIntentEvent._itemID, _BMPBIntentEvent._sourceId,
+                            _BMStoreSource._writer, __BPSBookmarkedInner._lock,
+                            __BPSInnerBiomeSubscription._enumerator,
+                            __BPSInnerKnowledgeSubscription._lock ]
+...

@@ -1,0 +1,30 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/NewsAnalyticsUpload.framework/NewsAnalyticsUpload
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    allowed-clients:      [ News, NewsAnalytics, NewsAnalyticsUploadTests,
+                            NewsServices, NewsServicesInternal, Stocks, newsd ]
+    symbols:              [ _NAUAnalyticsEnvelopeTrackerContentTypeIsSupported,
+                            _NDAnalyticsEntryCanBeUploaded,
+                            _NDAnalyticsEntryDeliveryWindow,
+                            _NDAnalyticsEntryDeliveryWindowEarlierDate,
+                            _NDAnalyticsEnvelopeContentTypesFromEntries,
+                            _NDAnalyticsEnvelopeStoreEntriesFromStringRepresentations,
+                            _NDAnalyticsEnvelopeStoreStringRepresentationsOfEntries,
+                            _NDAnalyticsEnvelopeSubmissionDatesByContentType,
+                            _NDSharedClientLog, _NDSharedServiceLog,
+                            _NewsAnalyticsUploadVersionNumber,
+                            _NewsAnalyticsUploadVersionString ]
+    objc-classes:         [ _NAUAnalyticsEnvelopeTracker,
+                            _NDAnalyticsEnvelopeManager,
+                            _NDAnalyticsEnvelopeStore,
+                            _NDAnalyticsEnvelopeStoreEntry,
+                            _NDAnalyticsPayloadAssembler,
+                            _NDAnalyticsPayloadInfo, _NDAnalyticsPayloadUploader,
+                            _NDAnalyticsUploadScheduler,
+                            _NDAppConfigAnalyticsPayloadAssemblerConfigProvider ]
+...

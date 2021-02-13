@@ -1,0 +1,22 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/FMF.framework/FMF
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _FMFDevicesChangedNotification, _FMFErrorDomain,
+                            _FMFFenceErrorDomain, _FMFFenceTriggerArriving,
+                            _FMFFenceTriggerImmediate, _FMFFenceTriggerLeaving,
+                            _FMFFenceTypeNotifyMe, _FMFFenceTypeNotifyOther,
+                            _FMFGroupIdDefault, _FMFGroupIdGroup,
+                            _FMFGroupIdOneToOne,
+                            _FMFHomeKitAutomationDeviceChangedNotification,
+                            _FMFMeDeviceChangedNotification, _kFMFSyncXPCTimeout,
+                            _kMapImageKey ]
+    objc-classes:         [ _FMFAppAccountInfo, _FMFContactUtility, _FMFDevice,
+                            _FMFFence, _FMFFriendshipRequest, _FMFHandle,
+                            _FMFLocation, _FMFMapImageRequest, _FMFMapSession,
+                            _FMFPlacemark, _FMFSession, _FMFSynchronizer ]
+...

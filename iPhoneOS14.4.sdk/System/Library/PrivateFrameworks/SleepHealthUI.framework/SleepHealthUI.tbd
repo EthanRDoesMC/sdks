@@ -1,0 +1,56 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          "/System/Library/PrivateFrameworks/SleepHealthUI.framework/SleepHealthUI"
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _HKSHUIBundle, _HKSHUICurrentDevice,
+                            _HKSHUILocalizedString ]
+    objc-classes:         [ _HKSHAbbreviatedOneHourIsSixtyMinDateComponentsFormatter,
+                            _HKSHBatteryRing,
+                            _HKSHBriefOneHourIsSixtyMinDateComponentsFormatter,
+                            _HKSHEditScheduleLinkTableViewCell,
+                            _HKSHFilledBackgroundSystemImageView,
+                            _HKSHForceDoubleZerosDateComponentsFormatter,
+                            _HKSHQuickScheduleManagementViewController,
+                            _HKSHQuickScheduleOverrideViewController,
+                            _HKSHRelativeWeekdayFormatter,
+                            _HKSHScheduleOccurrenceAlarmEnabledTableViewCell,
+                            _HKSHScheduleOccurrenceAlarmSnoozeTableViewCell,
+                            _HKSHScheduleOccurrenceAlarmSoundTableViewCell,
+                            _HKSHScheduleOccurrenceAlarmVolumeTableViewCell,
+                            _HKSHScheduleOccurrenceComponentsAccessibilityTableViewCell,
+                            _HKSHScheduleOccurrenceComponentsAndDayAccessibilityTableViewCell,
+                            _HKSHScheduleOccurrenceComponentsEditTableViewCell,
+                            _HKSHScheduleOccurrenceDeleteTableViewCell,
+                            _HKSHScheduleOccurrenceHeaderView,
+                            _HKSHScheduleOccurrenceSectionHeaderView,
+                            _HKSHScheduleOccurrenceTableViewCell,
+                            _HKSHScheduleOccurrenceTitleTableViewHeaderView,
+                            _HKSHScheduleOccurrenceTitleView,
+                            _HKSHScheduleOccurrenceView,
+                            _HKSHShortHourDateComponentsFormatter,
+                            _HKSHShortMinuteDateComponentsFormatter,
+                            _HKSHShorterDateComponentsFormatter,
+                            _HKSHSleepChartDataSource, _HKSHSleepChartFormatter,
+                            _HKSHSleepDataSourceProvider,
+                            _HKSHSleepScheduleClock,
+                            _HKSHSleepScheduleClockCaption,
+                            _HKSHSleepScheduleClockDial,
+                            _HKSHSleepScheduleClockHand,
+                            _HKSHSleepScheduleComponentsEditView,
+                            _HKSHSleepScheduleComponentsHeader,
+                            _HKSHTextTableViewCell, _HKSHTonePickerStyleProvider,
+                            __HKSHLocalizedSleepSchedule ]
+    objc-ivars:           [ _HKSHBatteryRing._backgroundRingAlpha,
+                            _HKSHBatteryRing._fillFraction,
+                            _HKSHBatteryRing._radius,
+                            _HKSHBatteryRing._strokeWidth,
+                            _HKSHSleepChartDataSource._calendar,
+                            _HKSHSleepChartFormatter._healthStore,
+                            _HKSHSleepDataSourceProvider._calendar,
+                            __HKSHLocalizedSleepSchedule._localizedBedTime,
+                            __HKSHLocalizedSleepSchedule._localizedWakeTime ]
+...

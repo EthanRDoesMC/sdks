@@ -1,0 +1,17 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/BulletinBoardPlugins/CalendarProvider.bundle/CalendarProvider
+current-version:       0
+compatibility-version: 0
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _EKBBLogFlush, _EKBBLogInitIfNeeded,
+                            _kCalendarNotificationsPrefChangedNotification,
+                            _kEKBBLogContextController,
+                            _kEKBBLogContextDataProvider,
+                            _kEKBBLogContextEventProvider, _kEKBBLogContextModel,
+                            _kEKBBLogContextReminderProvider, _kEKBBLogFacility ]
+    objc-classes:         [ _EKBBDataProvider, _EKBBEventProvider,
+                            _EKBBReminderProvider, _EKBBTodayProvider ]
+...

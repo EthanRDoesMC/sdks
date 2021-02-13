@@ -1,0 +1,29 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/AXAssetLoader.framework/AXAssetLoader
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _AXAssetBundle, _AXAssetLoaderVersionNumber,
+                            _AXAssetLoaderVersionString, _AXAssetLocalizedString,
+                            _AXAssetMakeErrorForDownloadResult,
+                            _AXAssetMakeErrorForPurgeResult,
+                            _AXAssetMakeErrorForQueryResult, _AXAssetMakeError_,
+                            __AXAssetMakeError,
+                            __AXCreateAXAssetsServiceInterface,
+                            _kAXCharacterFaceDefaultsDomain,
+                            _kAXImageCaptionModelAssetMaximumCompatibilityVersion,
+                            _kAXImageCaptionModelAssetMinimumCompatibilityVersion,
+                            _kAXImageCaptionModelAssetType,
+                            _kAXUltronModelAssetType ]
+    objc-classes:         [ _AXAsset, _AXAssetAssertionStore, _AXAssetController,
+                            _AXAssetPolicy, _AXAssetUpdateMonitor,
+                            _AXAssetsService, _AXCharacterVoiceAssetPolicy,
+                            _AXElementVisionModelAssetPolicy,
+                            _AXImageCaptionModel,
+                            _AXImageCaptionModelAssetAssertion,
+                            _AXImageCaptionModelAssetPolicy,
+                            _AXPhoenixAssetPolicy, _AXUltronModelAssetPolicy ]
+...

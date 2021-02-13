@@ -1,0 +1,58 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          "/System/Library/PrivateFrameworks/ResponseKit.framework/ResponseKit"
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _NSSubtractRange, _RKResponseKitVersionNumber,
+                            _RKResponseKitVersionString, _sSubclasses ]
+    objc-classes:         [ _RKAssets, _RKClassification, _RKLexicalEntity,
+                            _RKMessageClassifier, _RKMessageResponseManager,
+                            _RKResponseCollection, _RKSentenceClassifier,
+                            _RKSentenceClassifier_de_DE,
+                            _RKSentenceClassifier_en_US,
+                            _RKSentenceClassifier_es_ES,
+                            _RKSentenceClassifier_fr_FR,
+                            _RKSentenceClassifier_it_IT,
+                            _RKSentenceClassifier_pt_BR,
+                            _RKSentenceClassifier_ru_RU,
+                            _RKSentenceClassifier_tr_TR, _RKSynonymizer,
+                            __RKResponse ]
+    objc-ivars:           [ _RKClassification._customResponses,
+                            _RKClassification._gender,
+                            _RKClassification._language,
+                            _RKClassification._sensitive,
+                            _RKClassification._sentenceType,
+                            _RKClassification._taggedText,
+                            _RKLexicalEntity._language, _RKLexicalEntity._lemma,
+                            _RKLexicalEntity._partOfSpeech,
+                            _RKLexicalEntity._string,
+                            _RKLexicalEntity._tokenRange,
+                            _RKLexicalEntity._tokenType,
+                            _RKResponseCollection._context,
+                            _RKResponseCollection._phraseMap,
+                            _RKResponseCollection._responseCatalogEditable,
+                            _RKResponseCollection._responseCatalogNonEditable,
+                            _RKSentenceClassifier._alternatives,
+                            _RKSentenceClassifier._appreciations,
+                            _RKSentenceClassifier._choiceDelimiters,
+                            _RKSentenceClassifier._interrogatives,
+                            _RKSentenceClassifier._inversions,
+                            _RKSentenceClassifier._sentenceEntities,
+                            _RKSentenceClassifier._sentenceHasAlternativeConjunction,
+                            _RKSentenceClassifier._sentenceHasQuestionTerminator,
+                            _RKSentenceClassifier._sentenceIsAllSymbols,
+                            _RKSentenceClassifier._sentenceIsTerminated,
+                            _RKSentenceClassifier._sentenceString,
+                            _RKSentenceClassifier._sentenceStringOriginal,
+                            _RKSentenceClassifier._sentenceTag,
+                            _RKSynonymizer._context,
+                            _RKSynonymizer._keyboardLanguage,
+                            _RKSynonymizer._model,
+                            _RKSynonymizer._synonymDictionary,
+                            _RKSynonymizer._synonymLanguage,
+                            _RKSynonymizer._wordIDDictionary, __RKResponse._text,
+                            __RKResponse._type ]
+...

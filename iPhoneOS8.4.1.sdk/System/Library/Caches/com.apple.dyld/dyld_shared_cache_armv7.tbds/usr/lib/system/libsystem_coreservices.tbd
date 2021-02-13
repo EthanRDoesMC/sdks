@@ -1,0 +1,17 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /usr/lib/system/libsystem_coreservices.dylib
+current-version:       7
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _NSGetNextSearchPathEnumeration,
+                            _NSStartSearchPathEnumeration,
+                            ___coreservicesVersionNumber,
+                            ___coreservicesVersionString,
+                            ___dirhelper_create_user_local,
+                            ___dirhelper_idle_exit, ___user_local_dirname,
+                            ___user_local_mkdir_p, __dirhelper,
+                            __libcoreservices_fork_child ]
+...

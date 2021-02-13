@@ -1,0 +1,13 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/Frameworks/LocalAuthentication.framework/Support/MechanismBase.framework/MechanismBase
+current-version:       827.80.7
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    objc-classes:         [ _ACMContextRecord, _MechanismACM, _MechanismBase,
+                            _MechanismContext, _MechanismKofN,
+                            _MechanismKofNReorganizer, _RemoteUIManager,
+                            _RemoteUIParams ]
+...

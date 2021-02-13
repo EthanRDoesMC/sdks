@@ -1,0 +1,54 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/SpotlightUIInternal.framework/SpotlightUIInternal
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _SPUIExtendedLaunchConstant,
+                            _SPUIPlatterViewCornerRadius, _SPUIPreferencesDomain,
+                            _SpotlightScrollSearchResults,
+                            _SpotlightShowAndScrollCards,
+                            _SpotlightUIInternalVersionNumber,
+                            _SpotlightUIInternalVersionString, ___PPTFirstScroll,
+                            ___PPTParsecdLaunchTime,
+                            ___PPTSearchTableDidReceiveResultSections,
+                            ___PPTSearchTableReceivedResultsInfo,
+                            ___PPTSearchTableWillReceiveResultSections,
+                            ___PPTSpotlightMapsCardsPushAndScrollTests,
+                            ___PPTSpotlightMemoryTestContactsCards,
+                            ___PPTSpotlightMemoryTestMapsCards,
+                            ___PPTSpotlightMemoryTestMapsCardsAtDesk,
+                            ___PPTSpotlightQuerySearchButtonToResultsLatency,
+                            ___PPTSpotlightQuerySearchButtonToResultsLatencyNoParsec,
+                            ___PPTSpotlightQueryToLocalSuggestionLatency,
+                            ___PPTSpotlightQueryToParsecSuggestionLatency,
+                            ___PPTSpotlightQueryToSuggestionsMixedQueries,
+                            ___PPTSpotlightQueryToSuggestionsMixedQueriesNoParsec,
+                            ___PPTSpotlightQueryToTopHitsLatency,
+                            ___PPTSpotlightScrollCardsFPS,
+                            ___PPTSpotlightScrollResultsFPS,
+                            _averageTimePerCharacter,
+                            _spacingBetweenPlaceholderAndLeftView, _suiteName,
+                            _timeToWindowExpansion, _zkwExpandedPreference ]
+    objc-classes:         [ _SPUIAppCompletion, _SPUIBorderedVisualEffectView,
+                            _SPUIBoxView, _SPUICalculatorCompletion,
+                            _SPUICompletion, _SPUICompletionStringModel,
+                            _SPUICompletionStringView, _SPUIFeedbackManager,
+                            _SPUIGradientMaskView, _SPUIHeaderBlurView,
+                            _SPUILocalSuggestionCompletion,
+                            _SPUILockScreenFooterView,
+                            _SPUIMaskedLabelsStackView, _SPUINavigationBar,
+                            _SPUINavigationController, _SPUIPPTTypingHelper,
+                            _SPUIPlatterContainerViewController,
+                            _SPUIPlatterShadowView, _SPUIResilientView,
+                            _SPUIResultCompletion, _SPUIResultsViewController,
+                            _SPUISearchFirstTimeViewController,
+                            _SPUISearchHeader, _SPUISearchModel,
+                            _SPUISearchModelGeneral, _SPUISearchModelZKW,
+                            _SPUISearchViewController, _SPUIShowMoreCompletion,
+                            _SPUITapToRadarView, _SPUITestingHelper,
+                            _SPUITextField, _SPUIWebCompletion ]
+    objc-ivars:           [ _SPUISearchModel._updatesDisabled ]
+...

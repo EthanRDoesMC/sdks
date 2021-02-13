@@ -1,0 +1,46 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/AssistantUI.framework/AssistantUI
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _AFUICreateAssistantResourcesDirectoryURL,
+                            _AFUICreateDebugController,
+                            _AFUICreateGizmoLogController, _AFUIDebugErrorDomain,
+                            _AFUIDebugOverrideDictionary,
+                            _AFUIDidShowEmergencyCallViewNotification,
+                            _AFUIFileURLForConversationWithIdentifier,
+                            _AFUIGetLanguageCode,
+                            _AFUIGuideCacheManagerCacheDurationMax,
+                            _AFUIPathForDebugOverridePlist,
+                            _AFUIPresentationPropertiesRequestSourceKey,
+                            _AFUIPresentationPropertiesSupportsTouchKey,
+                            _AFUIPreviousConversationIdentifier,
+                            _AFUIPurgeCachedLocalizedStrings,
+                            _AFUIRelativeStringFromDate,
+                            _AFUIRequestSourceGetName,
+                            _AFUIScreenSupportsKnobInteraction,
+                            _AFUIScreenSupportsTouchInteraction,
+                            _AFUISetLanguageCode,
+                            _AFUISpeechSynthesisQueueDidEmptyNotification,
+                            _AFUIStarkDirectActionStringForRequestOptions,
+                            _AFUIWillLeaveEmergencyCallViewNotification,
+                            _AssistantUIBundle, _MobileSMSBundleID, _PhoneBundleID,
+                            _kPresentSnippetKey, _kSirilandTransitionTest ]
+    objc-classes:         [ _AFUIApplicationStateHelper, _AFUIAudioMessagePlayer,
+                            _AFUIAudioPlayer, _AFUIDebugCrashMoverService,
+                            _AFUIDebugError, _AFUIDebugLog, _AFUIDebugLogManager,
+                            _AFUIDelayedActionCommandCache, _AFUIDialogPhase,
+                            _AFUIGuideCacheManager, _AFUIImageResource,
+                            _AFUIPreferences, _AFUIQueue, _AFUIRequestOptions,
+                            _AFUIRequestTrigger, _AFUISiriLanguage,
+                            _AFUISiriRemoteContainerView,
+                            _AFUISiriRemoteViewController, _AFUISiriSession,
+                            _AFUISiriView, _AFUISiriViewController,
+                            _AFUISpeechSynthesis, _AFUISpeechSynthesisElement,
+                            _AFUIStateMachine, _AFUITestInput,
+                            _AFUIVoicemailPlayer,
+                            __AFUIAssertingDelayedActionCommand ]
+...

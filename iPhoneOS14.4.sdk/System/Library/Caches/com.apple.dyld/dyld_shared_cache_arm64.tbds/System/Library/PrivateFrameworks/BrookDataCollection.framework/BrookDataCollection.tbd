@@ -1,0 +1,21 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/BrookDataCollection.framework/BrookDataCollection
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _BRKPreferredAudioFormat,
+                            _BrookDataCollectionVersionNumber,
+                            _BrookDataCollectionVersionString,
+                            _NSStringFromDataCollectionAuthorization,
+                            __BRKHandleForUploadNotification ]
+    objc-classes:         [ _BRKAccelerationBufferedFileWriter,
+                            _BRKAccelerationFileWriter, _BRKAudioFileReader,
+                            _BRKAudioFileWriter, _BRKDataCollectionBundle,
+                            _BRKDataCollectionLogger,
+                            _BRKDataCollectionScheduler, _BRKEmbeddingsWriter,
+                            _BRKLogFileWriter, _BRKMetricsLogger, _BRKWriter,
+                            _S3AccessConfig, _S3Content, _S3ContentConfig ]
+...

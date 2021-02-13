@@ -1,0 +1,17 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/SilexVideo.framework/SilexVideo
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _SVBundle, _SilexVideoVersionNumber,
+                            _SilexVideoVersionString ]
+    objc-classes:         [ _SVAudioSession, _SVAudioSessionConfiguration,
+                            _SVBundleClass, _SVButton, _SVImageLayer,
+                            _SVKeyValueObserver, _SVLooper,
+                            _SVMediaPlaybackController, _SVNonAnimatingDelegate,
+                            _SVPlayer, _SVPlayerItemObserver, _SVPlayerLayer,
+                            _SVVideoDurationObserver, _SVVideoPlayButton ]
+...

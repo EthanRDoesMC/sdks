@@ -1,0 +1,23 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          "/System/Library/PrivateFrameworks/SetupAssistant.framework/SetupAssistant"
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _BYAssistantScreenShouldBeShownInSetupAssistant,
+                            _BYBuddyAssistantPresentedKey,
+                            _BYBuddyCurrentVersion, _BYBuddyDoneKey,
+                            _BYBuddyFinishedInitialRunKey,
+                            _BYBuddyNotBackedUpIdentifier,
+                            _BYBuddyRunKeychainSyncMiniBuddy,
+                            _BYBuddyRunMesaMiniBuddy,
+                            _BYBuddyRunPaymentMiniBuddy, _BYBuddyVersionKey,
+                            _BYLog, _BYLoggingEnabled, _BYRestrictionsEnabled,
+                            _BYSetupAssistantBundleIdentifier,
+                            _BYSetupAssistantFinishedDarwinNotification,
+                            _BYSetupAssistantHasCompletedInitialRun,
+                            _BYSetupAssistantLaunchedDarwinNotification,
+                            _BYSetupAssistantNeedsToRun ]
+...

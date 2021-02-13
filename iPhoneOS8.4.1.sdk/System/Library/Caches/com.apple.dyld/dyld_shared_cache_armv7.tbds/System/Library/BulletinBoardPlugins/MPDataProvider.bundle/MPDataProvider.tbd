@@ -1,0 +1,22 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/BulletinBoardPlugins/MPDataProvider.bundle/MPDataProvider
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _kMPMissedCallsBadgeClearedNotification,
+                            _mp_dispatch_get_current_queue,
+                            _sMPBBSortMappingNextSortIdentifierKey ]
+    objc-classes:         [ _MPBBDataProvider, _MPBBFaceTimeDataProvider,
+                            _MPBBPhoneDataProvider, _MPBBSortMapping ]
+    objc-ivars:           [ _MPBBDataProvider._addressBook,
+                            _MPBBDataProvider._hasVisualVoicemail,
+                            _MPBBDataProvider._latestLockscreenVoicemailRowID,
+                            _MPBBDataProvider._nonVisualVoicemailBulletinDate,
+                            _MPBBDataProvider._nonVisualVoicemailCount,
+                            _MPBBDataProvider._queue,
+                            _MPBBDataProvider._recentsManager,
+                            _MPBBDataProvider._sortMapping ]
+...

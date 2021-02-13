@@ -1,0 +1,38 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          "/System/Library/PreferenceBundles/MobilePhoneSettings.bundle/MobilePhoneSettings"
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _PHDefaultLog ]
+    objc-classes:         [ _PHSettingsRootListController, _PHViewController,
+                            _VMAccountButton, _VMAccountsView,
+                            _VMAccountsViewController, _VMAccountsViewDataSource,
+                            _VMNavigationController,
+                            _VMPasscodeChangeViewController, _VMViewController ]
+    objc-ivars:           [ _PHSettingsRootListController._queue,
+                            _PHSettingsRootListController._subscriptions,
+                            _PHSettingsRootListController._telephonyController,
+                            _PHSettingsRootListController._voicemailManager,
+                            _PHViewController._contentUnavailable,
+                            _PHViewController._contentUnavailableView,
+                            _PHViewController._contentUnavailableViewTitle,
+                            _PHViewController._whitePointAdaptivityStyle,
+                            _VMAccountButton._preferredIntrinsicContentSizeWidth,
+                            _VMAccountsView._buttonStackView,
+                            _VMAccountsView._buttons,
+                            _VMAccountsView._dataSource,
+                            _VMAccountsView._delegate,
+                            _VMAccountsView._messageLabel,
+                            _VMAccountsViewController._accounts,
+                            _VMAccountsViewController._accountsView,
+                            _VMAccountsViewController._delegate,
+                            _VMAccountsViewDataSource._accounts,
+                            _VMNavigationController._manager,
+                            _VMPasscodeChangeViewController._accounts,
+                            _VMPasscodeChangeViewController._accountsViewController,
+                            _VMPasscodeChangeViewController._selectedAccount,
+                            _VMViewController._manager ]
+...

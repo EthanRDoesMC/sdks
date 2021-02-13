@@ -1,0 +1,54 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/HealthToolbox.framework/HealthToolbox
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _WDAsUserActivityResponder,
+                            _WDBadgeForHealthRecordsUpdateUserDefault, _WDBundle,
+                            _WDCinnamonOnboardingStateOverrideKey,
+                            _WDCompletedBuddyUserDefault,
+                            _WDDemoDataSexUserDefault, _WDFloorRectToViewScale,
+                            _WDGetDemoDataResourceName,
+                            _WDGetProfileNameForHealthStore, _WDIndexForTab,
+                            _WDInternalHealthRecordsConsentScreenShownKey,
+                            _WDInternalHealthRecordsHideConsentScreenKey,
+                            _WDIsRunningDemoMode,
+                            _WDNotificationManagerBadgesDidUpdateNotificationName,
+                            _WDPredicateMatchingPredicates,
+                            _WDProfilePresentationContextApp,
+                            _WDProfilePresentationContextSettings,
+                            _WDProfilePresentationContextSettingsPrivacy,
+                            _WDSplashScreenVersion, _WDUseDemoDataUserDefault,
+                            _WDUserActivityBreadcrumbKey,
+                            _WDUserActivityRestorationIdentifier,
+                            __WDCycleTrackingSummaryFavoritedUserInfoKey,
+                            _kWDFavoriteDisplayTypesControllerUpdatedRemote,
+                            _kWDFavoriteDisplayTypesControllerUserUpdateFavoritesKey ]
+    objc-classes:         [ _HBXFitnessManager, _HBXTypeSupport, _HBXUnitSupport,
+                            _HBXViewControllerFactory,
+                            _WDAtrialFibrillationDetectionSetupView,
+                            _WDAtrialFibrillationEventOverviewViewController,
+                            _WDAuthorizationRecord,
+                            _WDBuddyFlowContinueFooterView, _WDBuddyFlowUserInfo,
+                            _WDBuddyFlowUserInfoViewController,
+                            _WDContactConsolidationController,
+                            _WDDeviceSourcesListTableViewSection,
+                            _WDDisplayTypeDescriptionTableFooterView,
+                            _WDDisplayTypeDescriptionTableViewCell,
+                            _WDElectrocardiogramOverviewViewController,
+                            _WDElectrocardiogramSetupView,
+                            _WDElectrocardiogramUpgradeView,
+                            _WDEmptyUserActivityResponder,
+                            _WDFavoriteDisplayTypesController,
+                            _WDHealthTableViewController, _WDNotificationManager,
+                            _WDProfile, _WDProfileEditableTableViewCell,
+                            _WDProfileHeaderView, _WDProfileTableViewCell,
+                            _WDSecondaryProfileSourcesViewController,
+                            _WDSourcesListTableViewSection,
+                            _WDSourcesViewController, _WDSpinnerTableViewCell,
+                            _WDTableViewController, _WDTableViewSection,
+                            _WDUserActivityManager, _WDUserDefaults ]
+...

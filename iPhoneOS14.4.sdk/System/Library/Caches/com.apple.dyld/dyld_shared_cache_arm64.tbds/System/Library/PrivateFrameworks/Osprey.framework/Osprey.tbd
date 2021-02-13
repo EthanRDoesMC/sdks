@@ -1,0 +1,17 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/Osprey.framework/Osprey
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    objc-classes:         [ _OspreyChannel, _OspreyConnectionConfiguration,
+                            _OspreyConnectionMetrics, _OspreyConnectionPool,
+                            _OspreyConnectionPreferences,
+                            _OspreyGRPCStreamingContext, _OspreyKeychain,
+                            _OspreyMessageProducer, _OspreyMethodCall,
+                            _OspreyMutableRequest, _OspreyPreferences,
+                            _OspreyRequest, _OspreyService,
+                            _OspreyServiceConfiguration, _OspreyUnaryMethodCall ]
+...

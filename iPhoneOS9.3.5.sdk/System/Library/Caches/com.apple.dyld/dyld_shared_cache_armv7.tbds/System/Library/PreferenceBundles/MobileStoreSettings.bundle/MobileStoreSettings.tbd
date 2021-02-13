@@ -1,0 +1,21 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PreferenceBundles/MobileStoreSettings.bundle/MobileStoreSettings
+current-version:       1187.21
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _MobileStoreSettingsVersionNumber,
+                            _MobileStoreSettingsVersionString,
+                            _SUSettingsOpenURLBagKey,
+                            _SUSettingsSpecifierPropertyAttributedTitle,
+                            _SUSettingsSpecifierPropertyAttributedTitleHighlighted,
+                            _SUSettingsSpecifierPropertyURLBagKey ]
+    objc-classes:         [ _SUSettingsLinkHeaderFooterView,
+                            _SUSettingsPasswordEntryTableCell,
+                            _SUSettingsViewControllerFactory,
+                            _StorePasswordSettingsController,
+                            _StoreSettingsAccountCell, _StoreSettingsController,
+                            _StoreSettingsLinkButton ]
+...

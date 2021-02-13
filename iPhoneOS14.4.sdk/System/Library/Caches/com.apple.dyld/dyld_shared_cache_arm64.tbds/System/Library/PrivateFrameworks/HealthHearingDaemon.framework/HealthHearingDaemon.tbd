@@ -1,0 +1,32 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/HealthHearingDaemon.framework/HealthHearingDaemon
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _HDHeadphoneAudioExposureMinimumumcCollectionInterval,
+                            _HDHeadphoneExposureBucketStartStepSize,
+                            _HDHeadphoneExposureFirstBucketEndAfterNow,
+                            _HDHeadphoneExposureFirstBucketStartBeforeNow,
+                            _HDHeadphoneExposureSevenDayDoseInterval,
+                            _HDHeadphoneExposureStatisticsCacheSize,
+                            _HDHeadphoneExposureStatisticsMinumumCacheSize,
+                            _HDHearingKeyValueDomain,
+                            _HDHearingPluginDatabaseSchemaName,
+                            _HDHearingPluginSyncSchemaIdentifier ]
+    objc-classes:         [ _HDHeadphoneAudioExposureBucketCollection,
+                            _HDHeadphoneAudioExposureControlServer,
+                            _HDHeadphoneAudioExposureStatisticsBucket,
+                            _HDHeadphoneAudioExposureStatisticsCalculator,
+                            _HDHeadphoneAudioExposureStatisticsEntity,
+                            _HDHeadphoneAudioExposureStatisticsSnapshot,
+                            _HDHeadphoneDoseManager,
+                            _HDHeadphoneDoseMetadataStore,
+                            _HDHeadphoneExposureSampleBatch,
+                            _HDHeadphoneExposureStatisticsResult,
+                            _HDHearingPlugin,
+                            _HDHearingPluginProtectedDatabaseSchema,
+                            _HDHearingPluginUnprotectedDatabaseSchema ]
+...

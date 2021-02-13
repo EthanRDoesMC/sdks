@@ -1,0 +1,29 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/ResponseKit.framework/ResponseKit
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _NSSubtractRange, _RKResponseKitVersionNumber,
+                            _RKResponseKitVersionString, _sSubclasses ]
+    objc-classes:         [ _RKAssets, _RKClassification, _RKLexicalEntity,
+                            _RKMessageClassifier, _RKMessageResponseManager,
+                            _RKResponseCollection, _RKSentenceClassifier,
+                            _RKSentenceClassifier_de_DE,
+                            _RKSentenceClassifier_en_US,
+                            _RKSentenceClassifier_es_ES,
+                            _RKSentenceClassifier_fr_FR,
+                            _RKSentenceClassifier_it_IT,
+                            _RKSentenceClassifier_pt_BR,
+                            _RKSentenceClassifier_ru_RU,
+                            _RKSentenceClassifier_tr_TR, _RKSynonymizer,
+                            __RKResponse ]
+    objc-ivars:           [ _RKSynonymizer._context,
+                            _RKSynonymizer._keyboardLanguage,
+                            _RKSynonymizer._model,
+                            _RKSynonymizer._synonymDictionary,
+                            _RKSynonymizer._synonymLanguage,
+                            _RKSynonymizer._wordIDDictionary ]
+...

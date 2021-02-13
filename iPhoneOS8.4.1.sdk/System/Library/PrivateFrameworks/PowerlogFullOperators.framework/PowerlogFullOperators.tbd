@@ -1,0 +1,35 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          "/System/Library/PrivateFrameworks/PowerlogFullOperators.framework/PowerlogFullOperators"
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _kPLPMUAgentSensors,
+                            _kPLPersistentConnectionAgentCache,
+                            _kPLPersistentConnectionAgentConfig,
+                            _kPLScheduledWakeAgentEventForwardNameScheduledEvent,
+                            _kPLSmartPLServiceEventPointSmartTrigger,
+                            _kPLSyslogAgentLogLine ]
+    objc-classes:         [ _BBSmartPL, _PLPMUAgent, _PLPersistentConnectionAgent,
+                            _PLScheduledWakeAgent, _PLSmartPLService,
+                            _PLSyslogAgent ]
+    objc-ivars:           [ _BBSmartPL._bbHwOtherCallback,
+                            _BBSmartPL._connection, _BBSmartPL._cxoDuration,
+                            _BBSmartPL._lastLogDate, _BBSmartPL._logDuration,
+                            _BBSmartPL._operator,
+                            _PLPMUAgent._batteryLevelChanged,
+                            _PLPMUAgent.hidEventSystem,
+                            _PLPMUAgent.matchingSensors,
+                            _PLPMUAgent.sensorNamesC, _PLPMUAgent.sensorNamesV,
+                            _PLPersistentConnectionAgent._intervalChangedNotification,
+                            _PLPersistentConnectionAgent._preferencesChangedNotification,
+                            _PLScheduledWakeAgent._canSleepNotification,
+                            _PLScheduledWakeAgent._canSleepSemaphore,
+                            _PLSmartPLService._smartPLHelpers,
+                            _PLSyslogAgent._batteryLevelChanged,
+                            _PLSyslogAgent.fileDescriptorSource,
+                            _PLSyslogAgent.kq, _PLSyslogAgent.lastMessageID,
+                            _PLSyslogAgent.syslogdPid ]
+...

@@ -1,0 +1,19 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/AACCore.framework/AACCore
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _AECoreError, _AECoreErrorDomain, _AECoreErrorUserInfo,
+                            _AELocalizedStringFromTableInBundle,
+                            _AEPolicySessionFailedToActivateSubsystemsKey,
+                            _AEPolicySessionFailedToDeactivateSubsystemsKey ]
+    objc-classes:         [ _AEActivePolicySession,
+                            _AELocalizedErrorDescriptions, _AEOSGestalt,
+                            _AEOptionMirror, _AEPerformancePrimitivesProvider,
+                            _AEPolicyBundle, _AEPreferencesProvider,
+                            _AERSingleAppModeConfiguration,
+                            _AERSingleAppModePrimitivesProvider ]
+...

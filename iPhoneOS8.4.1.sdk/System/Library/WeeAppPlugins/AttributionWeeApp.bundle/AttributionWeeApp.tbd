@@ -1,0 +1,15 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          "/System/Library/WeeAppPlugins/AttributionWeeApp.bundle/AttributionWeeApp"
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    objc-classes:         [ _AWATextView, _AttributionWeeAppController ]
+    objc-ivars:           [ _AttributionWeeAppController._attributionTextView,
+                            _AttributionWeeAppController._stocksEnabled,
+                            _AttributionWeeAppController._twcURL,
+                            _AttributionWeeAppController._weatherEnabled,
+                            _AttributionWeeAppController._weeAppView ]
+...

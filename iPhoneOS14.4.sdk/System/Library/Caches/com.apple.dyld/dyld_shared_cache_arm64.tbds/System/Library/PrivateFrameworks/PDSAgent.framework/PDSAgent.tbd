@@ -1,0 +1,33 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/PDSAgent.framework/PDSAgent
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _PDSClientVersionNumber,
+                            _PDSCurrentServerEnvironment,
+                            _PDSProtoBatchRegisterReqReadFrom,
+                            _PDSProtoBatchRegisterRespReadFrom,
+                            _PDSProtoGSTokenAuthReadFrom,
+                            _PDSProtoMapEntryReadFrom, _PDSProtoTopicReadFrom,
+                            _PDSProtoUserAuthReadFrom,
+                            _PDSProtoUserPushTokenReadFrom,
+                            _PDSProtoUserPushTokenRegRequestReadFrom,
+                            _PDSProtoUserPushTokenRegResponseReadFrom,
+                            _PDSProtocolVersionNumber,
+                            _PDSStringForServerEnvironment ]
+    objc-classes:         [ _PDSBag, _PDSCDCacheContainer, _PDSConfiguration,
+                            _PDSCoordinator, _PDSDaemon, _PDSDaemonListener,
+                            _PDSEntryStore, _PDSInternalDaemonListener,
+                            _PDSProtoBatchRegisterReq,
+                            _PDSProtoBatchRegisterResp, _PDSProtoGSTokenAuth,
+                            _PDSProtoMapEntry, _PDSProtoTopic, _PDSProtoUserAuth,
+                            _PDSProtoUserPushToken,
+                            _PDSProtoUserPushTokenRegRequest,
+                            _PDSProtoUserPushTokenRegResponse,
+                            _PDSRegisterMessage, _PDSRequest, _PDSRequestInfo,
+                            _PDSRequestQueue, _PDSResponse, _PDSUserTracker,
+                            _PDSXPCClient, _PDSXPCServer ]
+...

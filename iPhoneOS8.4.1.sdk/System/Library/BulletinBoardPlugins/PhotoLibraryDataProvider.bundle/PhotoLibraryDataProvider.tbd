@@ -1,0 +1,15 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          "/System/Library/BulletinBoardPlugins/PhotoLibraryDataProvider.bundle/PhotoLibraryDataProvider"
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    objc-classes:         [ _PLBulletinBoardDataProvider ]
+    objc-ivars:           [ _PLBulletinBoardDataProvider._bulletinThumbnailData,
+                            _PLBulletinBoardDataProvider._bulletins,
+                            _PLBulletinBoardDataProvider._defaultSoundID,
+                            _PLBulletinBoardDataProvider._lastDisplayedRecordID,
+                            _PLBulletinBoardDataProvider._serialQueue ]
+...

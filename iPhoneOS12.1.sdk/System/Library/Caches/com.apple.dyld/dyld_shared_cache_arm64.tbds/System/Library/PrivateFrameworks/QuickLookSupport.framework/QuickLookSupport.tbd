@@ -1,0 +1,40 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/QuickLookSupport.framework/QuickLookSupport
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _QLCreateCGContextWithSize, _QLCreateCGImageWithData,
+                            _QLExtensionHostContextThumbnailOperationErrorDomain,
+                            _QLExtensionThumbnailGeneratorErrorDomain,
+                            _QLFrameworkBundle, _QLGuessEncodingForTextFileAtURL,
+                            _QLGuessEncodingForTextFileFromData, _QLInitLogging,
+                            _QLPreviewCopyEmbeddedIWorkData,
+                            _QLPreviewCopyEmbeddedIWorkThumbnailDataInData,
+                            _QLPreviewCopyEmbeddedIWorkThumbnailDataInFile,
+                            _QLPreviewCopyEmbeddedPDF, _QLPrintStackTrace,
+                            _QLScaledImageFromImageSource,
+                            _QLScaledImageFromImageURL, _QLStackTrace,
+                            _QLThumbnailHostContexErrorDomain,
+                            _QLThumbnailServiceContexErrorDomain,
+                            _QLThumbnailServiceContextGeneratorErrorDomain,
+                            _QL_SANDBOX_READ, _QuickLookSupportVersionNumber,
+                            _QuickLookSupportVersionString, __qlLogHandle,
+                            _kQLExtensionGracePeriodDelay,
+                            _kQLExtensionSupportedContentTypesKey,
+                            _kQLExtensionSupportsInteractiveThumbnailBadgesKey,
+                            _kQLSupportedInController ]
+    objc-classes:         [ _QLAsynchronousOperation, _QLExtension,
+                            _QLExtensionHostContextThumbnailOperation,
+                            _QLExtensionManager, _QLExtensionManagerCache,
+                            _QLExtensionThumbnailGenerator,
+                            _QLFileThumbnailRequest, _QLGracePeriodTimer,
+                            _QLServiceThumbnailRenderer, _QLThumbnailHostContext,
+                            _QLThumbnailProvider, _QLThumbnailReply,
+                            _QLThumbnailServiceContext,
+                            _QLThumbnailSurfaceGenerator, _QLThumbnailUTICache,
+                            _QLURLHandler, _QLUTIAnalyzer, _QLZipArchive,
+                            _QLZipArchiveEntry ]
+...

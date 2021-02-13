@@ -1,0 +1,23 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/FlightUtilities.framework/FlightUtilities
+current-version:       115.11
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _FUFactoryProvider_Default,
+                            _FUFactoryProvider_FlightStats,
+                            _FUFactoryProvider_FlyteComm ]
+    objc-classes:         [ _FUAirline, _FUAirport, _FUFlight, _FUFlightFactory,
+                            _FUFlightFactory_Parsec, _FUFlightLeg, _FUFlightStep,
+                            _FUFlightView, _FUFlightViewController, _FUStepTime,
+                            _FUUtils ]
+    objc-ivars:           [ _FUFlightStep._delayFromSchedule,
+                            _FUFlightView._displayStyle,
+                            _FUFlightView._ignoreMapUpdate,
+                            _FUFlightViewController._compactFlightView,
+                            _FUFlightViewController._regularFlightView,
+                            _FUFlightViewController._requiresDataLoad,
+                            _FUFlightViewController._viewLoaded ]
+...

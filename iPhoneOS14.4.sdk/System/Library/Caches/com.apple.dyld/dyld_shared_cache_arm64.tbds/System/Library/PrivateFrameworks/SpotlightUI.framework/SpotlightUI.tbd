@@ -1,0 +1,55 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/SpotlightUI.framework/SpotlightUI
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _SPBuildApplications, _SPCopyVisibleApps,
+                            _SPFastApplicationsGet,
+                            _SPFastApplicationsGetNoBuild,
+                            _SPFastApplicationsSet, _SPFastHiddenAppsGetNoBuild,
+                            _SPSetAppUpdateBlock, _SPSpotlightAppBundleId,
+                            _SPSpotlightFocusConstant,
+                            _SPSpotlightHeightOfBarConstant,
+                            _SPTransactionCreate, _SPTransactionDone,
+                            _SPUIBackgroundTransitionContext,
+                            _SPUIClientSceneDistanceSetting,
+                            _SPUIClientSceneHeaderContextIDSetting,
+                            _SPUIClientSceneHeaderRenderIDSetting,
+                            _SPUIDismissalTransitionContext, _SPUIInitLogging,
+                            _SPUILegibilitySettingsSetting, _SPUILogSubsystem,
+                            _SPUIPresentationIntentSetting,
+                            _SPUIPresentationSourceSetting,
+                            _SPUIRemoteSearchIgnoreOcclusionsReason,
+                            _SPUIRemoteViewPresentationIntentDescription,
+                            _SPUIRemoteViewPresentationSourceDescription,
+                            _SPUIRevealProgressSetting,
+                            _SPUISearchBarAnimatedConstant,
+                            _SPUISearchBarScrollProgressConstant,
+                            _SPUIWindowLookPref, _SPUTIAppType, _SpotlightBundleID,
+                            _SpotlightUIVersionNumber, _SpotlightUIVersionString,
+                            _searchScreenSceneIdentifier, _spuiLogHandles,
+                            _suiteName ]
+    objc-classes:         [ _SPApplication, _SPUIAppService, _SPUIDefaults,
+                            _SPUILegibilitySceneSettings,
+                            _SPUIMutableLegibilitySceneSettings,
+                            _SPUIMutableSearchBarSceneSettings,
+                            _SPUIMutableSearchViewSceneSettings,
+                            _SPUIRemoteSearchViewController,
+                            _SPUISearchBarClientSceneSettings,
+                            _SPUISearchBarController,
+                            _SPUISearchBarMutableClientSceneSettings,
+                            _SPUISearchBarSceneSettings,
+                            _SPUISearchBarSceneSpecification,
+                            _SPUISearchBarTransitionContext,
+                            _SPUISearchViewClientSceneSettings,
+                            _SPUISearchViewMutableClientSceneSettings,
+                            _SPUISearchViewSceneSettings,
+                            _SPUISearchViewSceneSpecification,
+                            _SPUISearchViewSceneTransitionContext,
+                            _SPUISpotlightRemoteViewController,
+                            _SPUISpotlightSceneManager, _SPXPCConnection,
+                            _SPXPCMessage, _SPXPCServer ]
+...

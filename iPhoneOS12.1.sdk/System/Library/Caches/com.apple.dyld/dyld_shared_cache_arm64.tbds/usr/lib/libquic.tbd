@@ -1,0 +1,13 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /usr/lib/libquic.dylib
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _nw_protocol_quic_identifier,
+                            _nw_protocol_quic_versions,
+                            _nw_quic_copy_certificates, _nw_quic_copy_sectrust,
+                            _nw_quic_delegate_sectrust, _nw_quic_sectrust_result ]
+...

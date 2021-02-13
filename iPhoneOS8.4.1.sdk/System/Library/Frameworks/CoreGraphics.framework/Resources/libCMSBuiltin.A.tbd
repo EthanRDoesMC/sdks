@@ -1,0 +1,11 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          "/System/Library/Frameworks/CoreGraphics.framework/Resources/libCMSBuiltin.A.dylib"
+current-version:       600
+compatibility-version: 64
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _cg_color_transform_link_symbol,
+                            _cg_color_utils_link_symbol ]
+...

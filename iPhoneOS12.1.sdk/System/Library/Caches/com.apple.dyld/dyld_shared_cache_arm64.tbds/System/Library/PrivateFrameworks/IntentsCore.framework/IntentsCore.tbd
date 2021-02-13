@@ -1,0 +1,26 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/IntentsCore.framework/IntentsCore
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _INCDeserializeNSUserActivityData,
+                            _INCExtensionErrorDomain,
+                            _INCExtensionTransactionStateTypeGetName,
+                            _INCExtractPreferencesResponseFromMetricsContext,
+                            _INCGenerateMetricsContextUsingAppPreferenceResponse,
+                            _INCIsCarPlayActive, _INCLaunchAppWithCompletion,
+                            _INCLaunchAppWithSockPuppet,
+                            _INCLaunchAppWithUserActivity,
+                            _INCRouteAudioToAirplayOutputDevices,
+                            _INCSerializeNSUserActivity,
+                            _IntentsCoreVersionNumber, _IntentsCoreVersionString ]
+    objc-classes:         [ _INCAppProxy, _INCExtensionConnection,
+                            _INCExtensionError, _INCExtensionManager,
+                            _INCExtensionPlugInBundleManager, _INCExtensionProxy,
+                            _INCExtensionRequest, _INCExtensionTransaction,
+                            _INCExtensionTransactionState,
+                            _INCLocalExtensionRegistry ]
+...

@@ -1,0 +1,34 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/AppleNeuralEngine.framework/AppleNeuralEngine
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _AppleNeuralEngineVersionNumber,
+                            _AppleNeuralEngineVersionString,
+                            __ANEDaemonInterface, __ANEDaemonInterfacePrivate,
+                            _kANEFCompilerOptionsFilenameKey,
+                            _kANEFIntermediateBufferHandle,
+                            _kANEFIntermediateBufferHandleKey,
+                            _kANEFModelANECIRValue, _kANEFModelCoreMLValue,
+                            _kANEFModelDescriptionKey,
+                            _kANEFModelInputSymbolIndexArrayKey,
+                            _kANEFModelInputSymbolsArrayKey,
+                            _kANEFModelIsEncrypted, _kANEFModelIsEncryptedKey,
+                            _kANEFModelLoadPerformanceStatsKey,
+                            _kANEFModelOutputSymbolIndexArrayKey,
+                            _kANEFModelOutputSymbolsArrayKey,
+                            _kANEFModelPreCompiledValue,
+                            _kANEFModelProcedureIDKey,
+                            _kANEFModelProcedureNameToIDMapKey,
+                            _kANEFModelProceduresArrayKey, _kANEFModelTypeKey,
+                            _kANEFPerformanceStatsMaskKey ]
+    objc-classes:         [ __ANEClient, __ANECloneHelper, __ANEDaemonConnection,
+                            __ANEDataReporter, __ANEDeviceController,
+                            __ANEDeviceInfo, __ANEErrors, __ANEHashEncoding,
+                            __ANEIOSurfaceObject, __ANELog, __ANEModel,
+                            __ANEPerformanceStats, __ANEProgramForEvaluation,
+                            __ANEQoSMapper, __ANERequest, __ANEStrings ]
+...

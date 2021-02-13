@@ -1,0 +1,33 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          "/System/Library/PrivateFrameworks/XPCObjects.framework/XPCObjects"
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _XPCConnectionHasEntitlement, _XPCLoggingIsEnabled,
+                            _XPCObjectsErrorDomain,
+                            _XPCObjectsErrorUserInfoKeyInvocation, __XPCLog ]
+    objc-classes:         [ _XPCDecoder, _XPCDetailedSignature, _XPCEncoder,
+                            _XPCEndpoint, _XPCMachSendRight, _XPCProxy ]
+    objc-ivars:           [ _XPCDecoder._allowedClasses,
+                            _XPCDecoder._currentObject,
+                            _XPCDecoder._decodedObjects, _XPCDecoder._encoding,
+                            _XPCDecoder._errorDescription,
+                            _XPCDecoder._requestedDecodedObjects,
+                            _XPCDetailedSignature._argumentCount,
+                            _XPCDetailedSignature._classes,
+                            _XPCEncoder._conditionalObjects,
+                            _XPCEncoder._currentObject,
+                            _XPCEncoder._encodedObjects, _XPCEncoder._encoding,
+                            _XPCEncoder._nextConditionalObjectID,
+                            _XPCEncoder._replacementObjects,
+                            _XPCEndpoint._endpoint, _XPCMachSendRight._sendRight,
+                            _XPCProxy._connection, _XPCProxy._errorHandler,
+                            _XPCProxy._internalQueue, _XPCProxy._invalidated,
+                            _XPCProxy._queue, _XPCProxy._remoteClass,
+                            _XPCProxy._remoteProtocol, _XPCProxy._target,
+                            _XPCProxy._useTraditionalEncoder,
+                            _XPCProxy._whitelistedClassNames ]
+...

@@ -1,0 +1,18 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/NotificationsUI.framework/NotificationsUI
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _NCInteractiveNotificationActionContextLaunchURLKey,
+                            _NCInteractiveNotificationServiceXPCInterface ]
+    objc-classes:         [ _NCBannerAccessoryHostViewController,
+                            _NCBannerAccessoryViewController,
+                            _NCContentHostViewController,
+                            _NCContentViewController,
+                            _NCInteractiveNotificationHostViewController,
+                            _NCInteractiveNotificationViewController,
+                            _NCViewServiceDescriptor ]
+...

@@ -1,0 +1,55 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          "/System/Library/PreferenceBundles/AccountSettings/ActiveSyncSettings.bundle/ActiveSyncSettings"
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _kPSOofServerData ]
+    objc-classes:         [ _ASDiagnosticsPSController, _ASExchangeIdTextView,
+                            _ASExchangeIdView, _ASSettingsAccountsUIController,
+                            _ASSettingsAdvancedAccountController,
+                            _ASSettingsAutoReplyTextCell,
+                            _ASSettingsCurrentTimeCell,
+                            _ASSettingsDataclassConfigurationViewController,
+                            _ASSettingsDateTimePickerCell,
+                            _ASSettingsHotmailAccountsUIController,
+                            _ASSettingsHotmailDataclassConfigurationViewController,
+                            _ASSettingsOofUIController, _ASSettingsPlugin ]
+    objc-ivars:           [ _ASExchangeIdView._idTextView,
+                            _ASExchangeIdView._label,
+                            _ASExchangeIdView._labelTopPadding,
+                            _ASExchangeIdView._sized,
+                            _ASExchangeIdView._textViewTopPadding,
+                            _ASSettingsAccountsUIController._autodiscoveryState,
+                            _ASSettingsAccountsUIController._diagsVisibleValue,
+                            _ASSettingsAccountsUIController._exchangeIdView,
+                            _ASSettingsAdvancedAccountController._account,
+                            _ASSettingsAdvancedAccountController._accountController,
+                            _ASSettingsCurrentTimeCell._cellFocusColor,
+                            _ASSettingsCurrentTimeCell._oldTextColor,
+                            _ASSettingsDataclassConfigurationViewController._DASettingsInfo,
+                            _ASSettingsDataclassConfigurationViewController._numberOfRetriedFetchingOutOfOfficeCounter,
+                            _ASSettingsDataclassConfigurationViewController._originalAccessoryView,
+                            _ASSettingsDataclassConfigurationViewController._outOfOfficeEnabled,
+                            _ASSettingsDataclassConfigurationViewController._outOfOfficeSpecifier,
+                            _ASSettingsDataclassConfigurationViewController._serverOutOfOfficeInformation,
+                            _ASSettingsDateTimePickerCell._datePicker,
+                            _ASSettingsOofUIController._ASOutOfOfficeDirtyStates,
+                            _ASSettingsOofUIController._ASOutOfOfficeEnabledState,
+                            _ASSettingsOofUIController._autoExternalReplyMessage,
+                            _ASSettingsOofUIController._autoReplyMessage,
+                            _ASSettingsOofUIController._autoReplyStartDate,
+                            _ASSettingsOofUIController._currentEndTimeSpecifier,
+                            _ASSettingsOofUIController._datePickerShowing,
+                            _ASSettingsOofUIController._externalMessageGroupSpecifiers,
+                            _ASSettingsOofUIController._externalMessageSpecifiers,
+                            _ASSettingsOofUIController._mailSwitchSpecifier,
+                            _ASSettingsOofUIController._messageSpecifiers,
+                            _ASSettingsOofUIController._oooExternalMessageAudience,
+                            _ASSettingsOofUIController._previousUserSelectedAutoReplyEndDate,
+                            _ASSettingsOofUIController._saveButton,
+                            _ASSettingsOofUIController._serverData,
+                            _ASSettingsOofUIController._userSelectedAutoReplyEndDate ]
+...

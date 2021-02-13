@@ -1,0 +1,46 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/iCloudQuota.framework/iCloudQuota
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _ICQActionParameterServerLinkIdentifierKey,
+                            _ICQActionParameterURLKey,
+                            _ICQActionParameterURLQueryParametersKey,
+                            _ICQCurrentOfferChangedNotification,
+                            _ICQGetFileLoggingEnabled, _ICQOpenURL,
+                            _ICQSetFileLoggingEnabled,
+                            __ICQActionForServerActionString,
+                            __ICQActionParametersForServerActionParameters,
+                            __ICQAppendServerMessageFormatAndLinks,
+                            __ICQBooleanForServerObjectDefault,
+                            __ICQBundleIDForKnownContainerID,
+                            __ICQContainerIDForKnownBundleID,
+                            __ICQLinkButtonForServerMessage,
+                            __ICQLinkForServerMessageParameter,
+                            __ICQLinkForServerMessageParameterWithOptions,
+                            __ICQLinkForServerValues,
+                            __ICQLinksForServerMessageParameters,
+                            __ICQLinksForServerMessageParametersWithOptions,
+                            __ICQLogInternal, __ICQLogInternalV,
+                            __ICQLogTrafficInternal, __ICQMessageForServerHeader,
+                            __ICQMessageWithFormat,
+                            __ICQOpenManageStorageInSettings,
+                            __ICQOpenPurchaseFlowInSettings,
+                            __ICQServerHeaderGetFormatAndLinks,
+                            __ICQStringFromAction,
+                            __ICQUpgradeCompletePageIdentifier,
+                            __ICQUpgradeOfferPageIdentifier,
+                            _iCloudQuotaVersionNumber, _iCloudQuotaVersionString,
+                            _kNonBreakingSpaceCharacter, _kSpaceCharacter ]
+    objc-classes:         [ _ICQAlert, _ICQLink, _ICQOffer, _ICQOfferManager,
+                            __ICQAlertSpecification, __ICQBannerSpecification,
+                            __ICQButtonSpecification, __ICQFlowSpecification,
+                            __ICQPageSpecification, __ICQPersistedOffer,
+                            __ICQServiceSpecification,
+                            __ICQUpgradeCompletePageSpecification,
+                            __ICQUpgradeFlowSpecification,
+                            __ICQUpgradeOfferPageSpecification ]
+...

@@ -1,0 +1,38 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/SplashBoard.framework/SplashBoard
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _SplashBoardVersionNumber, _SplashBoardVersionString,
+                            _XBApplicationLaunchImageServiceName,
+                            _XBCreateCroppedIOSurface,
+                            _XBCreateMainScreenSnapshot,
+                            _XBCreateMainScreenSnapshotBelowWindow,
+                            _XBCreateScaledIOSurface,
+                            _XBCreateUIImageFromIOSurfaceRotatingAndResizingIfNecessary,
+                            _XBImageTagForOrientation, _XBImageTagForSize,
+                            _XBLaunchAlwaysFullScreenKey,
+                            _XBLaunchImageProviderMessageKeyCompatibilityInfo,
+                            _XBLaunchImageProviderMessageKeyLaunchRequest,
+                            _XBLaunchImageProviderMessageKeyMessageType,
+                            _XBLaunchImageProviderMessageKeySnapshotFrame,
+                            _XBLaunchImageProviderMessageKeyWrapperContextID,
+                            _XBLaunchStoryboardNameKey,
+                            _XBRecentLocalePreferenceKey,
+                            _XBRecentScreenSizePreferenceKey,
+                            __IOSurfacePropertyDictionaryForRect,
+                            __XBBaseCachesPathForApplication,
+                            __XBCachedNSHomeDirectory, __XBCaptureContextToFile,
+                            __XBEnsureDirectoryExistsAtPath,
+                            __XBScaleSuffixForScale, __XBWriteDataToPath ]
+    objc-classes:         [ _XBApplicationController,
+                            _XBApplicationLaunchCompatibilityInfo,
+                            _XBLaunchImage, _XBLaunchImageContextHostView,
+                            _XBLaunchImageInfo, _XBLaunchImageProvider,
+                            _XBLaunchImageProviderClient, _XBLaunchStateRequest ]
+    objc-ivars:           [ _XBLaunchImageContextHostView._bundleID,
+                            _XBLaunchImageContextHostView._delegate ]
+...

@@ -1,0 +1,54 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/HelpKit.framework/HelpKit
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _HelpKitVersionNumber, _HelpKitVersionString,
+                            _gAPDStretchyImageCache,
+                            _kAPDCoachingTipsDefaultStringsTableName,
+                            _kAPDCoachingTipsGraphicsTableName,
+                            _kAPDCoachingTipsLinksTableName,
+                            _kAPDCoachingTipsMissingDefault,
+                            _kAPDLastDeviceLanguageKey,
+                            _kAPDLastDisplayedTopicIDKey,
+                            _kAPDLastSelectedLanguageIDKey,
+                            _kAPDLastSelectedLanguageIsRTLKey,
+                            _kAPDLastSelectedTopicLandscapeOffset,
+                            _kAPDLastSelectedTopicPortraitOffset,
+                            _kAPDLocaleChangedNotification,
+                            _kAPDLocaleStringFileFormat, _kCardinal2DebugKey,
+                            _kCardinalConfigAppNameKey,
+                            _kCardinalConfigAppVersionKey,
+                            _kCardinalConfigServerBasePath,
+                            _kCardinalConfigServerPadURLKey,
+                            _kCardinalConfigServerPhoneURLKey,
+                            _kCardinalConfigServerPodURLKey,
+                            _kDimissTopicAnimationSpeed,
+                            _kShowTopicAnimationSpeed,
+                            _kTOCViewAnimationOutMovement ]
+    objc-classes:         [ _APDAsyncURLConnection, _APDCardinalEncryptionUtils,
+                            _APDConnectionManager, _APDDataCache,
+                            _APDDataCacheController, _APDDataManager,
+                            _APDFeedbackCell, _APDGenericData, _APDGenericModel,
+                            _APDGlossaryViewController, _APDImageCacheController,
+                            _APDKVOManager, _APDLanguageCell,
+                            _APDLearnMoreViewController, _APDLocale,
+                            _APDLocalizationModel, _APDNavigationItem,
+                            _APDNavigationItemCell, _APDNavigationModel,
+                            _APDNavigationSection,
+                            _APDNavigationTableViewController,
+                            _APDNavigationTopic, _APDReachability, _APDSearchBar,
+                            _APDSearchModel, _APDSearchResultItem,
+                            _APDSearchViewController, _APDTOCViewController,
+                            _APDTopicViewController, _APDURLSession,
+                            _APDURLSessionRequest ]
+    objc-ivars:           [ _APDAsyncURLConnection.mCompleteBlock,
+                            _APDAsyncURLConnection.mData,
+                            _APDAsyncURLConnection.mErrorBlock,
+                            _APDNavigationTableViewController._tableViewDataArray,
+                            _APDReachability.localWiFiRef,
+                            _APDReachability.reachabilityRef ]
+...

@@ -1,0 +1,18 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /usr/lib/libAXSpeechManager.dylib
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _AXLanguageCanonicalFormToGeneralLanguage,
+                            _AXSpeechTransformText,
+                            _AXSpeechTransformTextWithLanguage, _VOTBundle,
+                            __AXSpeechReplaceEmoticons, __skinToneModifier,
+                            _isSpeakableEmojiString, _kAXPauseStringExtraLong,
+                            _kAXPauseStringMedium, _kAXPauseStringMediumLong,
+                            _kAXPauseStringShort, _kAXPauseStringSuperExtraLong ]
+    objc-classes:         [ _AVAlexSpeechSynthesisVoice, _AXEmojiUtilities,
+                            _AXSpeechAction, _AXSpeechManager ]
+...

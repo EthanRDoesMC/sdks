@@ -1,0 +1,25 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/Phoenix.framework/Phoenix
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _PhoenixVersionNumber, _PhoenixVersionString,
+                            _kCaesarShiftKey, _kMetadataFileExtension ]
+    objc-classes:         [ _AXPhoenixAnalytics, _AXPhoenixAnalyticsEvent,
+                            _AXPhoenixAssetMonitor, _AXPhoenixAssetPolicy,
+                            _AXPhoenixBlobbyUploader, _AXPhoenixClassifier,
+                            _AXPhoenixClassifierConfiguration,
+                            _AXPhoenixConfiguration, _AXPhoenixDataArchiver,
+                            _AXPhoenixDataCollectionManager,
+                            _AXPhoenixDataCollectionUtils, _AXPhoenixDataLogger,
+                            _AXPhoenixDataPackager, _AXPhoenixDeviceLockMonitor,
+                            _AXPhoenixDisplayStatusMonitor,
+                            _AXPhoenixEventMonitor, _AXPhoenixGestureDetector,
+                            _AXPhoenixMetadataLogger, _AXPhoenixMitigator,
+                            _AXPhoenixMitigatorConfiguration,
+                            _AXPhoenixWakeGestureMonitor, _AccelerometerBuffer,
+                            _AccelerometerData, _Prediction, _PredictionsBuffer ]
+...

@@ -1,0 +1,15 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/AXTapToSpeakTime.framework/AXTapToSpeakTime
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _AXStringFromTapToSpeakTimeGesture,
+                            _AXStringFromTapToSpeakTimeVoice,
+                            _AXTapToSpeakTimeVersionNumber,
+                            _AXTapToSpeakTimeVersionString ]
+    objc-classes:         [ _AXTapToSpeakTimeManager, _AXTapticChimeAsset,
+                            _AXTapticChimesScheduler, _AXTimeOutputPreferences ]
+...

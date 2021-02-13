@@ -1,0 +1,13 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /usr/lib/libquic.dylib
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _quic_enable_nw_verbose_logging,
+                            _quic_enable_verbose_logging,
+                            _quic_fillout_definition_callbacks,
+                            _quic_get_test_identity ]
+...

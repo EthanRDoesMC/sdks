@@ -1,0 +1,43 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PreferenceBundles/MobileSlideShowSettings.bundle/MobileSlideShowSettings
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _MSSIsWiFiAvailable, _MSSIsWiFiEnabled,
+                            _MSSStartObserveNetworkChanges,
+                            _MSSStopObservingNetworkChanges,
+                            _kCPLNonLocalOriginalsCountKey,
+                            _kCPLNonLocalOriginalsFileSizeKey,
+                            _kCPLNonLocalOriginalsPhotoCountKey,
+                            _kCPLNonLocalOriginalsVideoCountKey ]
+    objc-classes:         [ _MSSPhotoStreamAlerts,
+                            _MSSPhotoStreamInAccountSettingsController,
+                            _MSSSettingsController, _PLCloudProgressFooterView,
+                            _PLFooterViewUpdater ]
+    objc-ivars:           [ _MSSSettingsController._accountModificationAllowed,
+                            _MSSSettingsController._allCloudPhotosSpecifiers,
+                            _MSSSettingsController._avalancheAllowed,
+                            _MSSSettingsController._cloudPhotosEnabled,
+                            _MSSSettingsController._displayedSpinner,
+                            _MSSSettingsController._iCloudPhotoLibraryConditionalSpecifiers,
+                            _MSSSettingsController._iCloudPhotosSwitchSpecifier,
+                            _MSSSettingsController._inAirplaneMode,
+                            _MSSSettingsController._observingNetworkChanges,
+                            _MSSSettingsController._originalCellFlag,
+                            _MSSSettingsController._originalWiFiFlag,
+                            _MSSSettingsController._photoStreamAvalancheSpecifiers,
+                            _MSSSettingsController._photoStreamEnabled,
+                            _MSSSettingsController._photoStreamSwitchSpecifiers,
+                            _MSSSettingsController._radiosPreferences,
+                            _MSSSettingsController._sharedStreamsEnabled,
+                            _MSSSettingsController._sharedStreamsSwitchSpecifiers,
+                            _MSSSettingsController._showAirplaneModeAlertWhenViewLoads,
+                            _MSSSettingsController._showWifiUnavailableWhenViewLoads,
+                            _MSSSettingsController._shownFromAccountSettings,
+                            _MSSSettingsController._stoppedObservingNetworkChangesBecauseUIDisappeared,
+                            _MSSSettingsController._termsController,
+                            _MSSSettingsController._wifiAvailable ]
+...

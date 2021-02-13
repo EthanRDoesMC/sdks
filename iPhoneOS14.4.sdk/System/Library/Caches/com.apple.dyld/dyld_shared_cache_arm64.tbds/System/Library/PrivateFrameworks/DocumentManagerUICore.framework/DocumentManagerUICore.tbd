@@ -1,0 +1,59 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/DocumentManagerUICore.framework/DocumentManagerUICore
+current-version:       200.4.1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _DOCBackgroundColorForTagColor,
+                            _DOCConstraintWithPriority,
+                            _DOCConstraintsToCenterWithSuperview,
+                            _DOCConstraintsToResizeViewsWithSuperview,
+                            _DOCConstraintsToResizeWithReferenceView,
+                            _DOCConstraintsToResizeWithSuperview,
+                            _DOCConstraintsToResizeWithSuperviewMargins,
+                            _DOCConstraintsToResizeWithSuperviewSafeAreaInsets,
+                            _DOCDocumentPickerExtensionUpdateWithConfiguration,
+                            _DOCDotViewColorForTagColor,
+                            _DOCIsKindOfContextMenuInteraction_SPI,
+                            _DOCNewThumbnailFittingImageView, _DOCNoMaxWidth,
+                            _DOCPrimaryColorForTagColor,
+                            _DOCShareInfoThumbnailForFPItem,
+                            _DOCShareInfoThumbnailSizeForSizeClass,
+                            _DOCSkipConstraint,
+                            _DOCTagEditorTagsDidChangeNotification,
+                            _DOCTagViewCornerRadius, _DOCTagViewHorizontalInset,
+                            _DOCTagViewVerticalInset,
+                            _DocumentManagerUICoreVersionNumber,
+                            _DocumentManagerUICoreVersionString,
+                            _createICQBannerView,
+                            _doc_UTTypeCreateSuggestedFilename,
+                            _shouldShowICQBannerViewForOffer ]
+    objc-classes:         [ _DOCAddTagView, _DOCBorderedFittingImageView,
+                            _DOCByteCountFormatter, _DOCChainedTagsView,
+                            _DOCDateFormatter, _DOCDateParser,
+                            _DOCDeterminateProgressRingView,
+                            _DOCFileProviderDomainMonitor, _DOCFittingImageView,
+                            _DOCGhostRingView, _DOCIconPromise,
+                            _DOCIconThumbnailRequest,
+                            _DOCIndeterminateProgressRingView,
+                            _DOCItemActionResolver,
+                            _DOCItemDecorationImageLoader, _DOCItemThumbnail,
+                            _DOCItemThumbnailBatchEntry, _DOCLabel,
+                            _DOCLargeTagView, _DOCPlainFolderThumbnailRequest,
+                            _DOCProgressView, _DOCRegularItemThumbnailRequest,
+                            _DOCSeparatorView, _DOCStackedThumbnailView,
+                            _DOCStaticBadgedFolderThumbnailRequest,
+                            _DOCTagCheckableDotView, _DOCTagCheckmarkView,
+                            _DOCTagColorPicker, _DOCTagDotView,
+                            _DOCTagEditorColorPickerCell, _DOCTagEditorTagCell,
+                            _DOCTagEditorTextFieldCell,
+                            _DOCTagEditorViewController, _DOCTagView,
+                            _DOCThumbnailBatchingToken, _DOCThumbnailCache,
+                            _DOCThumbnailDescriptor,
+                            _DOCThumbnailFittingImageView,
+                            _DOCThumbnailFolderIcon, _DOCThumbnailGenerator,
+                            _DOCThumbnailKey, _DOCThumbnailRequest,
+                            _DOCVisualEffectLabel ]
+...

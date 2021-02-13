@@ -1,0 +1,18 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          "/System/Library/PrivateFrameworks/Accessibility.framework/Frameworks/AccessibilityUIUtilities.framework/AccessibilityUIUtilities"
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _AXLayoutPriorityIgnored,
+                            _AXResistAllCompressingAndStretching,
+                            _AXUIAllKeyboardWindows, _AXUIKeyboardIsOnScreen,
+                            _AXUIKeyboardScreenFrame, _AXUIKeyboardWindow,
+                            _AXUILocalizedStringForKey,
+                            _AXUILocalizedTitleForZoomLensEffect,
+                            _UITextInputNextToUseInputModeDidChangeKey,
+                            _UITextInputNextToUseInputModeDidChangeNotification ]
+    objc-classes:         [ _AXUIReachabilityHelper ]
+...

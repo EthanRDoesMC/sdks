@@ -1,0 +1,50 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          "/System/Library/PrivateFrameworks/PhotosFormats.framework/PhotosFormats"
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _PFAssetAdjustmentsBaseVersionKey,
+                            _PFAssetAdjustmentsDataBlobKey,
+                            _PFAssetAdjustmentsFormatIdentifierKey,
+                            _PFAssetAdjustmentsFormatVersionKey ]
+    objc-classes:         [ _PFAssetAdjustments, _PFSlowMotionConfiguration,
+                            _PFSlowMotionRampConfiguration,
+                            _PFSlowMotionTimeRangeMapper,
+                            _PFSlowMotionTimeRangeMapperScaledRegion,
+                            _PFSlowMotionUtilities, _PFVideoAVObjectBuilder,
+                            _PFVideoAdjustments ]
+    objc-ivars:           [ _PFAssetAdjustments._propertyListDictionary,
+                            _PFSlowMotionConfiguration._rampDown,
+                            _PFSlowMotionConfiguration._rampUp,
+                            _PFSlowMotionConfiguration._volumeDuringRampToSlowMotion,
+                            _PFSlowMotionConfiguration._volumeDuringSlowMotion,
+                            _PFSlowMotionRampConfiguration._exportNumIntermediateSteps,
+                            _PFSlowMotionRampConfiguration._exportRampCurveExponent,
+                            _PFSlowMotionRampConfiguration._introTime,
+                            _PFSlowMotionRampConfiguration._outroTime,
+                            _PFSlowMotionRampConfiguration._playbackNumIntermediateSteps,
+                            _PFSlowMotionRampConfiguration._playbackRampCurveExponent,
+                            _PFSlowMotionRampConfiguration._rampTime,
+                            _PFSlowMotionRampConfiguration._volumeSuppressionIntroTime,
+                            _PFSlowMotionRampConfiguration._volumeSuppressionOutroTime,
+                            _PFSlowMotionTimeRangeMapper._originalLengths,
+                            _PFSlowMotionTimeRangeMapper._scaledLengths,
+                            _PFSlowMotionTimeRangeMapper._scaledRegions,
+                            _PFSlowMotionTimeRangeMapperScaledRegion._rampInEndTime,
+                            _PFSlowMotionTimeRangeMapperScaledRegion._rampInStartTime,
+                            _PFSlowMotionTimeRangeMapperScaledRegion._rampOutEndTime,
+                            _PFSlowMotionTimeRangeMapperScaledRegion._rampOutStartTime,
+                            _PFSlowMotionTimeRangeMapperScaledRegion._rate,
+                            _PFVideoAVObjectBuilder.__finalAsset,
+                            _PFVideoAVObjectBuilder.__finalAudioMix,
+                            _PFVideoAVObjectBuilder.__finalVideoComposition,
+                            _PFVideoAVObjectBuilder.__timeRangeMapperForExport,
+                            _PFVideoAVObjectBuilder.__timeRangeMapperForPlayback,
+                            _PFVideoAVObjectBuilder._videoAdjustments,
+                            _PFVideoAVObjectBuilder._videoAsset,
+                            _PFVideoAdjustments._slowMotionRate,
+                            _PFVideoAdjustments._slowMotionTimeRange ]
+...

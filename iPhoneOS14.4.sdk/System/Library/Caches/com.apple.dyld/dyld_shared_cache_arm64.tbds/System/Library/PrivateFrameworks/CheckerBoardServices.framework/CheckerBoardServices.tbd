@@ -1,0 +1,24 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/CheckerBoardServices.framework/CheckerBoardServices
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _CheckerBoardLogHandleForCategory,
+                            _CheckerBoardServicesVersionNumber,
+                            _CheckerBoardServicesVersionString, _kCellIdentifier,
+                            _kCheckerBoardIdentifier,
+                            _kCheckerBoardRebootEntitlement,
+                            _kCheckerBoardRebootReason,
+                            _kCheckerBoardRemoteAlertsEntitlement,
+                            _kCheckerBoardRemoteServerMachName,
+                            _kCheckerBoardServicesEntitlement,
+                            _kCheckerBoardSystemServicesEntitlement,
+                            _kOneTimeBootCommandCheckerBoard,
+                            _kOneTimeBootCommandNVRamVariable ]
+    objc-classes:         [ _CBSClient, _CBSNVRamUtil, _CBSPaneViewController,
+                            _CBSProxyServer, _CBSTableViewController, _CBSUIAlert,
+                            _CBSUIAlertAction, _CBSUtilities ]
+...

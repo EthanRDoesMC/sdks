@@ -1,0 +1,25 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/Cornobble.framework/Cornobble
+current-version:       17
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _CRNAxisFromScrollDirection,
+                            _CRNCGPointAdvanceInDirectionByAmount,
+                            _CRNCGRectGetMidpoint,
+                            _CRNCGRectGetMidpointAlongSide,
+                            _CRNContentSizeAlongAxis, _CRNContentSizeInDirection,
+                            _CRNOppositeDirectionFrom,
+                            _CRNPredominantAxisOfContentOf,
+                            _CRNQuadrantOfContentOffsetFor, _CRNSizeAlongAxis,
+                            _CRNViewFrameInWindow ]
+    objc-classes:         [ _CRNBlockScrollTestParameters,
+                            _CRNFluidSplitViewInteraction,
+                            _CRNGroupScrollTestParameters,
+                            _CRNOscillationScrollTestParameters,
+                            _CRNPagingScrollTestParameters,
+                            _CRNStandardScrollTestParameters,
+                            _CornobbleTestRunner ]
+...

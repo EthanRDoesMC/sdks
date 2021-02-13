@@ -1,0 +1,21 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/CoreSurfaceAccelerator.framework/CoreSurfaceAccelerator
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _CoreSurfaceAcceleratorAbortCaptures,
+                            _CoreSurfaceAcceleratorAbortTransfers,
+                            _CoreSurfaceAcceleratorCaptureSurface,
+                            _CoreSurfaceAcceleratorCreate,
+                            _CoreSurfaceAcceleratorGetRunLoopSource,
+                            _CoreSurfaceAcceleratorGetTypeID,
+                            _CoreSurfaceAcceleratorTransferSurface,
+                            _CoreSurfaceAcceleratorTransferSurfaceWithSwap,
+                            _kCoreSurfaceAcceleratorSignalSwapFramebufferIDKey,
+                            _kCoreSurfaceAcceleratorSignalSwapLayerIDKey,
+                            _kCoreSurfaceAcceleratorSignalSwapSwapIDKey,
+                            _kCoreSurfaceAcceleratorSymmetricTransformKey ]
+...

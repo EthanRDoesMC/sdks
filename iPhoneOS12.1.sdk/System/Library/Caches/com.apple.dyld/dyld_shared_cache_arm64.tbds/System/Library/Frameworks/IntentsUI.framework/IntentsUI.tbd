@@ -1,0 +1,25 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/Frameworks/IntentsUI.framework/IntentsUI
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _INUIRemoteViewControllerErrorDomain,
+                            _IntentsUIVersionNumber, _IntentsUIVersionString,
+                            __INUIRemoteViewControllerErrorDomain,
+                            __INUIUtilitiesBestFittingSizeForSizeBySystemVersionDictionary ]
+    objc-classes:         [ _INUIAddVoiceShortcutButton,
+                            _INUIAddVoiceShortcutViewController,
+                            _INUIAppIntentDeliverer,
+                            _INUIEditVoiceShortcutViewController,
+                            _INUIExtensionRequestInfo,
+                            _INUIExtensionViewControllerConfiguration,
+                            _INUIImageLoader, _INUIImageServiceConnection,
+                            _INUIInterfaceSection,
+                            _INUIPortableImageLoaderHelper,
+                            _INUIRemoteViewController,
+                            _INUISearchFoundationImageAdapter,
+                            __INUIExtensionContextState ]
+...

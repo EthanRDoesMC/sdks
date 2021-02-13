@@ -1,0 +1,26 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/SiriObservation.framework/SiriObservation
+current-version:       0
+compatibility-version: 0
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _SOAlarmKey, _SOAlarmRepeatScheduleGetFromNames,
+                            _SOAlarmRepeatScheduleGetNames,
+                            _SOAlarmRepeatScheduleValidate, _SOAlarmsSnapshotKey,
+                            _SOErrorDomain, _SOTimerKey, _SOTimerStateGetFromName,
+                            _SOTimerStateGetIsValid,
+                            _SOTimerStateGetIsValidAndSpecified,
+                            _SOTimerStateGetName, _SOTimerTypeGetFromName,
+                            _SOTimerTypeGetIsValid,
+                            _SOTimerTypeGetIsValidAndSpecified,
+                            _SOTimerTypeGetName, _SOTimersSnapshotKey,
+                            _SiriObservationVersionNumber,
+                            _SiriObservationVersionString ]
+    objc-classes:         [ _SOAlarm, _SOAlarmsPublisher, _SOAlarmsSnapshot,
+                            _SOPublisherCache, _SOTimer, _SOTimersPublisher,
+                            _SOTimersSnapshot, __SOAlarmMutation,
+                            __SOAlarmsSnapshotMutation, __SOTimerMutation,
+                            __SOTimersSnapshotMutation ]
+...

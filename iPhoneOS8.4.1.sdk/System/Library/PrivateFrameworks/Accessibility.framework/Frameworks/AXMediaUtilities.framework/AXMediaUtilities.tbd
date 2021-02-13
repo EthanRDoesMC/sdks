@@ -1,0 +1,31 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          "/System/Library/PrivateFrameworks/Accessibility.framework/Frameworks/AXMediaUtilities.framework/AXMediaUtilities"
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _AXMediaUtilitiesVersionNumber,
+                            _AXMediaUtilitiesVersionString,
+                            _UIAXPhotoDescriptionString,
+                            _UIAXPhotoFacesDescription,
+                            _UIAccessibilityAddMetadataDescriptionToImage,
+                            _UIAccessibilityAddMetadataDescriptionToVideo,
+                            _UIAccessibilityEmojiDescription,
+                            _UIAccessibilityIsImageScreenshot,
+                            _UIAccessibilityMetadataDescriptionForImage,
+                            _UIAccessibilityMetadataDescriptionForVideo,
+                            _UITextInputNextToUseInputModeDidChangeKey,
+                            _UITextInputNextToUseInputModeDidChangeNotification,
+                            __eyesLocSuffixForSuffix, __handLocSuffixForSuffix,
+                            __heartLocSuffixForSuffix, __mouthLocSuffixForSuffix ]
+    objc-classes:         [ _AXFaceDetection, _FaceCoreLightWrapper, _FaceWrapper ]
+    objc-ivars:           [ _FaceCoreLightWrapper.lastDetectedFaces,
+                            _FaceWrapper._blinking, _FaceWrapper._bounds,
+                            _FaceWrapper._imageHeight,
+                            _FaceWrapper._imageMirrored,
+                            _FaceWrapper._imageWidth,
+                            _FaceWrapper._screenOrientation, _FaceWrapper._size,
+                            _FaceWrapper._smiling ]
+...

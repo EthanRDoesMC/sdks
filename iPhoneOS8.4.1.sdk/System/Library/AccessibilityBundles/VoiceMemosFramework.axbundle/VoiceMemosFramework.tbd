@@ -1,0 +1,29 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          "/System/Library/AccessibilityBundles/VoiceMemosFramework.axbundle/VoiceMemosFramework"
+current-version:       0
+compatibility-version: 0
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _AXStringForDuration,
+                            _UITextInputNextToUseInputModeDidChangeKey,
+                            _UITextInputNextToUseInputModeDidChangeNotification,
+                            __Failover, _accessibilityLocalizedString ]
+    objc-classes:         [ _AXVoiceMemosFrameworkGlue,
+                            _AXWaveformSelectionBarElement,
+                            _RCAudioRouteBarButtonAccessibility,
+                            _RCEditMemoViewControllerAccessibility,
+                            _RCRecorderStateButtonAccessibility,
+                            _RCUILabelAccessibility,
+                            _RCWaveformSelectionOverlayAccessibility,
+                            ___RCAudioRouteBarButtonAccessibility_super,
+                            ___RCEditMemoViewControllerAccessibility_super,
+                            ___RCRecorderStateButtonAccessibility_super,
+                            ___RCUILabelAccessibility_super,
+                            ___RCWaveformSelectionOverlayAccessibility_super,
+                            ___VoiceMemosFrameworkAccessibility ]
+    objc-ivars:           [ _AXWaveformSelectionBarElement._adjustsStartTime,
+                            ___VoiceMemosFrameworkAccessibility.__CGRect__,
+                            ___VoiceMemosFrameworkAccessibility.__RCTimeRange__ ]
+...

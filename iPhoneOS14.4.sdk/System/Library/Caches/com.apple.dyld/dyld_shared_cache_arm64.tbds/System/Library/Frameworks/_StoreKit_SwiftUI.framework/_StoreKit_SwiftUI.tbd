@@ -1,0 +1,11 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/Frameworks/_StoreKit_SwiftUI.framework/_StoreKit_SwiftUI
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _$s7SwiftUI4ViewP010_StoreKit_aB0E03appD7Overlay11isPresented13configurationQrAA7BindingVySbG_So22SKOverlayConfigurationCyctF,
+                            _$s7SwiftUI4ViewP010_StoreKit_aB0E03appD7Overlay11isPresented13configurationQrAA7BindingVySbG_So22SKOverlayConfigurationCyctFQOMQ ]
+...

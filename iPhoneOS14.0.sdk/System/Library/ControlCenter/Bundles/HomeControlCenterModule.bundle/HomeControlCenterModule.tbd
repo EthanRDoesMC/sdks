@@ -1,0 +1,28 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios-simulator
+install-name:          "/System/Library/ControlCenter/Bundles/HomeControlCenterModule.bundle/HomeControlCenterModule"
+current-version:       0
+compatibility-version: 0
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _HUCCPerformCommonInitialization,
+                            _HUCCPreferencesDidChangeNotification,
+                            _HUCCSizeSubclassForModuleViewWidth,
+                            _HUCCUpdateRunningState,
+                            _HUControlCenterViewSizeSubclass,
+                            __HUCCLayoutStyleForModuleViewWidth ]
+    objc-classes:         [ _HUCCControlCenterModule,
+                            _HUCCDashboardContainerViewController,
+                            _HUCCGridItemManager, _HUCCGridViewController,
+                            _HUCCHomeButton, _HUCCLockStateHandler,
+                            _HUCCModuleContentViewController,
+                            _HUCCModuleExpandingTransition, _HUCCModuleView,
+                            _HUCCOpenURLHandler, _HUCCPageItemManager,
+                            _HUCCPreferences, _HUCCRemoteDashboardViewController,
+                            _HUCCSmartContainerView,
+                            _HUCCSmartGridContentViewController,
+                            _HUCCSmartGridItemManager, _HUCCSmartGridLayout,
+                            _HUCCSmartGridPropertyAnimator,
+                            _HUCCSmartGridViewController, _HUCCWarningLabelView ]
+...

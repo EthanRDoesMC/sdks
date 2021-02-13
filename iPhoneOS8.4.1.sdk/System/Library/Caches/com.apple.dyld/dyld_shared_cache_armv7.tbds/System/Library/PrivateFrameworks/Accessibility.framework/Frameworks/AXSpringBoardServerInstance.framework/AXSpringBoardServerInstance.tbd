@@ -1,0 +1,61 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/Accessibility.framework/Frameworks/AXSpringBoardServerInstance.framework/AXSpringBoardServerInstance
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _AXSBLockScreenViewController,
+                            _AXSBSEventObserverEventLockedAndDimmed,
+                            _AXSBUIControllerSharedInstance,
+                            _AXSpringBoardGlueLockScreenViewControllerInstance,
+                            _AXSpringBoardGlueSBLockScreenControllerInstance,
+                            _AXSpringBoardServerInstanceDidInitializeNotification,
+                            _SBAXBacklightControllerInstance,
+                            _SBAXLocalizedString,
+                            _SBMediaNowPlayingChangedNotification,
+                            _SBOrientationLockChangedNotification,
+                            _UITextInputNextToUseInputModeDidChangeKey,
+                            _UITextInputNextToUseInputModeDidChangeNotification,
+                            __UIAXLoadVisualAlertsBundle,
+                            __UIActionSheetDismissDuration ]
+    objc-classes:         [ _AXAlertAction, _AXSBAlertController,
+                            _AXSBAssistantController,
+                            _AXSBHearingAidDeviceController,
+                            _AXSBLockScreenManager,
+                            _AXSBScreenShotterAccessibility,
+                            _AXSBServerHelperBulletinWindowController,
+                            _AXSBServerHelperSBUIController,
+                            _AXSBServerHelperSpringBoard,
+                            _AXSBServerSBHUDController, _AXSBServerUIApplication,
+                            _AXSBServerVolumeControl,
+                            _AXSBUIModalItemContentViewSafeCategory,
+                            _AXSBUIWindow, _AXSBVoiceOverShakeMessage,
+                            _AXSBVoiceOverSwipeDetectorView,
+                            _AXSBWorkspaceAccessibility,
+                            _AXSB_UIAlertControllerCollectionViewCellSafeCategory,
+                            _AXSB_UIAlertControllerSafeCategory,
+                            _AXSB_UIModalItemTableViewCellSafeCategory,
+                            _AXSecureWindow, _AXSpringBoardServerHelper,
+                            _AXSpringBoardSettingsLoader,
+                            _AXTripleClickTableViewCell,
+                            __AXSpringBoardServerInstance,
+                            ___AXSBAssistantController_super,
+                            ___AXSBLockScreenManager_super,
+                            ___AXSBScreenShotterAccessibility_super,
+                            ___AXSBServerHelperBulletinWindowController_super,
+                            ___AXSBServerHelperSBUIController_super,
+                            ___AXSBServerHelperSpringBoard_super,
+                            ___AXSBServerSBHUDController_super,
+                            ___AXSBServerUIApplication_super,
+                            ___AXSBServerVolumeControl_super,
+                            ___AXSBUIModalItemContentViewSafeCategory_super,
+                            ___AXSBUIWindow_super,
+                            ___AXSBWorkspaceAccessibility_super,
+                            ___AXSB_UIAlertControllerCollectionViewCellSafeCategory_super,
+                            ___AXSB_UIAlertControllerSafeCategory_super,
+                            ___AXSB_UIModalItemTableViewCellSafeCategory_super ]
+    objc-ivars:           [ _AXTripleClickTableViewCell._bottomLine,
+                            _AXTripleClickTableViewCell._topLine ]
+...

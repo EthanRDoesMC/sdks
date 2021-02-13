@@ -1,0 +1,46 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/ClassroomKit.framework/ClassroomKit
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    re-exports:           [ /System/Library/PrivateFrameworks/AppSupport.framework/AppSupport,
+                            /System/Library/PrivateFrameworks/DeviceManagement.framework/DeviceManagement ]
+    symbols:              [ _CRKClassSessionBrowserSessionFlagsKey,
+                            _CRKClassSessionBrowserStateKey,
+                            _CRKClassSessionBrowserTransportKey,
+                            _CRKClassSessionBrowserUnenrolledKey,
+                            _CRKClassSessionServiceType,
+                            _CRKClassroomAdvertisementFlags,
+                            _CRKClassroomServicePortNumber, _CRKErrorDomain,
+                            _CRKErrorWithCodeAndUserInfo, _CRKLoggingInitialize,
+                            _ClassroomKitVersionNumber,
+                            _ClassroomKitVersionString ]
+    objc-classes:         [ _CRKBookmark, _CRKBrowseForNearbyDevicesRequest,
+                            _CRKClassSession, _CRKClassSessionAdvertiser,
+                            _CRKClassSessionBeacon,
+                            _CRKClassSessionBeaconBrowser,
+                            _CRKClassSessionBrowser, _CRKClassroomConfiguration,
+                            _CRKDevice, _CRKEmptyRequest,
+                            _CRKFetchActiveControlGroupIdentifierRequest,
+                            _CRKFetchActiveControlGroupIdentifierResultObject,
+                            _CRKFetchClassroomConfigurationRequest,
+                            _CRKFetchClassroomConfigurationResultObject,
+                            _CRKFetchDevicesRequest,
+                            _CRKFetchDevicesResultObject,
+                            _CRKFetchInstructorEndpointRequest,
+                            _CRKFetchInstructorEndpointResultObject,
+                            _CRKFetchResourceRequest,
+                            _CRKFetchResourceResultObject,
+                            _CRKFetchSafariBookmarksRequest,
+                            _CRKFetchSafariBookmarksResultObject,
+                            _CRKFetchServerResourceOperation,
+                            _CRKFetchStudentDaemonStateRequest,
+                            _CRKFetchStudentDaemonStateResultObject,
+                            _CRKInstructorExtensionContext, _CRKKeychainUtility,
+                            _CRKNetworkPowerAssertion, _CRKRemoteDeviceRequest,
+                            _CRKSetActiveControlGroupRequest,
+                            _CRKStudentDaemonProxy, __CRKErrorHelper ]
+...

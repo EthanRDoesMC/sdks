@@ -1,0 +1,46 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/HeartHealth.framework/HeartHealth
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _HDHRCardioFitnessStorePluginServerInterface,
+                            _HKHRCardioFitnessAgeThreshold,
+                            _HKHRCardioFitnessAllowedCountryCodesByVersion,
+                            _HKHRCardioFitnessAnalyticsBooleanNumberErrorSentinel,
+                            _HKHRCardioFitnessAnalyticsBoundedIntegerErrorSentinel,
+                            _HKHRCardioFitnessChartContextQueryName,
+                            _HKHRCardioFitnessDetailRoomBaseLink,
+                            _HKHRCardioFitnessEventOnboardingDeepLink,
+                            _HKHRCardioFitnessFeatureStatusManagerClientInterface,
+                            _HKHRCardioFitnessFeatureStatusManagerServerIdentifier,
+                            _HKHRCardioFitnessFeatureStatusManagerServerInterface,
+                            _HKHRCardioFitnessShouldSkipHardwareCheck,
+                            _HKHRCardioFitnessStoreInterface,
+                            _HKHRCardioFitnessStoreServerIdentifier,
+                            _HKHRHeartHealthBundle, _HKHeartRateLocalizedString,
+                            _HKHeartRatePluginIdentifier,
+                            __HKHeartRateSettingsLocalizationTable,
+                            __HKHeartSettingsBradycardiaThresholdHeartRateDefault,
+                            __HKHeartSettingsBradycardiaThresholdNumberOfMinutes,
+                            __HKHeartSettingsTachycardiaThresholdHeartRateDefault,
+                            __HKHeartSettingsTachycardiaThresholdNumberOfMinutes ]
+    objc-classes:         [ _HKHRCardioFitnessAnalyticsClientSignalSource,
+                            _HKHRCardioFitnessAnalyticsDaemonSignalSource,
+                            _HKHRCardioFitnessAnalyticsDailyEventDataSource,
+                            _HKHRCardioFitnessAnalyticsManager,
+                            _HKHRCardioFitnessAnalyticsResult,
+                            _HKHRCardioFitnessAnalyticsSignalSource,
+                            _HKHRCardioFitnessBridgeSettings,
+                            _HKHRCardioFitnessFeatureStatusManager,
+                            _HKHRCardioFitnessFooter,
+                            _HKHRCardioFitnessNotificationSettingsFactory,
+                            _HKHRCardioFitnessNotificationStatus,
+                            _HKHRCardioFitnessOnboardingFlowManager,
+                            _HKHRCardioFitnessOnboardingStatus,
+                            _HKHRCardioFitnessStore,
+                            _HKHRCardioFitnessWatchSettings,
+                            __HKHeartSettingsUtilities ]
+...

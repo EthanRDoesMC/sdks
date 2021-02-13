@@ -1,0 +1,21 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/PreferencesUI.framework/PreferencesUI
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    allowed-clients:      [ Preferences, PreferencesMigrator, indexSettingsApp ]
+    symbols:              [ _PSUILogForCategory ]
+    objc-classes:         [ _PSBiometricPINController,
+                            _PSEnrollContainerViewController,
+                            _PSEnrollmentNavigationController,
+                            _PSUIBiometricController,
+                            _PSUIPasscodeLockController,
+                            _PSUIPrefsListController, _PSUIPrefsRootController ]
+    objc-ivars:           [ _PSUIPasscodeLockController._policyDictatedMaxFailedAttempts,
+                            _PSUIPasscodeLockController._voiceDialGroupSpecifier,
+                            _PSUIPasscodeLockController._voiceDialSpecifier,
+                            _PSUIPrefsRootController._rootListController ]
+...

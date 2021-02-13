@@ -1,0 +1,20 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          "/System/Library/PrivateFrameworks/FactoryServicesConnectionMobile.framework/FactoryServicesConnectionMobile"
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    objc-classes:         [ _FactoryServiceConnectionEndPoint,
+                            _FactoryServiceConnectionHelper ]
+    objc-ivars:           [ _FactoryServiceConnectionEndPoint._Listener,
+                            _FactoryServiceConnectionEndPoint._connectionInterruptionHandler,
+                            _FactoryServiceConnectionEndPoint._connectionInvalidationHandler,
+                            _FactoryServiceConnectionEndPoint._delegate,
+                            _FactoryServiceConnectionEndPoint._isConnected,
+                            _FactoryServiceConnectionEndPoint._name,
+                            _FactoryServiceConnectionEndPoint._serviceName,
+                            _FactoryServiceConnectionEndPoint._xpcConnection,
+                            _FactoryServiceConnectionHelper._activeServiceConnectionList ]
+...

@@ -1,0 +1,33 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/AuthKitUI.framework/AuthKitUI
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _AKSecondFactorCodeEntryContentViewControllerDidEnterCodeNotification,
+                            _AKServerPresentationActionModal,
+                            _AKServerPresentationActionPush,
+                            _AuthKitUIVersionNumber, _AuthKitUIVersionString,
+                            __AKUIMainBundle ]
+    objc-classes:         [ _AKAppleIDAuthenticationInAppContext,
+                            _AKAppleIDAuthenticationInAppExtensionContext,
+                            _AKAppleIDAuthenticationPurpleBuddyContext,
+                            _AKAppleIDAuthenticationUISurrogateContext,
+                            _AKAppleIDAuthenticationWatchBuddyContext,
+                            _AKAppleIDObjectModelFieldExtractor,
+                            _AKAppleIDServerUIContextController,
+                            _AKAppleIDServerUIDataHarvester,
+                            _AKBaseSignInViewController,
+                            _AKBasicLoginAlertController,
+                            _AKBasicLoginContentViewController,
+                            _AKBasicLoginContentViewControllerContainerView,
+                            _AKCodeEntryView, _AKIDPHandler,
+                            _AKIDPProvidedSignInViewController,
+                            _AKInlineSignInViewController,
+                            _AKModalSignInViewController, _AKRoundedButton,
+                            _AKSecondFactorCodeEntryContentViewController,
+                            _AKTapToSignInViewController, _AKTextField,
+                            _AKURLRequestApprover, __AKInsetTextField ]
+...

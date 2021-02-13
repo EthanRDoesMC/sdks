@@ -1,0 +1,28 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/WorkflowUIServices.framework/WorkflowUIServices
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _WFCGColorIsPerceivedLight,
+                            _WFCGColorPerceivedLightness,
+                            _WFCreateShortcutsSmallWidgetConfigurationIntent,
+                            _WFCreateShortcutsWidgetConfigurationIntent,
+                            _WFLogCategoryWidgetConfiguration,
+                            _WFWidgetColorsFromBundle,
+                            _WFWidgetConfigurationHostXPCInterface,
+                            _WFWidgetConfigurationServiceXPCInterface,
+                            _WFWidgetGetDefaultColors,
+                            _WFWidgetSizeClassGetDescription ]
+    objc-classes:         [ _WFWidgetConfigurationCardView,
+                            _WFWidgetConfigurationContainerView,
+                            _WFWidgetConfigurationOptions,
+                            _WFWidgetConfigurationRequest,
+                            _WFWidgetConfigurationResponse,
+                            _WFWidgetConfigurationView,
+                            _WFWidgetConfigurationViewController,
+                            _WFWidgetOptions, _WFWidgetViewController,
+                            _WFWorkflowProgressView ]
+...

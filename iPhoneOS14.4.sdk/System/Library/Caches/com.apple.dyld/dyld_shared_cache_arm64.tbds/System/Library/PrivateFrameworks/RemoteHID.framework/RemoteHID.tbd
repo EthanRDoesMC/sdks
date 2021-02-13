@@ -1,0 +1,13 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/RemoteHID.framework/RemoteHID
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _RemoteHIDLog, _RemoteHIDLogPackets,
+                            _RemoteHIDVersionNumber, _RemoteHIDVersionString ]
+    objc-classes:         [ _HIDRemoteDevice, _HIDRemoteDeviceAACPServer,
+                            _HIDRemoteDeviceServer ]
+...

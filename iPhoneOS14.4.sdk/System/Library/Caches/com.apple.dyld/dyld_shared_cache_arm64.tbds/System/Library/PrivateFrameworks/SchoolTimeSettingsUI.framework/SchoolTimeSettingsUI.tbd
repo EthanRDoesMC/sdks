@@ -1,0 +1,41 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/SchoolTimeSettingsUI.framework/SchoolTimeSettingsUI
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    allowed-clients:      [ SchoolMode, SchoolTimePhoneSettings, SchoolTimeSetup,
+                            SchoolTimeTests, SchoolTimeWatchSettings ]
+    symbols:              [ _NSStringFromSCLSettingsViewModelScheduleType,
+                            _SCLListControllerCellEditingStyleKey,
+                            _SCLListControllerEditingEnabledKey,
+                            _SCLListControllerTrailingSwipeActionsConfigurationKey,
+                            _SCLLogHistoryViewed, _SCLLogViewModelCommit,
+                            _SCLSettingsViewModelScheduleTypeHasRepeatSchedule,
+                            _SCLTimeIntervalTableViewCellConstrainingIntervalKey,
+                            _SCLTimeIntervalTableViewCellDateConverterKey,
+                            _SCLTimeIntervalTableViewCellPickerStateHandlerKey,
+                            _SCLTimeIntervalTableViewCellPickerStateKey,
+                            _SCLTimeIntervalTableViewCellScheduleTimeFormatterKey,
+                            _SchoolTimeSettingsUIVersionNumber,
+                            _SchoolTimeSettingsUIVersionString ]
+    objc-classes:         [ _SCLActiveSpecifierDataSource,
+                            _SCLAddTimeTableViewCell, _SCLCustomDayDataSource,
+                            _SCLCustomDayEditorSource,
+                            _SCLCustomDayViewController,
+                            _SCLDaySettingsSpecifierSource,
+                            _SCLHistoryDayDataSource, _SCLHistoryDaysDataSource,
+                            _SCLHistoryItemView, _SCLListViewController,
+                            _SCLMultilineTableViewCell,
+                            _SCLPhoneSettingsViewController,
+                            _SCLSettingsViewModel, _SCLSingleGroupTableView,
+                            _SCLSpecifierDataSource, _SCLTimeIntervalDataSource,
+                            _SCLTimeIntervalModel, _SCLTimeIntervalTableViewCell,
+                            _SCLTimePickerTableViewCell,
+                            _SCLTitleSubtitleTableViewCell,
+                            _SCLUnlockCountTableViewCell,
+                            _SCLUnlockHistoryItemFormatter,
+                            _SCLUnlockHistoryTableViewCell ]
+...

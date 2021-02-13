@@ -1,0 +1,38 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          "/System/Library/PrivateFrameworks/FindMyDevice.framework/FindMyDevice"
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _FMDLogFacilityDefault, _FMDLogFacilityLocation,
+                            _FMDLogFacilitySyslog, _FMDLogFacilityTraffic,
+                            ___fmdLogLevel, ___fmdLogLocations,
+                            ___fmdLogNetworkTraffic, _fmdFMIPLastOperationResult,
+                            _kActivationLockStateDidChangeNotification,
+                            _kFMDErrorDomain, _kFMDFMIPAccountNameKey,
+                            _kFMDFMIPAccountPersonIDKey,
+                            _kFMDNotBackedUpPrefDomain, _kFMDPostWipePrefDomain,
+                            _kFMDPrefDomain, _kFMDPublicNotBackedUpPrefDomain,
+                            _kFMDStatusReportFMIPPushReceivedNotification,
+                            _kFMDSynchronizerTimeoutNever,
+                            _kFMIPAppBundleIdentifier,
+                            _kFMIPLowBatteryLocateStateDidChangeNotification,
+                            _kFMIPStateDidChangeNotification,
+                            _kLostModeChangedNotification,
+                            _kStopLostModeAlarmNotification ]
+    objc-classes:         [ _FMDFMIPManager, _FMDLogger, _FMDLostModeInfo,
+                            _FMDPreferencesUtil, _FMDSynchronizer ]
+    objc-ivars:           [ _FMDFMIPManager._xpcConnection,
+                            _FMDFMIPManager._xpcConnectionCreationQueue,
+                            _FMDLogger._isInternalBuild,
+                            _FMDLogger._logLevelsMaxedOut,
+                            _FMDLogger._logLocationIndicatorSent,
+                            _FMDLostModeInfo._lostModeEnabled,
+                            _FMDLostModeInfo._message,
+                            _FMDLostModeInfo._phoneNumber,
+                            _FMDSynchronizer._info, _FMDSynchronizer._sem,
+                            _FMDSynchronizer._timeout,
+                            _FMDSynchronizer._timeoutOccurred ]
+...

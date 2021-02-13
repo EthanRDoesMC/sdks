@@ -1,0 +1,14 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /usr/lib/libprequelite.dylib
+current-version:       77.102
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _PQLSqliteErrorDomain, _pql_sqlite3_bind_pointer,
+                            _pql_sqlite3_value_object,
+                            _pql_sqlite3_value_pointer ]
+    objc-classes:         [ _PQLConnection, _PQLFormatInjection, _PQLNameInjection,
+                            _PQLRawInjection, _PQLResultSet ]
+...

@@ -1,0 +1,17 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/BluetoothServices.framework/BluetoothServices
+current-version:       0
+compatibility-version: 0
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _BTErrorDomain, _BTErrorF, _BTNestedErrorF,
+                            _BTXPCGetNextClientID ]
+    objc-classes:         [ _BTAudioRoutingRequest, _BTAudioRoutingResponse,
+                            _BTAudioSession, _BTBannerUISession,
+                            _BTBluetoothPairingSession, _BTCloudAccountInfo,
+                            _BTCloudDevice, _BTCloudDeviceSupportInformation,
+                            _BTCloudServicesClient, _BTMagicPairingSettings,
+                            _BTServicesClient, _BTShareAudioSessionClient ]
+...

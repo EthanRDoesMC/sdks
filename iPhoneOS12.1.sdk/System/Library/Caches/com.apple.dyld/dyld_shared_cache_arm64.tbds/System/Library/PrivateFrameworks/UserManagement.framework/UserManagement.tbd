@@ -1,0 +1,17 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/UserManagement.framework/UserManagement
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _UMErrorPasscodeBackOffInterval,
+                            _UMUserManagerErrorDomain,
+                            _kDebugErrorCausingLogoutKey,
+                            _kErrorCausingLogoutKey, _kHasManagedCredentials,
+                            _kLanguagesKey, _kPasscodeTypeKey ]
+    objc-classes:         [ _UMMobileKeyBag, _UMMutableUser, _UMTask, _UMUser,
+                            _UMUserManager, _UMUserSwitchBlockingTask,
+                            _UMUserSwitchContext, _UMUserSyncTask ]
+...

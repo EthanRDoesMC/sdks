@@ -1,0 +1,17 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          "/System/Library/Messages/PlugIns/iMessage.imservice/iMessage"
+current-version:       1000
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _IDSIncomingMessageDecryptedDataKey,
+                            _IDSIncomingMessageOriginalEncryptionTypeKey,
+                            _IDSIncomingMessagePushPayloadKey,
+                            _IDSIncomingMessageShouldShowPeerErrorsKey,
+                            _MessageiMessageDeliveryDefaultTimeoutTime,
+                            __ConvergeGroupParticipants, __FindChat,
+                            _incrementParticipantVersionForChat,
+                            _setParticipantVersionForChat ]
+...

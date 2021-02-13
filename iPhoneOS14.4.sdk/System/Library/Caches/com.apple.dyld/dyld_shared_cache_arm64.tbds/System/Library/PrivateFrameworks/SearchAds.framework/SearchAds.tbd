@@ -1,0 +1,16 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/SearchAds.framework/SearchAds
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _SearchAdsVersionNumber, _SearchAdsVersionString ]
+    objc-classes:         [ _ADAppAdvertisement, _ADAppRepresentation,
+                            _ADCapService, _ADDaemonMetricsHelper, _ADDataObject,
+                            _ADInstallAttributionData, _ADLocationManager,
+                            _ADMetricManager, _ADParameterFactory, _ADResponseData,
+                            _ADSearchAdsSettings, _ADSearchCriteria,
+                            _ADSearchObject, _ADSearchSession, _ADUnfairLock ]
+...

@@ -1,0 +1,26 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/BulletinBoardPlugins/SMSBBPlugin.bundle/SMSBBPlugin
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _BBShouldShowPreview,
+                            _CKChatConversationListSuppressionContext,
+                            _SMSBBPluginFirstLockPreferencesDomain,
+                            _SMSBBPluginLastPostedRowIDKey,
+                            _SMSBBPluginPreferencesDomain,
+                            _SMSBBPluginSectionIdentifier,
+                            _kCarrierPreferencesDomain,
+                            _kHandleDeclineAndMessageRecordID,
+                            _kSMSBBClearFailureBadgeNotification,
+                            _kSMSBBIncomingMessageAlertCountChangedNotification,
+                            _kSpringBoardSettingsChangedNotificationName ]
+    objc-classes:         [ _SMSBBPlugin ]
+    objc-ivars:           [ _SMSBBPlugin._bbPluginLock,
+                            _SMSBBPlugin._lastAlertedMessageRowID,
+                            _SMSBBPlugin._lastFailedAlertRowID,
+                            _SMSBBPlugin._queue,
+                            _SMSBBPlugin._wasUnderFirstUnlock ]
+...

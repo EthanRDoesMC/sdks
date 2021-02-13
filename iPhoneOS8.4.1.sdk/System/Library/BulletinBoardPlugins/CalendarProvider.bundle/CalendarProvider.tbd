@@ -1,0 +1,57 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          "/System/Library/BulletinBoardPlugins/CalendarProvider.bundle/CalendarProvider"
+current-version:       0
+compatibility-version: 0
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _EKBBLogFlush, _EKBBLogInitIfNeeded,
+                            _kCalendarNotificationsPrefChangedNotification,
+                            _kEKBBLogContextController,
+                            _kEKBBLogContextDataProvider,
+                            _kEKBBLogContextEventProvider, _kEKBBLogContextModel,
+                            _kEKBBLogContextReminderProvider, _kEKBBLogFacility ]
+    objc-classes:         [ _EKBBDataProvider, _EKBBEventProvider,
+                            _EKBBReminderProvider, _EKBBTodayProvider ]
+    objc-ivars:           [ _EKBBDataProvider._alertQueue,
+                            _EKBBDataProvider._alertRecordIDsToAlertInfos,
+                            _EKBBDataProvider._alerts,
+                            _EKBBDataProvider._databaseQueue,
+                            _EKBBDataProvider._eventStore,
+                            _EKBBDataProvider._eventStoreIdleTimerSource,
+                            _EKBBDataProvider._eventStoreQueue,
+                            _EKBBDataProvider._gregorianCalendar,
+                            _EKBBDataProvider._ignoreLowLevelDatabaseChangedNotifications,
+                            _EKBBDataProvider._pendingChanges,
+                            _EKBBDataProvider._syncTimer,
+                            _EKBBDataProvider._travelAdviceRefreshTimer,
+                            _EKBBDataProvider._travelEngine,
+                            _EKBBEventProvider._dateFormatter,
+                            _EKBBEventProvider._invitesQueue,
+                            _EKBBEventProvider._loaderQueue,
+                            _EKBBEventProvider._needsLoad,
+                            _EKBBEventProvider._notificationMonitor,
+                            _EKBBEventProvider._notifications,
+                            _EKBBReminderProvider._badgeCountQueue,
+                            _EKBBReminderProvider._closedBulletins,
+                            _EKBBReminderProvider._closedQueue,
+                            _EKBBReminderProvider._invitesQueue,
+                            _EKBBReminderProvider._loaderQueue,
+                            _EKBBReminderProvider._needsReload,
+                            _EKBBReminderProvider._notificationMonitor,
+                            _EKBBReminderProvider._reminderListNotifications,
+                            _EKBBTodayProvider._birthdayEvents,
+                            _EKBBTodayProvider._bulletinRefreshQueue,
+                            _EKBBTodayProvider._descriptionGenerator,
+                            _EKBBTodayProvider._isShowingBirthdayBulletin,
+                            _EKBBTodayProvider._isShowingTomorrowBulletin,
+                            _EKBBTodayProvider._isShowingUpcomingEventBulletin,
+                            _EKBBTodayProvider._startCountdownTimer,
+                            _EKBBTodayProvider._todayEvents,
+                            _EKBBTodayProvider._tomorrowEvents,
+                            _EKBBTodayProvider._upcomingEventBulletinNeedsRefresh,
+                            _EKBBTodayProvider._upcomingEvents,
+                            _EKBBTodayProvider._updateCountdownTimer,
+                            _EKBBTodayProvider._visible ]
+...

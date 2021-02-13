@@ -1,0 +1,16 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/SoftwareUpdateCoreConnect.framework/SoftwareUpdateCoreConnect
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _kSUCoreConnectClientIDTypeAny,
+                            _kSUCoreConnectMonitorReplyErrorKey,
+                            _kSUCoreConnectMonitorReplyMessageKey ]
+    objc-classes:         [ _SUCoreConnectClient, _SUCoreConnectClientPolicy,
+                            _SUCoreConnectClientProxy, _SUCoreConnectConstants,
+                            _SUCoreConnectMessage, _SUCoreConnectServer,
+                            _SUCoreConnectServerPolicy, _SUCoreConnectVersion ]
+...

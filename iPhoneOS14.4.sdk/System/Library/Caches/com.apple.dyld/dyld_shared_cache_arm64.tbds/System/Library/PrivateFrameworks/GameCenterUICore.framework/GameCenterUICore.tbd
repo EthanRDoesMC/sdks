@@ -1,0 +1,44 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/GameCenterUICore.framework/GameCenterUICore
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _GKCurrentMedusaMode, _GKIsAvatarEditingSupported,
+                            _GKRectDivideYIntoThreeConsumingMiddle,
+                            _GKRectEnforceMinimumHeight, _GKRectsCenterXInRect,
+                            _GKRectsCenterYInRect, _GKShouldLayoutRTL,
+                            __GKIsClientAppUsingRTL, __GKIsRemoteUIUsingPadIdiom ]
+    objc-classes:         [ _GKAvatarImage, _GKAvatarImageBrush,
+                            _GKBackgroundTileImageView, _GKBrush, _GKBrushList,
+                            _GKCircleImageBrush, _GKColorPalette,
+                            _GKComposedImageBrush, _GKConditionBrush,
+                            _GKDebugHighlightView, _GKFocusableDarkColorPalette,
+                            _GKGameMessagesBrush, _GKGradient, _GKImageBrush,
+                            _GKImageColorPalette, _GKImageContext, _GKImageKey,
+                            _GKImageSource, _GKInGameColorPalette,
+                            _GKLocalImageSource, _GKLocalPlayerAuthenticator,
+                            _GKLoginAlertView, _GKMacGameIconBrush,
+                            _GKMultiCircleImageBrush, _GKNetworkImageSource,
+                            _GKScreenConfigurationController, _GKTextStyle,
+                            _GKTextStyleFocus, _GKTextStylePad, _GKTextStylePhone,
+                            _GKThemeBrush, _GKThreadsafeImageCache, _GKUITheme,
+                            _GKiOSAppIconBrush, _GKiOSAppIconBrushShare,
+                            _SortHueEntry ]
+    objc-ivars:           [ _GKLocalPlayerAuthenticator._alertMessage,
+                            _GKLocalPlayerAuthenticator._alertTitle,
+                            _GKLocalPlayerAuthenticator._authenticated,
+                            _GKLocalPlayerAuthenticator._authenticating,
+                            _GKLocalPlayerAuthenticator._forceAuthentication,
+                            _GKLocalPlayerAuthenticator._inputLocalPlayer,
+                            _GKLocalPlayerAuthenticator._lastAuthDate,
+                            _GKLocalPlayerAuthenticator._lastAuthPlayerID,
+                            _GKLocalPlayerAuthenticator._password,
+                            _GKLocalPlayerAuthenticator._resultantLocalPlayer,
+                            _GKLocalPlayerAuthenticator._username,
+                            _GKLoginAlertView._passwordFieldIndex,
+                            _GKLoginAlertView._username,
+                            _GKUITheme._resourceCache ]
+...

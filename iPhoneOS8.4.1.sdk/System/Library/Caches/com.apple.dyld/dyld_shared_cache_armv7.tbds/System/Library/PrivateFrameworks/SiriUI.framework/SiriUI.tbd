@@ -1,0 +1,55 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/SiriUI.framework/SiriUI
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _SiriUIBlockExecuteMonitored,
+                            _SiriUIDefaultEdgePadding,
+                            _SiriUIDefaultFooterViewInsets,
+                            _SiriUIDefaultSnippetViewInsets,
+                            _SiriUIFontSizeSubtitle,
+                            _SiriUIFrameworkBundleIdentifier,
+                            _SiriUIIsCompactHeight, _SiriUIIsCompactWidth,
+                            _SiriUIRectForLabelWithDistanceFromBottomToBaseline,
+                            _SiriUIRectForLabelWithDistanceFromTopToBaseline,
+                            _SiriUISnippetPluginErrorDomain ]
+    objc-classes:         [ _SVSBundleIdentifierMap, _SVSSnippetPluginBundle,
+                            _SiriRoutePickerAlertController,
+                            _SiriRoutePickerAlertWindow,
+                            _SiriUIAceObjectControllerCell,
+                            _SiriUIAceObjectViewController,
+                            _SiriUIAcousticIDSpinner, _SiriUIAnimationUtilities,
+                            _SiriUIAttributionImage,
+                            _SiriUIAudioRoutePickerButton,
+                            _SiriUIAudioRoutePickerController,
+                            _SiriUIBorderedLabelView, _SiriUIChevronButton,
+                            _SiriUIClearBackgroundCell, _SiriUIContentButton,
+                            _SiriUIContentCollectionViewCell,
+                            _SiriUIContentLabel, _SiriUIDisambiguationItem,
+                            _SiriUIDownloadableImageView,
+                            _SiriUIErrorSnippetViewController,
+                            _SiriUIFontScalingUtilities, _SiriUIHelpButton,
+                            _SiriUIImageMaskView, _SiriUIKeyline,
+                            _SiriUIMapCollectionViewCell,
+                            _SiriUIMapDetailsContainerView,
+                            _SiriUIObjectPickerButtonView,
+                            _SiriUIObjectPickerViewController,
+                            _SiriUIPersonPickerViewController,
+                            _SiriUIPhotoCollectionViewCell, _SiriUIPluginManager,
+                            _SiriUIPrivatePeoplePickerViewController,
+                            _SiriUIPrivateViewControllerOverrides,
+                            _SiriUIReusableConfirmationFooterView,
+                            _SiriUIReusableFooterView, _SiriUIReusableHeaderView,
+                            _SiriUIReusableSubtitledHeaderView,
+                            _SiriUIReviewItemCell, _SiriUIReviewsHeaderView,
+                            _SiriUIReviewsViewController,
+                            _SiriUISiriStatusImageData, _SiriUISiriStatusImages,
+                            _SiriUISiriStatusView, _SiriUISnippetControllerCell,
+                            _SiriUISnippetViewController, _SiriUIStarsView,
+                            _SiriUISuggestionsView, _SiriUITranscriptItem,
+                            _SiriUITwoButtonFooterView, _SiriUIURLSession,
+                            _SiriUIURLSessionImageDownload ]
+...

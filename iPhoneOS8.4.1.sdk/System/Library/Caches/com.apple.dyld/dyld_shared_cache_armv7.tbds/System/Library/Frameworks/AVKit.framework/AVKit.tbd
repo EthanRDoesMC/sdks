@@ -1,0 +1,57 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/Frameworks/AVKit.framework/AVKit
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _AVBundle, _AVDisableUserIdleDisplaySleep,
+                            _AVEnableUserIdleDisplaySleep, _AVLocalizedString,
+                            _AVLocalizedStringFromTable,
+                            _AVLoggingReloadDefaults,
+                            _AVMediaSelectionAutoOption,
+                            _AVMediaSelectionOffOption,
+                            _AVPlayerAssetFilenameCoderKey,
+                            _AVPlayerControllerCurrentTimeJumpedNotification,
+                            _AVPlayerControllerDidSeekChapterChapterKey,
+                            _AVPlayerControllerDidSeekChapterNotification,
+                            _AVPlayerShouldAutoplayCoderKey,
+                            _AVRemoteCommandControllerDidReceiveStopCommandEventNotification,
+                            _AVShowsPlaybackControlsCoderKey, _AVVideoLayer,
+                            _AVVideoLayerGravityCoderKey,
+                            _AVVideoLayerGravityFromString,
+                            _MPCreateImageWithDrawing,
+                            _MPImageDrawingCreateCGContext,
+                            _NSStringFromVideoLayerGravity, __AVLog,
+                            __AVLogMethodProem, __AVLoggingSetEnabled, __AVLogv,
+                            ___AVLoggingEnabledPrivate ]
+    objc-classes:         [ _AVAlphaUpdatingView, _AVAudioOnlyIndicatorView,
+                            _AVButton, _AVChapter, _AVConcreteMutableValueTiming,
+                            _AVConcreteValueTiming,
+                            _AVEmbeddedPlaybackControlsViewController,
+                            _AVExternalPlaybackIndicatorView,
+                            _AVFullScreenPlaybackControlsViewController,
+                            _AVFullScreenViewController, _AVLoadedTimeRangesView,
+                            _AVLoadingIndicatorView,
+                            _AVMediaSelectionViewController,
+                            _AVMutableValueTiming, _AVNowPlayingInfoController,
+                            _AVPlaybackControlsViewController,
+                            _AVPlayerController, _AVPlayerControllerInternal,
+                            _AVPlayerControllerTimeResolver, _AVPlayerView,
+                            _AVPlayerViewController, _AVRemoteCommandController,
+                            _AVScrubber, _AVTableViewCell, _AVTimeFormatter,
+                            _AVTouchIgnoringView,
+                            _AVUnsupportedContentIndicatorView, _AVValueTiming,
+                            _AVVideoLayerDelegate, _AVVideoLayerView, __AVBundle ]
+    objc-ivars:           [ _AVPlayerControllerInternal._audioMediaSelectionOptions,
+                            _AVPlayerControllerInternal._deviceBatteryChargingOrFull,
+                            _AVPlayerControllerInternal._deviceBatteryMonitoringWasEnabled,
+                            _AVPlayerControllerInternal._deviceBatteryStateDidChangeObserver,
+                            _AVPlayerControllerInternal._jKeyDown,
+                            _AVPlayerControllerInternal._kKeyDown,
+                            _AVPlayerControllerInternal._lKeyDown,
+                            _AVPlayerControllerInternal._legibleMediaSelectionOptions,
+                            _AVPlayerControllerInternal._playerLayer,
+                            _AVPlayerControllerInternal._playingOnSecondScreen ]
+...

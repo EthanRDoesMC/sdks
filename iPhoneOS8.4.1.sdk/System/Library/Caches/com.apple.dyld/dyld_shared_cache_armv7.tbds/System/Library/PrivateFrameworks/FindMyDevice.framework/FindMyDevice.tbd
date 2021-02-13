@@ -1,0 +1,27 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/FindMyDevice.framework/FindMyDevice
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _FMDLogFacilityDefault, _FMDLogFacilityLocation,
+                            _FMDLogFacilitySyslog, _FMDLogFacilityTraffic,
+                            ___fmdLogLevel, ___fmdLogLocations,
+                            ___fmdLogNetworkTraffic, _fmdFMIPLastOperationResult,
+                            _kActivationLockStateDidChangeNotification,
+                            _kFMDErrorDomain, _kFMDFMIPAccountNameKey,
+                            _kFMDFMIPAccountPersonIDKey,
+                            _kFMDNotBackedUpPrefDomain, _kFMDPostWipePrefDomain,
+                            _kFMDPrefDomain, _kFMDPublicNotBackedUpPrefDomain,
+                            _kFMDStatusReportFMIPPushReceivedNotification,
+                            _kFMDSynchronizerTimeoutNever,
+                            _kFMIPAppBundleIdentifier,
+                            _kFMIPLowBatteryLocateStateDidChangeNotification,
+                            _kFMIPStateDidChangeNotification,
+                            _kLostModeChangedNotification,
+                            _kStopLostModeAlarmNotification ]
+    objc-classes:         [ _FMDFMIPManager, _FMDLogger, _FMDLostModeInfo,
+                            _FMDPreferencesUtil, _FMDSynchronizer ]
+...

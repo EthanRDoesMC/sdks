@@ -1,0 +1,28 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/AccessibilityBundles/QuickSpeak.bundle/QuickSpeak
+current-version:       0
+compatibility-version: 0
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    objc-classes:         [ _AXQSMenuHelper, _AXQuickSpeak,
+                            _CKBalloonView_QSExtras, _NSObject_QSExtras,
+                            _QuickSpeakLanguageMenuItem, _UICalloutBar_QSExtras,
+                            _UIPDFPageView_QSExtras,
+                            _UIPDFViewTouchHandler_QSExtras,
+                            _UIResponder_QSExtras,
+                            _UITextField_QSExtrasAccessibility,
+                            _UIWebView_QSExtras, _WKContentView_QSExtras,
+                            _WKScrollViewAccessibility_QSExtras,
+                            ___CKBalloonView_QSExtras_super,
+                            ___NSObject_QSExtras_super,
+                            ___UICalloutBar_QSExtras_super,
+                            ___UIPDFPageView_QSExtras_super,
+                            ___UIPDFViewTouchHandler_QSExtras_super,
+                            ___UIResponder_QSExtras_super,
+                            ___UITextField_QSExtrasAccessibility_super,
+                            ___UIWebView_QSExtras_super,
+                            ___WKContentView_QSExtras_super,
+                            ___WKScrollViewAccessibility_QSExtras_super ]
+...

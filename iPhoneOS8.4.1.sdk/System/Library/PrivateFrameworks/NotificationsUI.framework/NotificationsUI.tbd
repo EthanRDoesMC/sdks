@@ -1,0 +1,34 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          "/System/Library/PrivateFrameworks/NotificationsUI.framework/NotificationsUI"
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _NCInteractiveNotificationActionContextLaunchURLKey,
+                            _NCInteractiveNotificationServiceXPCInterface ]
+    objc-classes:         [ _NCBannerAccessoryHostViewController,
+                            _NCBannerAccessoryViewController,
+                            _NCContentHostViewController,
+                            _NCContentViewController,
+                            _NCInteractiveNotificationHostViewController,
+                            _NCInteractiveNotificationViewController,
+                            _NCViewServiceDescriptor ]
+    objc-ivars:           [ _NCBannerAccessoryHostViewController._delegate,
+                            _NCBannerAccessoryViewController._context,
+                            _NCContentViewController._context,
+                            _NCInteractiveNotificationHostViewController._accessoryViewService,
+                            _NCInteractiveNotificationHostViewController._bottomOverhangHeight,
+                            _NCInteractiveNotificationHostViewController._delegate,
+                            _NCInteractiveNotificationHostViewController._inlayViewService,
+                            _NCInteractiveNotificationHostViewController._maximumHeight,
+                            _NCInteractiveNotificationHostViewController._modal,
+                            _NCInteractiveNotificationHostViewController._proximityMonitoringEnabled,
+                            _NCInteractiveNotificationHostViewController._showsKeyboard,
+                            _NCInteractiveNotificationViewController._context,
+                            _NCInteractiveNotificationViewController._maximumHeight,
+                            _NCInteractiveNotificationViewController._modal,
+                            _NCViewServiceDescriptor._bundleIdentifier,
+                            _NCViewServiceDescriptor._viewControllerClassName ]
+...

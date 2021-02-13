@@ -1,0 +1,53 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/NanoMusicSync.framework/NanoMusicSync
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _NMSActiveAccountDidChangeNotification,
+                            _NMSFeedURLKey,
+                            _NMSMediaPinningMusicContentsInvalidatedNotification,
+                            _NMSMediaPinningPodcastsContentsInvalidatedNotification,
+                            _NMSMediaSyncInfoDidUpdateNotification,
+                            _NMSMusicRecommendationArtworkDidUpdateNotification,
+                            _NMSMusicRecommendationsDidUpdateNotification,
+                            _NMSNotificationUserInfoKeyIsInProcessNotification,
+                            _NMSPodcastSizeCacheDidUpdateNotification,
+                            _NMSRecommendationHeavyRotationIdentifier,
+                            _NMSStoreIDKey,
+                            _NMSSubscriptionStatusDidChangeNotification,
+                            _NMSSyncManagerSyncStateDidChangeNotification,
+                            _NMSyncDefaultsMusicPinningSelectionsDidChangeNotification,
+                            _NMSyncDefaultsPinningSelectionsDidChangeNotification,
+                            _NMSyncDefaultsPodcastsPinningSelectionsDidChangeNotification,
+                            _NMSyncDefaultsPodcastsSizeInfoDidChangeNotification,
+                            _NMSyncDefaultsPodcastsSubscriptionMetadataDidChangeNotification,
+                            _NMSyncDefaultsRecommendationLibraryContentsDidChangeNotification,
+                            _NMSyncDefaultsRecommendationSelectionsDidChangeNotification,
+                            _NMSyncDefaultsRecommendationStoreContentsDidChangeNotification,
+                            _NMSyncDefaultsSyncSettingsDidChangeNotification,
+                            _NMSyncDefaultsSyncStateDidChangeNotification,
+                            _NMSyncPreferencesDidChangeLocallyNotification,
+                            _NMSyncPreferencesDidChangeRemotelyNotification ]
+    objc-classes:         [ _NMSAlternatingMediaItemGroupIterator,
+                            _NMSEpisodeSizeInfo, _NMSGreenTeaStreamingDefaults,
+                            _NMSMediaContainerQuotaData, _NMSMediaItemGroup,
+                            _NMSMediaItemGroupIterator, _NMSMediaPinningManager,
+                            _NMSMediaQuotaManager, _NMSMediaSettingsSynchronizer,
+                            _NMSMediaSyncInfo, _NMSMediaSyncInfoUpdater,
+                            _NMSModelRecommendationsLibraryRequest,
+                            _NMSModelRecommendationsStoreRequest,
+                            _NMSMusicRecommendation,
+                            _NMSMusicRecommendationManager,
+                            _NMSMutableMediaSyncInfo,
+                            _NMSMutablePodcastSizeCache,
+                            _NMSPodcastIdentifierSet, _NMSPodcastSizeCache,
+                            _NMSPodcastSizeEstimation, _NMSPodcastSizeInfo,
+                            _NMSRecommendationArtworkDataSource,
+                            _NMSSequentialMediaItemGroupIterator,
+                            _NMSStoreModelLookupRequest, _NMSSubscriptionManager,
+                            _NMSSyncManager, _NMSSyncProgressInfo,
+                            _NMSSyncStatesDict, _NMSyncDefaults ]
+...

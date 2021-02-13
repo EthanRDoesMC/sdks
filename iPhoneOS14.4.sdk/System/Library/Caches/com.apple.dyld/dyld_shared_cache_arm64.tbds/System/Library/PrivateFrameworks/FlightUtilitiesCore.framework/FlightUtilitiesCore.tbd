@@ -1,0 +1,14 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/FlightUtilitiesCore.framework/FlightUtilitiesCore
+current-version:       141
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _FUFactoryProvider_Default,
+                            _FUFactoryProvider_Parsec ]
+    objc-classes:         [ _FUAirline, _FUAirport, _FUFlight, _FUFlightFactory,
+                            _FUFlightLeg, _FUFlightStep, _FUStepTime, _FUUtils ]
+    objc-ivars:           [ _FUFlightStep._delayFromSchedule ]
+...

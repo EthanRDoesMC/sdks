@@ -1,0 +1,23 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/iCloudQuotaUI.framework/iCloudQuotaUI
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _iCloudQuotaUIVersionNumber,
+                            _iCloudQuotaUIVersionString,
+                            _kFractFontSizeAdjustment, _kFractMarginAdjustment,
+                            _kSquishedThreshold ]
+    objc-classes:         [ _ICQBannerView, _ICQImageButton,
+                            _ICQNavigationController, _ICQPageView,
+                            _ICQServiceView, _ICQUpgradeButton,
+                            _ICQUpgradeCompleteView,
+                            _ICQUpgradeCompleteViewController,
+                            _ICQUpgradeFlowManager,
+                            _ICQUpgradeNavigationController,
+                            _ICQUpgradeOfferView, _ICQUpgradeOfferViewController,
+                            _ICQViewController, __ICQTextView,
+                            _icqImageAdditionsDummyClass ]
+...

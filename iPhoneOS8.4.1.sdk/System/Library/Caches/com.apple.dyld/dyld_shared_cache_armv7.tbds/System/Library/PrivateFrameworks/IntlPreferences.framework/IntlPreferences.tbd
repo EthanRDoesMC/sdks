@@ -1,0 +1,22 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/IntlPreferences.framework/IntlPreferences
+current-version:       149.3
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _GetNSFriendlySeparator,
+                            _IUIntlPreferencesVersionNumber,
+                            _IUIntlPreferencesVersionString,
+                            _IntlPreferencesValue, _IntlSetPreferencesValue,
+                            _UITextInputNextToUseInputModeDidChangeKey,
+                            _UITextInputNextToUseInputModeDidChangeNotification ]
+    objc-classes:         [ _IntlUtility ]
+    objc-ivars:           [ _IntlUtility.mBidiLanguagesArray,
+                            _IntlUtility.mBidiTestedLanguagesArray,
+                            _IntlUtility.mDisplayLanguageCachePtr,
+                            _IntlUtility.mDisplayLanguageCacheUsed,
+                            _IntlUtility.mLanguageList,
+                            _IntlUtility.mLocalizedLanguageList ]
+...

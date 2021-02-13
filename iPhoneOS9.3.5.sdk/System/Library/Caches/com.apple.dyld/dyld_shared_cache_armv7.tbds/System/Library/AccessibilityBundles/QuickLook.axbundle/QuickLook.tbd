@@ -1,0 +1,17 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/AccessibilityBundles/QuickLook.axbundle/QuickLook
+current-version:       0
+compatibility-version: 0
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ __Failover, _accessibilityLocalizedString ]
+    objc-classes:         [ _AXMobileQuickLookGlue,
+                            _QLAudioViewControllerAccessibility,
+                            _QLPreviewControllerAccessibility,
+                            _QLProgressViewAccessibility,
+                            ___QLAudioViewControllerAccessibility_super,
+                            ___QLPreviewControllerAccessibility_super,
+                            ___QLProgressViewAccessibility_super ]
+...

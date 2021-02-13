@@ -1,0 +1,26 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/InAppMessages.framework/InAppMessages
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    re-exports:           [ /System/Library/PrivateFrameworks/InAppMessagesCore.framework/InAppMessagesCore ]
+    symbols:              [ _IAMWebMessageErrorDomain,
+                            _InAppMessagesVersionNumber,
+                            _InAppMessagesVersionString ]
+    objc-classes:         [ _IAMChangedContextPropertiesTriggerContext,
+                            _IAMEvaluator, _IAMICMessageEntryProvider,
+                            _IAMICMessageMetadataStorage, _IAMICPropertyStorage,
+                            _IAMICStorageProvider, _IAMImpressionManager,
+                            _IAMMessageCoordinator, _IAMMessageEntryManager,
+                            _IAMMessageGroup, _IAMModalTarget,
+                            _IAMModalViewController,
+                            _IAMModalWebMessageViewController,
+                            _IAMPresentingModalMessageContext,
+                            _IAMReceivedEventTriggerContext,
+                            _IAMStorageCoordinator, _IAMTriggerKey,
+                            _IAMWebMessageController,
+                            _IAMWebMessagePresentationCoordinator, _IAMWebView ]
+...

@@ -1,0 +1,49 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/Frameworks/CoreAudioKit.framework/CoreAudioKit
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ __Z41_CAIAAAUTransportPropertyChangeDispatcherPvP28OpaqueAudioComponentInstancemmm,
+                            __Z44AudioUnitIAASwitcherPropertyChangeDispatcherPvP28OpaqueAudioComponentInstancemmm,
+                            __Z45formattedTimeStringForFrameCountAndSampleRateyda,
+                            __ZN14CAHostTimeBase10InitializeEv,
+                            __ZN14CAHostTimeBase10sFrequencyE,
+                            __ZN14CAHostTimeBase17sInverseFrequencyE,
+                            __ZN14CAHostTimeBase17sToNanosNumeratorE,
+                            __ZN14CAHostTimeBase19sToNanosDenominatorE,
+                            __ZN14CAHostTimeBase9sIsInitedE,
+                            __ZN14CAHostTimeBase9sMinDeltaE, _toRadians ]
+    objc-classes:         [ _AMSBTLEAdvertisementManager,
+                            _AMSBTLEConnectionManager, _AMSBTLEPeripheral,
+                            _BLEMIDIAccessor, _BTLEBundleUtilities,
+                            _CABTMIDICentralViewController,
+                            _CABTMIDIIncompleteConnectionInfo,
+                            _CABTMIDILocalPeripheralViewController,
+                            _CACentralTableViewCell, _CAIAANodeContainer,
+                            _CAIAANodeInfo, _CAInterAppAudioSwitcherView,
+                            _CAInterAppAudioTransportView, _CANodeButton,
+                            _CATimerManager, _CAUITransportButton ]
+    objc-ivars:           [ _AMSBTLEAdvertisementManager.peripheralManager,
+                            _AMSBTLEConnectionManager.centralManager,
+                            _AMSBTLEConnectionManager.centralState,
+                            _AMSBTLEConnectionManager.connectedAMSPeripherals,
+                            _AMSBTLEConnectionManager.connectedBTPeripherals,
+                            _AMSBTLEConnectionManager.controller,
+                            _AMSBTLEConnectionManager.peripheralList,
+                            _AMSBTLEConnectionManager.refreshTimer,
+                            _AMSBTLEPeripheral.available,
+                            _AMSBTLEPeripheral.centralManager,
+                            _AMSBTLEPeripheral.inputAvailable,
+                            _AMSBTLEPeripheral.lastSeen, _AMSBTLEPeripheral.name,
+                            _AMSBTLEPeripheral.online,
+                            _AMSBTLEPeripheral.outputAvailable,
+                            _AMSBTLEPeripheral.peripheral,
+                            _AMSBTLEPeripheral.uuid, _CAIAANodeInfo.labelColor,
+                            _CAIAANodeInfo.nodeList,
+                            _CAUITransportButton.drawingStyle,
+                            _CAUITransportButton.fillColor,
+                            _CAUITransportButton.imageRect ]
+...

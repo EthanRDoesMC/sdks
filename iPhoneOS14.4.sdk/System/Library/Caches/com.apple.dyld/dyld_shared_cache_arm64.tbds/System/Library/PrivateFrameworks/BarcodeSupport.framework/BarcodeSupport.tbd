@@ -1,0 +1,35 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/BarcodeSupport.framework/BarcodeSupport
+current-version:       100
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _BCSActionErrorDomain,
+                            _BCSAppClipCodeURLDecoderErrorDomain,
+                            _BCSBarcodeNotificationPayloadActionsKey,
+                            _BCSBarcodeNotificationPayloadContactKey,
+                            _BCSBarcodeNotificationPayloadContentIsPreviewableKey,
+                            _BCSBarcodeNotificationPayloadExtraPreviewText,
+                            _BCSBarcodeNotificationPayloadICSStringKey,
+                            _BCSBarcodeNotificationPayloadKey,
+                            _BCSBarcodeNotificationPayloadPreviewFooterSubtitleKey,
+                            _BCSBarcodeNotificationPayloadPreviewFooterTitleKey,
+                            _BCSBarcodeNotificationPayloadScannerResultKey,
+                            _BCSBarcodeNotificationPayloadURLKey,
+                            _BCSErrorDomain, __BCSLocalizedString,
+                            __bcs_CGImagePNGRepresentation,
+                            __bcs_applyTreatmentToIcon,
+                            __bcs_notificationIconBaseURL,
+                            __bcs_pointToRectDistance ]
+    objc-classes:         [ _BCSAVParsingSession, _BCSAWDLogger,
+                            _BCSActionPickerItem, _BCSAnalyticsLogger,
+                            _BCSAppClipCodeURLDecoder, _BCSConfigurationManager,
+                            _BCSDataDetectionActionPickerItem, _BCSNFCCodeParser,
+                            _BCSNFCReaderConnection, _BCSNotification,
+                            _BCSNotificationManager,
+                            _BCSNotificationServiceConnection,
+                            _BCSNotificationServiceDelegate, _BCSParser,
+                            _BCSQRCodeParser ]
+...

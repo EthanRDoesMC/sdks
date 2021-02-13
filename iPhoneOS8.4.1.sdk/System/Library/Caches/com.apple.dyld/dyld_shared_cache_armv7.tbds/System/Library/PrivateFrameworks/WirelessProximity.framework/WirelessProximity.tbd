@@ -1,0 +1,28 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/WirelessProximity.framework/WirelessProximity
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _WPBeaconAdvInterval, _WPBeaconTX, _WPBeaconType,
+                            _WPBeaconTypeATVSetup,
+                            _WPBeaconTypeAirPlayTargetPresence,
+                            _WPBeaconTypeAirPlayTargetPresencePayload,
+                            _WPBeaconTypeCompany, _WPBeaconTypeCompanyMajor,
+                            _WPBeaconTypeCompanyMinor, _WPBeaconTypeCompanyUUID,
+                            _WPBeaconTypeFindMyPhone,
+                            _WPBeaconTypeFindMyPhonePayload, _WPBeaconTypeFloor,
+                            _WPBeaconTypeGPSAccuracy, _WPBeaconTypeGPSAltitude,
+                            _WPBeaconTypeGPSLatitude, _WPBeaconTypeGPSLongitude,
+                            _WPLoggingInit, _WPPuckType,
+                            _WPPuckTypeAirPlaySoloAdvertisingData,
+                            _WPPuckTypeAirPlaySoloRSSI,
+                            _WPPuckTypeAirPlaySoloSourcePresence,
+                            _WPPuckTypeAirPlaySoloTargetPresence, _isWPPoweredOn,
+                            _kFoundDevices ]
+    objc-classes:         [ _WPAWDL, _WPAdvertising, _WPAirPlaySolo, _WPContinuity,
+                            _WPDeviceScanner, _WPTransfer, _WPZoneTracker,
+                            _WirelessProximity, _XPCClient ]
+...

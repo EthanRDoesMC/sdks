@@ -1,0 +1,20 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/DuetNetworkClient.framework/DuetNetworkClient
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _DNCInitialize,
+                            _DuetNetworkClientDiscretionaryTransferStarted,
+                            _DuetNetworkClientDiscretionaryTransferStopped,
+                            _DuetNetworkClientNonDiscretionaryTransferStarted,
+                            _DuetNetworkClientNonDiscretionaryTransferStopped,
+                            _DuetNetworkClientOkToInitiateDiscretionaryTransfer,
+                            _DuetNetworkClientOkToInitiateNonDiscretionaryTransfer,
+                            _DuetNetworkClientOkToInitiateTransfer,
+                            _DuetNetworkClientRegisterInitiationCallback,
+                            _DuetNetworkClientTransferStarted,
+                            _DuetNetworkClientTransferStopped, _kMGQueryhas ]
+...

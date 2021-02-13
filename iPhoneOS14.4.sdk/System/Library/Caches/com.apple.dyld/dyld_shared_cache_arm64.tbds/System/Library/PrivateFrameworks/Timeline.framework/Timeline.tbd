@@ -1,0 +1,20 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/Timeline.framework/Timeline
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _TLLoggingObjectForDomain, _TimelineVersionNumber,
+                            _TimelineVersionString ]
+    objc-classes:         [ _TLOperation, _TLPreviewTimelineError,
+                            _TLPreviewTimelineSelectableRegion, _TLTimeline,
+                            _TLTimelineBlobEntry, _TLTimelineEntryNode,
+                            _TLTimelineEntryNodeRecycleBin,
+                            _TLTimelineExtendOperation, _TLTimelineNode,
+                            _TLTimelineOperation, _TLTimelineSegment,
+                            _TLTimelineSessionOperation,
+                            _TLTimelineSetupOperation, _TLTimelineUtilities,
+                            _TLTimelineWindow ]
+...

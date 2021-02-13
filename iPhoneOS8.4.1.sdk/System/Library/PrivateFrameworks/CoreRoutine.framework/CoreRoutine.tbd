@@ -1,0 +1,59 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          "/System/Library/PrivateFrameworks/CoreRoutine.framework/CoreRoutine"
+current-version:       244.9
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _RTErrorDomain ]
+    objc-classes:         [ _RTAction, _RTActionCondition, _RTBatchGeocoder,
+                            _RTGeocoder, _RTLOIDisplayInfo, _RTLocationOfInterest,
+                            _RTLocationOfInterestVisit, _RTPLOIETA,
+                            _RTPredictedLocationOfInterest, _RTRoute,
+                            _RTRoutineManager, _RTRoutineManagerExportedObject,
+                            _RTSource, _RTSourceCoreRoutine, _RTSourceEventKit,
+                            __RTBatchSliceGeocoder ]
+    objc-ivars:           [ _RTAction._options, _RTAction._type,
+                            _RTActionCondition._date,
+                            _RTActionCondition._depiction,
+                            _RTActionCondition._locationOfInterest,
+                            _RTActionCondition._locationOfInterestState,
+                            _RTBatchGeocoder._batchSliceGeocoders,
+                            _RTGeocoder._ticket, _RTLOIDisplayInfo._arrival,
+                            _RTLOIDisplayInfo._deparature,
+                            _RTLOIDisplayInfo._eta,
+                            _RTLOIDisplayInfo._geoMapItem,
+                            _RTLOIDisplayInfo._modeOfTransportation,
+                            _RTLOIDisplayInfo._style, _RTLOIDisplayInfo._type,
+                            _RTLOIDisplayInfo._unknownTypeName,
+                            _RTLocationOfInterest._confidence,
+                            _RTLocationOfInterest._geoMapItem,
+                            _RTLocationOfInterest._identifier,
+                            _RTLocationOfInterest._latitude,
+                            _RTLocationOfInterest._longitude,
+                            _RTLocationOfInterest._type,
+                            _RTLocationOfInterest._uncertainty,
+                            _RTLocationOfInterest._visits,
+                            _RTLocationOfInterestVisit._entryTime,
+                            _RTLocationOfInterestVisit._exitTime,
+                            _RTPLOIETA._baselineETASeconds,
+                            _RTPLOIETA._displayInfo, _RTPLOIETA._origin,
+                            _RTPLOIETA._ploi, _RTPLOIETA._responseETASeconds,
+                            _RTPredictedLocationOfInterest._confidence,
+                            _RTPredictedLocationOfInterest._locationOfInterest,
+                            _RTPredictedLocationOfInterest._modeOfTransportation,
+                            _RTPredictedLocationOfInterest._nextEntryTime,
+                            _RTPredictedLocationOfInterest._route,
+                            _RTPredictedLocationOfInterest._source,
+                            _RTRoute._uuid, _RTRoute._waypoints,
+                            _RTRoute._zilchPoints, _RTRoutineManager._queue,
+                            _RTRoutineManager._visitHandler,
+                            _RTRoutineManager._xpcConnection,
+                            _RTRoutineManagerExportedObject._routineManager,
+                            _RTSourceEventKit._eventIdentifier,
+                            __RTBatchSliceGeocoder._geoMapItems,
+                            __RTBatchSliceGeocoder._range,
+                            __RTBatchSliceGeocoder._semaphore,
+                            __RTBatchSliceGeocoder._ticket ]
+...

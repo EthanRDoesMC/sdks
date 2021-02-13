@@ -1,0 +1,64 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/AccessibilityBundles/MapKitFramework.axbundle/MapKitFramework
+current-version:       0
+compatibility-version: 0
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _AXMapKitLocString,
+                            _UITextInputNextToUseInputModeDidChangeKey,
+                            _UITextInputNextToUseInputModeDidChangeNotification ]
+    objc-classes:         [ _AXMapKitGlue,
+                            _MKAnnotationCalloutControllerAccessibility,
+                            _MKAnnotationContainerViewAccessibility,
+                            _MKAnnotationViewAccessibility,
+                            _MKBasicMapViewAccessibility,
+                            _MKCompassViewAccessibility,
+                            _MKMapAttributionAccessibility,
+                            _MKMapViewAccessibility,
+                            _MKNewAnnotationContainerViewAccessibility,
+                            _MKPlaceReviewsViewCellAccessibility,
+                            _MKPlaceReviewsViewCheckInWriteCellAccessibility,
+                            _MKPlaceViewNearbyAppCollectionViewCellAccessibility,
+                            _MKPlaceViewNearbyAppsCellAccessibility,
+                            _MKScrollContainerViewAccessibility,
+                            _MKStarRatingAndLabelViewAccessibility,
+                            _MKStarRatingViewAccessibility,
+                            _MKUIButtonAccessibility, _MKUIImageAccessibility,
+                            _MKUserLocationAccessibility,
+                            _MKUserLocationViewAccessibility,
+                            _MKUserTrackingBarButtonItemAccessibility,
+                            _MapAccessibilityMockView,
+                            __MKNanoPillTableViewLabelCellAccessibility,
+                            __MKNanoPlaceCardFooterViewAccessibility,
+                            __MKNanoPlaceCardHeaderViewAccessibility,
+                            __MKPlacePhotosCellAccessibility,
+                            __MKUserTrackingButtonAccessibility,
+                            ___MKAnnotationCalloutControllerAccessibility_super,
+                            ___MKAnnotationContainerViewAccessibility_super,
+                            ___MKAnnotationViewAccessibility_super,
+                            ___MKBasicMapViewAccessibility_super,
+                            ___MKCompassViewAccessibility_super,
+                            ___MKMapAttributionAccessibility_super,
+                            ___MKMapViewAccessibility_super,
+                            ___MKNewAnnotationContainerViewAccessibility_super,
+                            ___MKPlaceReviewsViewCellAccessibility_super,
+                            ___MKPlaceReviewsViewCheckInWriteCellAccessibility_super,
+                            ___MKPlaceViewNearbyAppCollectionViewCellAccessibility_super,
+                            ___MKPlaceViewNearbyAppsCellAccessibility_super,
+                            ___MKScrollContainerViewAccessibility_super,
+                            ___MKStarRatingAndLabelViewAccessibility_super,
+                            ___MKStarRatingViewAccessibility_super,
+                            ___MKUIButtonAccessibility_super,
+                            ___MKUIImageAccessibility_super,
+                            ___MKUserLocationAccessibility_super,
+                            ___MKUserLocationViewAccessibility_super,
+                            ___MKUserTrackingBarButtonItemAccessibility_super,
+                            ____MKNanoPillTableViewLabelCellAccessibility_super,
+                            ____MKNanoPlaceCardFooterViewAccessibility_super,
+                            ____MKNanoPlaceCardHeaderViewAccessibility_super,
+                            ____MKPlacePhotosCellAccessibility_super,
+                            ____MKUserTrackingButtonAccessibility_super ]
+    objc-ivars:           [ _MapAccessibilityMockView._view ]
+...

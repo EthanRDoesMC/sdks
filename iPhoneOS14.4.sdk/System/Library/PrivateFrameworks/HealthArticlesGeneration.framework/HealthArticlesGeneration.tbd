@@ -1,0 +1,14 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          "/System/Library/PrivateFrameworks/HealthArticlesGeneration.framework/HealthArticlesGeneration"
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _HealthArticlesGenerationVersionNumber,
+                            _HealthArticlesGenerationVersionString ]
+    objc-classes:         [ __TtC24HealthArticlesGeneration21ArticleChangeDetector,
+                            __TtC24HealthArticlesGeneration24ArticleFeedItemGenerator,
+                            __TtC24HealthArticlesGeneration40ArticleFeedItemGeneratorWithReadObserver ]
+...

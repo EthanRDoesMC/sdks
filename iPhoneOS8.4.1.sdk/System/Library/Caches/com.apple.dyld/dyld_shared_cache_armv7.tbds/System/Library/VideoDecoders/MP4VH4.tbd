@@ -1,0 +1,11 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/VideoDecoders/MP4VH4.videodecoder
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _AppleVXD390WrapperMPEG4DecoderCreateInstance,
+                            _EnsurePropertyDictionaryCreation, _MP4VH4Register ]
+...

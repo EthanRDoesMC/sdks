@@ -1,0 +1,31 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /usr/lib/libPPMDataModel.dylib
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _OTABMUResistanceReadFrom, _OTAParam3RCReadFrom,
+                            _OTAResistanceDataReadFrom ]
+    objc-classes:         [ _OTABMUResistance, _OTAParam3RC, _OTAResistanceData ]
+    objc-ivars:           [ _OTABMUResistance._has,
+                            _OTABMUResistance._traceResistance25C,
+                            _OTABMUResistance._traceResistanceTemperatureCoeff,
+                            _OTAParam3RC._agingCoeffForR0TemperatureCoeffs,
+                            _OTAParam3RC._agingCoeffForR0s,
+                            _OTAParam3RC._agingCoeffForR1TemperatureCoeffs,
+                            _OTAParam3RC._agingCoeffForR1s,
+                            _OTAParam3RC._agingCoeffForR2TemperatureCoeffs,
+                            _OTAParam3RC._agingCoeffForR2s,
+                            _OTAParam3RC._baselineR0, _OTAParam3RC._baselineR1,
+                            _OTAParam3RC._baselineR2, _OTAParam3RC._baselineR3,
+                            _OTAParam3RC._baselineRdcs,
+                            _OTAParam3RC._bmuResistance, _OTAParam3RC._chemID,
+                            _OTAParam3RC._gridOCVs, _OTAParam3RC._r0,
+                            _OTAParam3RC._r1, _OTAParam3RC._r2,
+                            _OTAParam3RC._rCFreq1, _OTAParam3RC._rCFreq2,
+                            _OTAParam3RC._rCFreq3,
+                            _OTAResistanceData._resistance25Cs,
+                            _OTAResistanceData._temperatureCoeffs ]
+...

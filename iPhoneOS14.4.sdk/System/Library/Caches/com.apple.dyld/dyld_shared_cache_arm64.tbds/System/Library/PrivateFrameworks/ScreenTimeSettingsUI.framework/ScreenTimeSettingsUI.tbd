@@ -1,0 +1,30 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/ScreenTimeSettingsUI.framework/ScreenTimeSettingsUI
+current-version:       495
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    allowed-clients:      [ FamilyCircleUI, ScreenTimeAgent,
+                            ScreenTimeNotificationContentExtension,
+                            ScreenTimeSettings, ScreenTimeUnlock, ScreenTimeWidget,
+                            ScreenTimeWidgetExtension, Setup, SetupTests,
+                            screentimetool ]
+    symbols:              [ _STSharedServicesScreenTimeSpecifierId ]
+    objc-classes:         [ _STAllowance, _STAlwaysAllowList, _STCandyBarView,
+                            _STChildSetupController, _STDeviceBedtime,
+                            _STDeviceUnlockStateListener,
+                            _STFamilyCircleSpecifierProvider,
+                            _STHorizontallySegmentedView, _STKeyValuePair,
+                            _STRestrictionsPINController,
+                            _STRootViewModelCoordinator,
+                            _STScreenTimeSettingsUIBundle, _STSegmentItem,
+                            _STSetupAssistantViewController, _STUILog, _STUIUser,
+                            _STUnlockForContentView,
+                            _STUsageDetailsViewModelCoordinator,
+                            _STUsageGraphViewController, _STUsageItem,
+                            _STUsageReport, _STUsageSummaryTitleView,
+                            _STWeeklyReportAppUsageView,
+                            _STWeeklyReportViewController ]
+...

@@ -1,0 +1,19 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          "/System/Library/BulletinBoardPlugins/WeatherNotifications.bundle/WeatherNotifications"
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _LocalCityChanged, _MaxIconIndex, _MoonIconIndex,
+                            _MoonWithCloudsIndex, _WAWeatherTodayBulletinID,
+                            __internalInstall ]
+    objc-classes:         [ _WATodayDataProvider ]
+    objc-ivars:           [ _WATodayDataProvider._city,
+                            _WATodayDataProvider._conditionCode,
+                            _WATodayDataProvider._isReachable,
+                            _WATodayDataProvider._lastBulletin,
+                            _WATodayDataProvider._neverBeenUnlocked,
+                            _WATodayDataProvider._reachabilityTimer ]
+...

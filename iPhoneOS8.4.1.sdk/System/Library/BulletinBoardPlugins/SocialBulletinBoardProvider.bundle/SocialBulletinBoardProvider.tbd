@@ -1,0 +1,27 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          "/System/Library/BulletinBoardPlugins/SocialBulletinBoardProvider.bundle/SocialBulletinBoardProvider"
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ __kSLFacebookUploadCompletionAvailableNotification,
+                            __kSLFlickrMultiUploadCompletionAvailableNotification,
+                            __kSLFlickrUploadCompletionAvailableNotification,
+                            __kSLVimeoUploadCompletionAvailableNotification ]
+    objc-classes:         [ _SLSocialBulletinDataProvider,
+                            _SLUploadCompletionSession, _SLUploadService ]
+    objc-ivars:           [ _SLSocialBulletinDataProvider._bulletinCounter,
+                            _SLSocialBulletinDataProvider._bulletins,
+                            _SLSocialBulletinDataProvider._socialBundle,
+                            _SLSocialBulletinDataProvider._uploadServices,
+                            _SLUploadCompletionSession._connection,
+                            _SLUploadCompletionSession._remoteProxy,
+                            _SLUploadCompletionSession._serviceName,
+                            _SLUploadService._XPCServiceName,
+                            _SLUploadService._bulletinSubtype,
+                            _SLUploadService._notificationNames,
+                            _SLUploadService._session,
+                            _SLUploadService._variantIconResourceName ]
+...

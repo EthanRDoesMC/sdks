@@ -1,0 +1,20 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/PDS.framework/PDS
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _PDSCDCacheErrorDomain,
+                            _PDSInternalClientIDEntitlementKey,
+                            _PDSInternalDaemonMachServiceName,
+                            _PDSInternalToolEntitlementKey,
+                            _PDSInternalWildcardClientID,
+                            _PDSRegistrarErrorDomain, _PDSStringForEntryState,
+                            _PDSUserErrorDomain, _PDSXPCErrorDomain,
+                            _pds_defaultLog, _pds_oversizedLog ]
+    objc-classes:         [ _PDSEntry, _PDSRegistrar, _PDSRegistration,
+                            _PDSRemoteRegistry, _PDSUser, _PDSXPCAdapter,
+                            _PDSXPCConnector, _PDSXPCInterface ]
+...

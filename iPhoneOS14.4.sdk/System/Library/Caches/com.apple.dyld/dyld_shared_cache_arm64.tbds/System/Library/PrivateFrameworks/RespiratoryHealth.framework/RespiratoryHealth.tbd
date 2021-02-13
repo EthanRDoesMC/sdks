@@ -1,0 +1,25 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/RespiratoryHealth.framework/RespiratoryHealth
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _HKRPBloodOxygenAppBundleIdentifier,
+                            _HKRPLocalizedString,
+                            _HKRPShouldInstallOxygenSaturationWatchAppOnPairedWatch,
+                            _HKRPShouldSkipHardwareCheck,
+                            _HKRPStringFromHKRPOxygenSaturationSessionEndReason,
+                            _HKRPUserDefaultsHasCompletedOnboardingKey,
+                            _HKRespiratoryPluginIdentifier,
+                            __HDRPOxygenSaturationSessionServerIdentifier ]
+    objc-classes:         [ _HKRPOxygenSaturationAvailability,
+                            _HKRPOxygenSaturationOnboardingCache,
+                            _HKRPOxygenSaturationOnboardingCacher,
+                            _HKRPOxygenSaturationOnboardingManager,
+                            _HKRPOxygenSaturationSession,
+                            _HKRPOxygenSaturationSettings,
+                            _HKRPUserDefaultsSyncProvider,
+                            _HKRPWatchAppInstallability ]
+...

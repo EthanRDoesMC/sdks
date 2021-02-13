@@ -1,0 +1,38 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PreferenceBundles/Wallpaper.bundle/Wallpaper
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _WallpaperMagicTableViewCellIdentifier,
+                            _WallpaperSettingsImportAllFiles,
+                            _WallpaperSettingsIsAppleInternal,
+                            _WallpaperSettingsShowInternalUI ]
+    objc-classes:         [ _PUPhotosPanoramaHeaderView,
+                            _WallpaperAlbumListTableViewController,
+                            _WallpaperAlbumListTableViewControllerPadSpec,
+                            _WallpaperAlbumListTableViewControllerPhoneSpec,
+                            _WallpaperAlbumListTableViewControllerSpec,
+                            _WallpaperAlbumViewController,
+                            _WallpaperAlbumViewControllerPadSpec,
+                            _WallpaperAlbumViewControllerPhoneSpec,
+                            _WallpaperAlbumViewControllerSpec,
+                            _WallpaperController, _WallpaperDynamicItem,
+                            _WallpaperFile, _WallpaperGridViewController,
+                            _WallpaperItemImporter, _WallpaperLiveItem,
+                            _WallpaperMagicTableCategoryButton,
+                            _WallpaperMagicTableCategoryLabel,
+                            _WallpaperMagicTableViewCell,
+                            _WallpaperMagicTableViewCellPadSpec,
+                            _WallpaperMagicTableViewCellPhoneSpec,
+                            _WallpaperMagicTableViewCellSpec,
+                            _WallpaperPanoramaViewController,
+                            _WallpaperPanoramaViewControllerPadSpec,
+                            _WallpaperPanoramaViewControllerPhoneSpec,
+                            _WallpaperPanoramaViewControllerSpec,
+                            _WallpaperPhotoCell, _WallpaperPreviewCell,
+                            _WallpaperPreviewNavigationController,
+                            _WallpaperStillItem ]
+...

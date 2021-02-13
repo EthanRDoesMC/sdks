@@ -1,0 +1,20 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/Frameworks/UserNotificationsUI.framework/UserNotificationsUI
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _UNAppLaunchOriginContentExtension, _UNLogExtensions,
+                            _UNRegisterUserNotificationsUILogging,
+                            _UserNotificationsUIVersionNumber,
+                            _UserNotificationsUIVersionString,
+                            __UNNotificationContentExtensionHostInterface,
+                            __UNNotificationContentExtensionVendorInterface,
+                            __UNNotificationExtensionActionsKey ]
+    objc-classes:         [ __UNNotificationContentExtensionHostContext,
+                            __UNNotificationContentExtensionVendorContext,
+                            __UNNotificationContentExtensionViewController,
+                            __UNNotificationContentExtensionViewControllerView ]
+...

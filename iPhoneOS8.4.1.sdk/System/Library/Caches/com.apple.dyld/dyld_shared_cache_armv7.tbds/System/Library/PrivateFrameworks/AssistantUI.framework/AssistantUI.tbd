@@ -1,0 +1,37 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/AssistantUI.framework/AssistantUI
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _AFUICreateAssistantResourcesDirectoryURL,
+                            _AFUICreateDebugController,
+                            _AFUICreateGizmoLogController, _AFUIDebugErrorDomain,
+                            _AFUIDebugOverrideDictionary,
+                            _AFUIFileURLForConversationWithIdentifier,
+                            _AFUIGetLanguageCode, _AFUIPathForDebugOverridePlist,
+                            _AFUIPresentationPropertiesRequestSourceKey,
+                            _AFUIPresentationPropertiesSupportsTouchKey,
+                            _AFUIPreviousConversationIdentifier,
+                            _AFUIPurgeCachedLocalizedStrings,
+                            _AFUIRelativeStringFromDate,
+                            _AFUIScreenSupportsKnobInteraction,
+                            _AFUIScreenSupportsTouchInteraction,
+                            _AFUISetLanguageCode,
+                            _AFUISpeechSynthesisQueueDidEmptyNotification,
+                            _AFUIStarkDirectActionStringForRequestOptions,
+                            _AssistantUIBundle, _kPresentSnippetKey,
+                            _kSirilandTransitionTest ]
+    objc-classes:         [ _AFUIApplicationStateHelper,
+                            _AFUIDebugCrashMoverService, _AFUIDebugError,
+                            _AFUIDebugLog, _AFUIDebugLogManager, _AFUIDialogPhase,
+                            _AFUIImageResource, _AFUIPreferences, _AFUIQueue,
+                            _AFUIRequestOptions, _AFUIRequestTrigger,
+                            _AFUISiriLanguage, _AFUISiriRemoteViewController,
+                            _AFUISiriSession, _AFUISiriView,
+                            _AFUISiriViewController, _AFUISnippetPaperView,
+                            _AFUISpeechSynthesis, _AFUISpeechSynthesisElement,
+                            _AFUIStateMachine, _AFUIVoicemailPlayer ]
+...

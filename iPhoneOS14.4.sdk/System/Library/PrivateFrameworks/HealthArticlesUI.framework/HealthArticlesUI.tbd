@@ -1,0 +1,25 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          "/System/Library/PrivateFrameworks/HealthArticlesUI.framework/HealthArticlesUI"
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _HealthArticlesUIVersionNumber,
+                            _HealthArticlesUIVersionString ]
+    objc-classes:         [ __TtC16HealthArticlesUI10ButtonView,
+                            __TtC16HealthArticlesUI12TileSashView,
+                            __TtC16HealthArticlesUI13ParagraphView,
+                            __TtC16HealthArticlesUI14LinkedTextView,
+                            __TtC16HealthArticlesUI17CustomContentView,
+                            __TtC16HealthArticlesUI17SectionHeaderView,
+                            __TtC16HealthArticlesUI21DynamicHeightTextView,
+                            __TtC16HealthArticlesUI21HealthArticleTileView,
+                            __TtC16HealthArticlesUI22DynamicHeightLabelView,
+                            __TtC16HealthArticlesUI25ArticleTileViewController,
+                            __TtC16HealthArticlesUI27HealthArticleViewController,
+                            __TtC16HealthArticlesUI31CustomContentViewControllerView,
+                            __TtC16HealthArticlesUI9ImageView,
+                            __TtC16HealthArticlesUI9TitleView ]
+...

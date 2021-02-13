@@ -1,0 +1,23 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/NPTKit.framework/NPTKit
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _BASE_URL, _CDN_JSON_ENDPOINT, _GET_URL,
+                            _GET_URL_FORMAT_STRING, _NPTKitVersionNumber,
+                            _NPTKitVersionString, _PING_URL, _POST_URL,
+                            _POST_URL_EXTENSION, _TEMP_FILE_NAME,
+                            _UNIQUE_QUERY_PARAM, _USER_AGENT_FORMAT_STRING,
+                            _dataBearerTechnologyToString, _indicatorToString,
+                            _wirelessAccessTechnologyToString ]
+    objc-classes:         [ _NPTCDNDebugCollector, _NPTCellularCollector,
+                            _NPTDownload, _NPTFileSizeConverter, _NPTLogger,
+                            _NPTMetadataCollector, _NPTMetricResult,
+                            _NPTPerformanceTest,
+                            _NPTPerformanceTestConfiguration, _NPTPing,
+                            _NPTPingResult, _NPTResults, _NPTSpeedMetric,
+                            _NPTTaskMetrics, _NPTUpload, _Ping, _SimplePing ]
+...

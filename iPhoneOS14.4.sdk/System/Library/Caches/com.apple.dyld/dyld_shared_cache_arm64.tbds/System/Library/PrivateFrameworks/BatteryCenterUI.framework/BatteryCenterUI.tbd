@@ -1,0 +1,25 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/BatteryCenterUI.framework/BatteryCenterUI
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    allowed-clients:      [ BatteryCenterUITest, BatteryWidget, SpringBoard,
+                            "SpringBoard-Tests", SpringBoardFramework,
+                            SpringBoardHome ]
+    symbols:              [ _BCUI6x8ColumnWidthForBounds,
+                            _BCUI6x8RowHeightForBounds,
+                            _BatteryCenterUIVersionNumber,
+                            _BatteryCenterUIVersionString,
+                            _NSStringFromBCUIAvocadoSize ]
+    objc-classes:         [ _BCUI2x2AvocadoViewController,
+                            _BCUI2x4AvocadoViewController,
+                            _BCUI4x4AvocadoViewController,
+                            _BCUIAvocadoViewController,
+                            _BCUIBatteryAvocadoViewController, _BCUIBatteryView,
+                            _BCUIChargeRing, _BCUIMappedImageCache,
+                            _BCUIRingCapShadow, _BCUIRingItemView, _BCUIRingView,
+                            _BCUIRowView ]
+...

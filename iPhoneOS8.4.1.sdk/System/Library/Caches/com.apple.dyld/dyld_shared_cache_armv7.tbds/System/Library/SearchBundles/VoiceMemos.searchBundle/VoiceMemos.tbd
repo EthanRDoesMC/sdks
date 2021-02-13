@@ -1,0 +1,12 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/SearchBundles/VoiceMemos.searchBundle/VoiceMemos
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    objc-classes:         [ _SPVoiceMemosDatastore, _VMSearchResult ]
+    objc-ivars:           [ _VMSearchResult._duration, _VMSearchResult._modDate,
+                            _VMSearchResult._title, _VMSearchResult._url ]
+...

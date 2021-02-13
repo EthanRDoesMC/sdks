@@ -1,0 +1,42 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/Catalyst.framework/Catalyst
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _CATErrorDomain, _CATErrorWithCodeAndUserInfo,
+                            _CATErrorWithURLResponse, _CATInternetErrorDomain,
+                            _CATLocalizedKey, _CATSecurityErrorDomain,
+                            _CATUnlocalizedKey, _CatalystVersionNumber,
+                            _CatalystVersionString ]
+    objc-classes:         [ _CATAddress, _CATBatchRemoteTaskOperation,
+                            _CATBlockOperationObserver, _CATCollectionController,
+                            _CATDispatchTimer, _CATEndPoint, _CATEvent,
+                            _CATHTTPMessageParser, _CATLocalizationHelper,
+                            _CATMainRunLoopBlockOperation, _CATMessage,
+                            _CATMutableTaskProgress, _CATNetworkReachability,
+                            _CATNotificationMessage, _CATOperation,
+                            _CATOperationQueue, _CATProperty, _CATRemoteConnection,
+                            _CATRemoteConnectionSocketOptions,
+                            _CATRemoteTaskOperation, _CATRemoteTransport,
+                            _CATSerialOperationQueue, _CATSessionMessage,
+                            _CATSessionMessageDidInvalidate,
+                            _CATSessionMessageInvalidate,
+                            _CATSessionMessageResume, _CATSessionMessageResumed,
+                            _CATSocket, _CATState, _CATStateMachine, _CATTaskClient,
+                            _CATTaskMessage, _CATTaskMessageCancel,
+                            _CATTaskMessageError, _CATTaskMessageFetchProgress,
+                            _CATTaskMessageIncrementalProgress,
+                            _CATTaskMessageProgressUpdate, _CATTaskMessageStart,
+                            _CATTaskOperation, _CATTaskProgress, _CATTaskRequest,
+                            _CATTaskResultObject, _CATTaskServer, _CATTaskSession,
+                            _CATTransition, _CATTransport, _CATXPCTransport,
+                            __CATErrorBundleHelper, __CATObserverManager,
+                            __CATOperationTargetSelectorObserver,
+                            __CATRemoteConnectionSendDataContext,
+                            __CATRemoteTransportSendMessageOperation,
+                            __CATTransportDidSendMessageOperation,
+                            __CATXPCTransportSendMessageOperation ]
+...

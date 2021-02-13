@@ -1,0 +1,13 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/DiskImages2.framework/DiskImages2
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _DIErrorDomain, _DiskImages2VersionNumber,
+                            _DiskImages2VersionString ]
+    objc-classes:         [ _DIAttachParams, _DIBaseParams, _DIConvertParams,
+                            _DIDeviceHandle, _DIVerifyParams, _DiskImages2 ]
+...

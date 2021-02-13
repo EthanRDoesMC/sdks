@@ -1,0 +1,52 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /usr/lib/libAWDProtobufWifiCalling.dylib
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ __ZN3awd7metrics24WifiCallingCallEndReport10SharedCtorEv,
+                            __ZN3awd7metrics24WifiCallingCallEndReport10SharedDtorEv,
+                            __ZN3awd7metrics24WifiCallingCallEndReport16_default_callid_E,
+                            __ZN3awd7metrics24WifiCallingCallEndReport16default_instanceEv,
+                            __ZN3awd7metrics24WifiCallingCallEndReport17default_instance_E,
+                            __ZN3awd7metrics24WifiCallingCallEndReport18kCallIDFieldNumberE,
+                            __ZN3awd7metrics24WifiCallingCallEndReport21CheckTypeAndMergeFromERKN6google8protobuf11MessageLiteE,
+                            __ZN3awd7metrics24WifiCallingCallEndReport21InitAsDefaultInstanceEv,
+                            __ZN3awd7metrics24WifiCallingCallEndReport21kTimestampFieldNumberE,
+                            __ZN3awd7metrics24WifiCallingCallEndReport27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE,
+                            __ZN3awd7metrics24WifiCallingCallEndReport32kFrameErasureRateMeanFieldNumberE,
+                            __ZN3awd7metrics24WifiCallingCallEndReport33kRtpPacketLossRateMeanFieldNumberE,
+                            __ZN3awd7metrics24WifiCallingCallEndReport37kFrameErasureRateHistogramFieldNumberE,
+                            __ZN3awd7metrics24WifiCallingCallEndReport38kRtpPacketLossRateHistogramFieldNumberE,
+                            __ZN3awd7metrics24WifiCallingCallEndReport41kJitterBufferResidencyTimeMeanFieldNumberE,
+                            __ZN3awd7metrics24WifiCallingCallEndReport41kJitterBufferUnderflowRateMeanFieldNumberE,
+                            __ZN3awd7metrics24WifiCallingCallEndReport43kJitterBufferResidencyTimeMedianFieldNumberE,
+                            __ZN3awd7metrics24WifiCallingCallEndReport46kJitterBufferResidencyTimeHistogramFieldNumberE,
+                            __ZN3awd7metrics24WifiCallingCallEndReport46kJitterBufferUnderflowRateHistogramFieldNumberE,
+                            __ZN3awd7metrics24WifiCallingCallEndReport49kJitterBufferResidencyTime95PercentileFieldNumberE,
+                            __ZN3awd7metrics24WifiCallingCallEndReport4SwapEPS1_,
+                            __ZN3awd7metrics24WifiCallingCallEndReport5ClearEv,
+                            __ZN3awd7metrics24WifiCallingCallEndReport8CopyFromERKS1_,
+                            __ZN3awd7metrics24WifiCallingCallEndReport9MergeFromERKS1_,
+                            __ZN3awd7metrics24WifiCallingCallEndReportC1ERKS1_,
+                            __ZN3awd7metrics24WifiCallingCallEndReportC1Ev,
+                            __ZN3awd7metrics24WifiCallingCallEndReportC2ERKS1_,
+                            __ZN3awd7metrics24WifiCallingCallEndReportC2Ev,
+                            __ZN3awd7metrics24WifiCallingCallEndReportD0Ev,
+                            __ZN3awd7metrics24WifiCallingCallEndReportD1Ev,
+                            __ZN3awd7metrics24WifiCallingCallEndReportD2Ev,
+                            __ZN3awd7metrics36protobuf_AddDesc_WifiCalling_2eprotoEv,
+                            __ZN3awd7metrics41protobuf_ShutdownFile_WifiCalling_2eprotoEv,
+                            __ZN3awd7metrics50static_descriptor_initializer_WifiCalling_2eproto_E,
+                            __ZNK3awd7metrics24WifiCallingCallEndReport11GetTypeNameEv,
+                            __ZNK3awd7metrics24WifiCallingCallEndReport13IsInitializedEv,
+                            __ZNK3awd7metrics24WifiCallingCallEndReport13SetCachedSizeEi,
+                            __ZNK3awd7metrics24WifiCallingCallEndReport24SerializeWithCachedSizesEPN6google8protobuf2io17CodedOutputStreamE,
+                            __ZNK3awd7metrics24WifiCallingCallEndReport3NewEv,
+                            __ZNK3awd7metrics24WifiCallingCallEndReport8ByteSizeEv,
+                            __ZTIN3awd7metrics24WifiCallingCallEndReportE,
+                            __ZTSN3awd7metrics24WifiCallingCallEndReportE,
+                            __ZTVN3awd7metrics24WifiCallingCallEndReportE ]
+...

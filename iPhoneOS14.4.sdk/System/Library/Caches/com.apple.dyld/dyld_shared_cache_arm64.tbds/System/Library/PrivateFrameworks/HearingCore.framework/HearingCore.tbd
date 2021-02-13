@@ -1,0 +1,22 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/HearingCore.framework/HearingCore
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _AXHAMessageKeyIdentifier, _AXHAMessageKeyPayload,
+                            _AXHANULL, _AXHearingAidServerName, _HAEngineeringLog,
+                            _HAInitializeLogging, _HALoggingQueue,
+                            _HCApplicationGetMainBundleIdentifier,
+                            _HCDeviceGetType, _HCHeardBundleName,
+                            _HCHeardProcessName, _HCMessageDeviceNameKey,
+                            _HCPerformSafeBlock, _HCPreferencesBundleName,
+                            _HCProcessGetName, _HearingCoreVersionNumber,
+                            _HearingCoreVersionString, _PAEngineeringLog,
+                            _PAInitializeLogging, _PALoggingQueue ]
+    objc-classes:         [ _HCDatabaseManager, _HCServer, _HCSettings,
+                            _HCSettingsListenerHelper, _HCUtilities, _HCXPCClient,
+                            _HCXPCMessage ]
+...

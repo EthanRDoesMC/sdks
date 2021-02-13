@@ -1,0 +1,66 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          "/System/Library/SpringBoardPlugins/Assistant.uibundle/Assistant"
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _ACActivatedSuccessfullyKey,
+                            _ACAssistantDidActivateNotification,
+                            _ACSiriIsEnabled,
+                            _UITextInputNextToUseInputModeDidChangeKey,
+                            _UITextInputNextToUseInputModeDidChangeNotification ]
+    objc-classes:         [ _ACAssistantEducationAlertItem,
+                            _ACAssistantEducationAlertManager,
+                            _ACBulletinManager, _ACHeater, _ACPreferences,
+                            _ACSpringBoardPluginController, _ACTestInput ]
+    objc-ivars:           [ _ACAssistantEducationAlertItem._delegate,
+                            _ACAssistantEducationAlertItem._displayedLanguageCodes,
+                            _ACAssistantEducationAlertItem._languageCodes,
+                            _ACAssistantEducationAlertItem._type,
+                            _ACAssistantEducationAlertManager._assistantSupported,
+                            _ACAssistantEducationAlertManager._dictationSupported,
+                            _ACAssistantEducationAlertManager._item,
+                            _ACAssistantEducationAlertManager._newlyAvailableLanguages,
+                            _ACAssistantEducationAlertManager._siriDidActivate,
+                            _ACAssistantEducationAlertManager._syncDidFinishLanguage,
+                            _ACAssistantEducationAlertManager._unlockHandler,
+                            _ACAssistantEducationAlertManager._unlockTimer,
+                            _ACBulletinManager._currentBulletins,
+                            _ACBulletinManager._delegate,
+                            _ACBulletinManager._observer, _ACHeater._delegate,
+                            _ACHeater._preparationStartTime,
+                            _ACPreferences._internalPreferences,
+                            _ACSpringBoardPluginController._appStateHelper,
+                            _ACSpringBoardPluginController._bluetoothDevice,
+                            _ACSpringBoardPluginController._bulletinManager,
+                            _ACSpringBoardPluginController._buttonTrigger,
+                            _ACSpringBoardPluginController._carSiriButtonHoldToTalkTimer,
+                            _ACSpringBoardPluginController._carSiriButtonTimeInterval,
+                            _ACSpringBoardPluginController._delaySessionForTTS,
+                            _ACSpringBoardPluginController._educationAlertManager,
+                            _ACSpringBoardPluginController._heater,
+                            _ACSpringBoardPluginController._language,
+                            _ACSpringBoardPluginController._lastDialogPhase,
+                            _ACSpringBoardPluginController._lastDismissalTimestamp,
+                            _ACSpringBoardPluginController._lastSpeechEvent,
+                            _ACSpringBoardPluginController._lockState,
+                            _ACSpringBoardPluginController._pairedToTrustedCar,
+                            _ACSpringBoardPluginController._phraseSpotterControlRemote,
+                            _ACSpringBoardPluginController._phraseSpotterReenableTimer,
+                            _ACSpringBoardPluginController._powerSourceNotifyToken,
+                            _ACSpringBoardPluginController._preparationTimestamp,
+                            _ACSpringBoardPluginController._presentationIdentifier,
+                            _ACSpringBoardPluginController._siriViewController,
+                            _ACSpringBoardPluginController._springBoardIdleTimerDisabled,
+                            _ACSpringBoardPluginController._startGuidedAccessOnDismissal,
+                            _ACSpringBoardPluginController._testInputQueue,
+                            _ACSpringBoardPluginController._unownedConnection,
+                            _ACSpringBoardPluginController._voiceTriggerNotifyToken,
+                            _ACSpringBoardPluginController._voiceTriggerNotifyTokenIsValid,
+                            _ACSpringBoardPluginController._waitingForTelephonyToStart,
+                            _ACSpringBoardPluginController._waitingForUserEvent,
+                            _ACSpringBoardPluginController._wasLockedAtWantsActivation,
+                            _ACTestInput._requestOptions ]
+...

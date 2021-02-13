@@ -1,0 +1,27 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          "/System/Library/VideoEncoders/H264H4.videoencoder"
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _AppleVXE380VA_DriverCreate,
+                            _AppleVXE380VA_DriverDelete,
+                            _AppleVXE380VA_EnableClocking,
+                            _AppleVXE380VA_EnableMMUVerification,
+                            _AppleVXE380VA_EnablePower,
+                            _AppleVXE380VA_EnableVerbose,
+                            _AppleVXE380VA_ForceDeviceType,
+                            _AppleVXE380VA_GetDeviceType,
+                            _AppleVXE380VA_HighSpeed, _AppleVXE380VA_PowerDown,
+                            _AppleVXE380VA_PowerUp, _AppleVXE380VA_PrintMMU,
+                            _AppleVXE380VA_PrintWhereIAm,
+                            _AppleVXE380VA_ReadRegister,
+                            _AppleVXE380VA_WriteRegister, _H264H4EncoderRegister,
+                            _VXE380_CreateInstance, _VXE380_DEBUG_GetDeviceType,
+                            _VXE380_DEBUG_SetCallback,
+                            _VXE380_DEBUG_SetFrameParamsFromOutside,
+                            _VXE380_DEBUG_SetSessioSettingsDefaultFromOutside,
+                            _createPixelBufferAttributesDictionary ]
+...

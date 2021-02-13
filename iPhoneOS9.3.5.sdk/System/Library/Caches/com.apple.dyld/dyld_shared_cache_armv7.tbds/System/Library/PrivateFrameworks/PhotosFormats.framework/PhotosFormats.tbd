@@ -1,0 +1,37 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/PhotosFormats.framework/PhotosFormats
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _PFAssetAdjustmentsBaseVersionKey,
+                            _PFAssetAdjustmentsDataBlobKey,
+                            _PFAssetAdjustmentsFormatIdentifierKey,
+                            _PFAssetAdjustmentsFormatVersionKey,
+                            _PFReadImageDisplayTimeFromVideoFileAtPath,
+                            _PFReadMetadataFromVideoAtPath,
+                            _PFReadPairingIdentifierFromImageAtPath,
+                            _PFReadPairingIdentifierFromImageProperties,
+                            _PFReadPairingIdentifierFromVideoAtPath,
+                            _PFReadVideoDurationFromVideoFileAtPath,
+                            _PFVideoComplementFileExtension,
+                            _PFVideoComplementImagePathKey,
+                            _PFVideoComplementMetadataKey,
+                            _PFVideoComplementMetadataPairingIdentifierKey,
+                            _PFVideoComplementMetadataTimingInfoKey,
+                            _PFVideoComplementMetadataVersionKey,
+                            _PFVideoComplementVideoPathKey ]
+    objc-classes:         [ _PFAVReaderWriter, _PFAssetAdjustments,
+                            _PFColorConverter, _PFPhotoSharingOperation,
+                            _PFRWSampleBufferChannel, _PFSharingRemaker,
+                            _PFSharingRemakerOperation, _PFSharingRemakerOptions,
+                            _PFSlowMotionConfiguration,
+                            _PFSlowMotionRampConfiguration,
+                            _PFSlowMotionTimeRangeMapper,
+                            _PFSlowMotionTimeRangeMapperScaledRegion,
+                            _PFSlowMotionUtilities, _PFVideoAVObjectBuilder,
+                            _PFVideoAdjustments, _PFVideoComplement,
+                            _PFVideoSharingOperation ]
+...

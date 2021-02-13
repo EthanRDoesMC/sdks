@@ -1,0 +1,39 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/MessageProtection.framework/MessageProtection
+current-version:       224.40.3
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _NGMEncryptedAttributeKTGossipData, _SecExposeStream,
+                            _SecMPComputePaddingForStorage,
+                            _SecMPCopyProtectedMsgHash,
+                            _SecMPFIAppendSerialization, _SecMPFIAppendSignature,
+                            _SecMPFICopyProtClass, _SecMPFIPurgeAllFromKeychain,
+                            _SecMPFIPurgeFromKeychain, _SecMPFIUpdateProtClass,
+                            _SecMPFullIdentityCreate,
+                            _SecMPFullIdentityCreateFromData,
+                            _SecMPFullIdentityCreateFromRefs,
+                            _SecMPFullIdentityCreateOTRSessionWith,
+                            _SecMPFullIdentityCreateOTRSessionWithFlags,
+                            _SecMPFullIdentityCreateWithAccess,
+                            _SecMPFullIdentityCreateWithAccessProtClass,
+                            _SecMPFullIdentityCreateWithProtClass,
+                            _SecMPPIAppendSerialization,
+                            _SecMPPublicIdentityCopyFromPrivate,
+                            _SecMPPublicIdentityCreateFromData,
+                            _SecMPSignAndProtectMessage,
+                            _SecMPVerifyAndExposeMessage,
+                            _SecMWCopyUnwrappedSessionSeed,
+                            _SecMWCopyWrappedSessionSeedForIdentities,
+                            _SecMWCreateEphemeralDeviceIdentity,
+                            _SecMWCreateSessionSalt, _SecMWCreateSessionSeed,
+                            _SecProtectStream ]
+    objc-classes:         [ _NGMFullDeviceIdentity, _NGMKeyRollingTicket,
+                            _NGMMessageHasher, _NGMProtocolVersion,
+                            _NGMPublicDeviceIdentity, _NGMReplayManager,
+                            _NGMRollingBitmaskBuffer, _NGMTimeBasedEvaluations,
+                            _SecMessageLegacyFullIdentity,
+                            _SecMessageLegacyPublicIdentity ]
+...

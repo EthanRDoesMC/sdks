@@ -1,0 +1,16 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          "/System/Library/SearchBundles/AddressBook.searchBundle/AddressBook"
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _SPAddressBookDatastoreErrorDomain ]
+    objc-classes:         [ _SPAddressBookDatastore ]
+    objc-ivars:           [ _SPAddressBookDatastore._addressBook,
+                            _SPAddressBookDatastore._monogrammer,
+                            _SPAddressBookDatastore._pipe,
+                            _SPAddressBookDatastore._query,
+                            _SPAddressBookDatastore._singleResultArray ]
+...

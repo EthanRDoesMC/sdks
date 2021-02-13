@@ -1,0 +1,54 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/SoundBoardServices.framework/SoundBoardServices
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _SBSUserDefaultsArrayKey, _SBSUserDefaultsInfoKey,
+                            _SBSUserDefaultsModKey, _SBSUserDefaultsValueKey,
+                            _SoundBoardServicesVersionNumber,
+                            _SoundBoardServicesVersionString,
+                            _kClientBundleIdentifier, _kHPCDRestartCannedDemo,
+                            _kIdentifySolo, _kIdentifyWithLight,
+                            _kIdentifyWithSound,
+                            _kSBSAppleCareSetAppleCareIsEnabledKey,
+                            _kSBSCannedDemoServiceSiriUtteranceFileToBePlayed,
+                            _kSBSDebugInfoGetAllDebugInfo,
+                            _kSBSDebugInfoGetFeatureFlags,
+                            _kSBSDebugInfoGetTuningInfo,
+                            _kSBSDebugInfoGetUserDefaults,
+                            _kSBSDebugInfoInjectSWUpdateToHome,
+                            _kSBSDebugInfoPlayTone,
+                            _kSBSDebugInfoResetAllUserDefaults,
+                            _kSBSDebugInfoResetUserDefault,
+                            _kSBSDebugInfoSendButtonCommand,
+                            _kSBSDebugInfoSendLEDCommand,
+                            _kSBSDebugInfoSetBootSpinner,
+                            _kSBSDebugInfoSetFeatureFlags,
+                            _kSBSDebugInfoSetLEDContents,
+                            _kSBSDebugInfoSetTuningInfoOnBox,
+                            _kSBSDebugInfoSetUserDefaults,
+                            _kSBSDebugInfoStopTone,
+                            _kSBSDebugInfoTriggerWiFiCoreCapture,
+                            _kSBSProximityHandoffUICancelKey,
+                            _kSBSProximityHandoffUICompleteKey,
+                            _kSBSProximityHandoffUIStartKey,
+                            _kSBSProximityHandoffUIUpdateIntensityKey,
+                            _kSBSSettingsHomeKitDeviceAttributeChanged,
+                            _kSBSSettingsHomeKitSettingForKeyPathChanged,
+                            _kSBSStereoLeaderRoleSetDeviceAsStereoLeader,
+                            _kSBSSysdiagnoseSysdiagnoseHasStarted,
+                            _kSBSSystemIdentify, _kSBSSystemObliterate,
+                            _kSBSSystemReboot, _kSBSSystemRequestDeferredReboot,
+                            _kSBSSystemRequestFetchAlarmsAndTimers ]
+    objc-classes:         [ _SBSAppleCareInterface, _SBSCannedDemoInterface,
+                            _SBSClient, _SBSDebugInterface, _SBSDefaultInfo,
+                            _SBSDispatch, _SBSFeatureFlag,
+                            _SBSHomePodControlsInterface, _SBSProximityHandoffUI,
+                            _SBSRemoteDeviceReceiver, _SBSRemoteDeviceSender,
+                            _SBSServer, _SBSSettingsInterface,
+                            _SBSStereoLeaderInterface, _SBSSysdiagnoseInterface,
+                            _SBSSystemInterface, _SBSUtils ]
+...

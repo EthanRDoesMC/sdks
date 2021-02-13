@@ -1,0 +1,14 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/SpringBoardPlugins/Assistant.uibundle/Assistant
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _ACActivatedSuccessfullyKey,
+                            _ACAssistantDidActivateNotification,
+                            _ACSiriIsEnabled ]
+    objc-classes:         [ _ACBulletinManager, _ACHeater, _ACPreferences,
+                            _ACSpringBoardPluginController ]
+...

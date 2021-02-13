@@ -1,0 +1,14 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /usr/lib/swift/libswiftNearbyInteraction.dylib
+current-version:       208.4.6
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _$sSo14NINearbyObjectC17NearbyInteractionE8distanceSfSgvg,
+                            _$sSo14NINearbyObjectC17NearbyInteractionE8distanceSfSgvpMV,
+                            _$sSo14NINearbyObjectC17NearbyInteractionE9directions5SIMD3VySfGSgvg,
+                            _$sSo14NINearbyObjectC17NearbyInteractionE9directions5SIMD3VySfGSgvpMV,
+                            __swift_FORCE_LOAD_$_swiftNearbyInteraction ]
+...

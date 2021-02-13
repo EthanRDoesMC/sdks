@@ -1,0 +1,54 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/PowerUI.framework/PowerUI
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _PowerUIAudioAccessorySmartChargeDeadlineHasChangedNote,
+                            _PowerUIAudioAccessorySmartChargeStatusHasChangedNote,
+                            _PowerUIErrorDomain,
+                            _PowerUISmartChargeClientCallisto,
+                            _PowerUISmartChargeClientPTOTool,
+                            _PowerUISmartChargeClientSettings,
+                            _PowerUISmartChargeStatusHasChangedNote,
+                            _PowerUIVersionNumber, _PowerUIVersionString,
+                            _btConnectionUpdateCallback, _decodeAccessoryMessage,
+                            _incomingCustomMessageCallback,
+                            _kAnalyticsActualUsableEligibleDuration,
+                            _kAnalyticsEligibleForIdleBatteryLevelKey,
+                            _kAnalyticsEstimatedUsableEligibleDuration,
+                            _kAnalyticsFullChargeDurationKey,
+                            _kAnalyticsIdleBatteryLevelKey,
+                            _kAnalyticsIdleDurationKey,
+                            _kAnalyticsPluginDurationKey,
+                            _kAnalyticsRecentlyInterruptedKey,
+                            _kAnalyticsTopOffDurationKey,
+                            _kAnalyticsTotalEligibleDuration,
+                            _kAnalyticsUnderChargeAvoidable,
+                            _kAnalyticsUnderChargeTLC,
+                            _kAnalyticsUnderChargeUnavoidable,
+                            _kAnalyticsVersionKey,
+                            _kDefaultsDomainAudioAccessories,
+                            _prepare9ByteMessage, _sessionEventCallback ]
+    objc-classes:         [ _PowerUIAccessoryStatus, _PowerUIAlarmSignalMonitor,
+                            _PowerUIAudioAccessorySmartChargeManager,
+                            _PowerUIBatteryMitigationManager,
+                            _PowerUIBluetoothHandler,
+                            _PowerUIBluetoothHandlerFake,
+                            _PowerUICalendarSignalMonitor, _PowerUIDefines,
+                            _PowerUIDesktopModePredictor, _PowerUILPMNotifier,
+                            _PowerUILocationSignalMonitor,
+                            _PowerUIMLAudioAccessoryModelPredictor,
+                            _PowerUIMLTwoStageModelPredictor,
+                            _PowerUIModelPredictionContainer,
+                            _PowerUIPredictorHelper, _PowerUISleepWakeMonitor,
+                            _PowerUISmartChargeClient,
+                            _PowerUISmartChargeClientAudioAccessories,
+                            _PowerUISmartChargeManager,
+                            _PowerUISmartChargeManagerUnsupported,
+                            _PowerUISmartChargeUtilities, _PowerUITrialManager,
+                            _PowerUIUPOManager, _PowerUIWakeRequestSignalMonitor,
+                            _PowerUIWalletSignalMonitor ]
+...

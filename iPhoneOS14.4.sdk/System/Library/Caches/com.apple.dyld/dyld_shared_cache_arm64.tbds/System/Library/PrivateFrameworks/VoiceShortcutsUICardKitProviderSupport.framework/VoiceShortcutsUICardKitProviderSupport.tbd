@@ -1,0 +1,16 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/VoiceShortcutsUICardKitProviderSupport.framework/VoiceShortcutsUICardKitProviderSupport
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _VoiceShortcutsUICardKitProviderSupportVersionNumber,
+                            _VoiceShortcutsUICardKitProviderSupportVersionString ]
+    objc-classes:         [ _VSUIActionStatusView, _VSUIAsyncLoadingCard,
+                            _VSUICKPEntryPoint, _VSUIPerformActionCardProvider,
+                            _VSUIPerformActionCardViewController,
+                            _VSUIProgressCardViewController,
+                            _VSUIVoiceShortcutCard, __VSUIActionStatusErrorView ]
+...

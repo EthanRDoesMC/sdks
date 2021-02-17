@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           0A41ECC0-15F4-3B0D-AA20-24482814AF6C
   - target:          arm64-ios
-    value:           F0D3870B-BFA4-3C78-A601-AFA26AF349E8
+    value:           50AB823E-D7D6-3688-BABE-70CC279BF1AB
   - target:          arm64e-ios
-    value:           A81750A8-8806-350D-99F6-1A2D3265E609
+    value:           6E2A5981-E8FF-3788-8498-D7FD33116BFD
 install-name:    '/usr/lib/libxslt.1.dylib'
 current-version: 3.26
 compatibility-version: 3

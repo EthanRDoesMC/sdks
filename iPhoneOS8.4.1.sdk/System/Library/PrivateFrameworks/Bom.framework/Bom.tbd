@@ -1,7 +1,7 @@
 ---
 archs:                 [ armv7, armv7s, arm64 ]
-platform:              ios
-install-name:          "/System/Library/PrivateFrameworks/Bom.framework/Bom"
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/Bom.framework/Bom
 current-version:       193
 compatibility-version: 2
 exports:

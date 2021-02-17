@@ -1,7 +1,7 @@
 ---
 archs:                 [ armv7, armv7s, arm64 ]
-platform:              ios
-install-name:          "/System/Library/PrivateFrameworks/ServiceManagement.framework/ServiceManagement"
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/ServiceManagement.framework/ServiceManagement
 current-version:       1336.220.5
 compatibility-version: 1
 exports:

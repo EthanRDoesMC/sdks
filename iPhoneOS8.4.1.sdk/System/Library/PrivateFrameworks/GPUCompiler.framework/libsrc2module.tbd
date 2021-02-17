@@ -1,7 +1,7 @@
 ---
 archs:                 [ armv7, armv7s, arm64 ]
-platform:              ios
-install-name:          "/System/Library/PrivateFrameworks/GPUCompiler.framework/libsrc2module.dylib"
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/GPUCompiler.framework/libsrc2module.dylib
 current-version:       602.2.15
 compatibility-version: 1
 exports:

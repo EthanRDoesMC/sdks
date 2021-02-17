@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           3EEEBB41-90B9-3A0D-A55A-48EB720818C6
   - target:          arm64-ios
-    value:           9B27BC2B-CCBB-3ECE-BBC5-F3F3B7BF319F
+    value:           8D8CA608-0D9F-3813-AF14-47B764D096A7
   - target:          arm64e-ios
-    value:           577087FB-882C-301D-B948-CB011DCD9647
+    value:           AF3BD935-704C-3326-A38F-725BD2A01142
 install-name:    '/System/Library/Frameworks/ExternalAccessory.framework/ExternalAccessory'
 exports:
   - targets:         [ arm64-ios, arm64e-ios, armv7-ios, armv7s-ios ]

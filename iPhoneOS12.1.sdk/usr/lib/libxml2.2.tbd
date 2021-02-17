@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           3A9AAC19-F14B-3D1B-A8A0-47F5E3597712
   - target:          arm64-ios
-    value:           3102A95F-BFD1-3D22-92ED-7D4F31CE994F
+    value:           9582604A-CE4F-37CE-AF1B-82E09802C758
   - target:          arm64e-ios
-    value:           69F58A5D-55E3-3503-84FC-69DE109A27B8
+    value:           55DF15DD-FD32-3D45-8D67-B61F9D0F9463
 install-name:    '/usr/lib/libxml2.2.dylib'
 current-version: 10.9
 compatibility-version: 10

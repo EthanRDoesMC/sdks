@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           34787988-99C3-3A1B-867C-2E0F077A0B1C
   - target:          arm64-ios
-    value:           92185D06-E22E-3501-9389-3CAE58FEC450
+    value:           B41288FC-D3F9-33D1-B9E9-03C15FA08CA8
   - target:          arm64e-ios
-    value:           A35ED1EC-2F1B-3553-B9C5-6A6B421D3AE2
+    value:           51D90407-5A13-3377-8BEA-16CCA4209B01
 install-name:    '/usr/lib/libspindump.dylib'
 exports:
   - targets:         [ arm64-ios, arm64e-ios, armv7-ios, armv7s-ios ]

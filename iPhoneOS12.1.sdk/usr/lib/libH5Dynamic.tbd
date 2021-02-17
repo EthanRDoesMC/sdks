@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           EF456AEC-05CB-3AC1-82BE-18F2177908F9
   - target:          arm64-ios
-    value:           6E0ED06D-41A7-31D7-B244-D6F66E90AD4D
+    value:           8B9997DC-C4D8-3961-9F6B-33F5E2ED6C41
   - target:          arm64e-ios
-    value:           D02D63E7-6210-349B-A283-050C72154418
+    value:           91A242D6-EC04-3C2B-998B-E52CFDD38100
 install-name:    '/usr/lib/libH5Dynamic.dylib'
 exports:
   - targets:         [ armv7-ios, armv7s-ios ]

@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           FE58758F-194B-3AEC-84D6-25385A0AF286
   - target:          arm64-ios
-    value:           280A277B-F76A-33F2-973F-C2A521EABD5F
+    value:           CC481B9E-BA01-3EA7-9B07-7E09A5326728
   - target:          arm64e-ios
-    value:           26FF6D42-18FA-3564-AE85-769E475085FE
+    value:           79A2D593-78B1-3E2D-868F-C11AB23B4D6C
 install-name:    '/usr/lib/libThaiTokenizer.dylib'
 exports:
   - targets:         [ armv7-ios, armv7s-ios ]

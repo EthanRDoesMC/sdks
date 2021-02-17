@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           AED4992A-4A7D-379D-A480-E3302D4C64CF
   - target:          arm64-ios
-    value:           6E6F5E0C-D9E1-304B-8348-2C0B4AB2A7AF
+    value:           18A844C2-D85D-3F59-BB59-AD3C02C21FB6
   - target:          arm64e-ios
-    value:           23E3CE66-76AE-327D-B825-7C97F0E3040C
+    value:           3F260A8F-985B-3A02-9801-2ABFFA435C43
 install-name:    '/System/Library/Frameworks/CoreText.framework/CoreText'
 exports:
   - targets:         [ armv7-ios, armv7s-ios ]

@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           98E8F9BE-B5F7-3387-B41E-DE5DE8497AC4
   - target:          arm64-ios
-    value:           965477A5-0E90-346B-AEAA-2D3D3CAAF407
+    value:           E5CD8CF0-B74A-3E55-8EE4-25E597568575
   - target:          arm64e-ios
-    value:           B537F2C7-57DA-3E15-8EED-815192C17BB4
+    value:           A518167A-6405-3C05-9359-7EC7D578CBDB
 install-name:    '/System/Library/Frameworks/WatchConnectivity.framework/WatchConnectivity'
 current-version: 198
 exports:

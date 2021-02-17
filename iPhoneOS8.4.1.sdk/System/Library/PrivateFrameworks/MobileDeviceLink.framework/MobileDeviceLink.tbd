@@ -1,7 +1,7 @@
 ---
 archs:                 [ armv7, armv7s, arm64 ]
-platform:              ios
-install-name:          "/System/Library/PrivateFrameworks/MobileDeviceLink.framework/MobileDeviceLink"
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/MobileDeviceLink.framework/MobileDeviceLink
 current-version:       264
 compatibility-version: 100
 exports:

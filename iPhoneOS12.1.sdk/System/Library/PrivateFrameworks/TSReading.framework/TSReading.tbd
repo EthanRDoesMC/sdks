@@ -1,7 +1,7 @@
 ---
 archs:                 [ armv7, armv7s, arm64 ]
-platform:              ios
-install-name:          "/System/Library/PrivateFrameworks/TSReading.framework/TSReading"
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/TSReading.framework/TSReading
 current-version:       246
 compatibility-version: 1
 exports:

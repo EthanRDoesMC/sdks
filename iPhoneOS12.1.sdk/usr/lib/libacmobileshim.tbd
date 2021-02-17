@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           D859ECDD-CCA4-38DE-B30D-610DD2050EFC
   - target:          arm64-ios
-    value:           064087EB-8EA1-390C-A311-1F77CB9DDF96
+    value:           EEA35EC0-92C3-3FCF-882F-420F2AFE14C5
   - target:          arm64e-ios
-    value:           8B0FE816-B277-3B40-90A2-5FE761320946
+    value:           C6E459B0-7D62-3D18-8D02-9A22BA1789EB
 install-name:    '/usr/lib/libacmobileshim.dylib'
 exports:
   - targets:         [ arm64-ios, arm64e-ios, armv7-ios, armv7s-ios ]

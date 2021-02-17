@@ -1,7 +1,7 @@
 ---
 archs:                 [ armv7, armv7s, arm64 ]
-platform:              ios
-install-name:          "/System/Library/PrivateFrameworks/CompanionSync.framework/CompanionSync"
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/CompanionSync.framework/CompanionSync
 current-version:       1
 compatibility-version: 1
 exports:

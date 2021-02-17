@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           00000000-0000-0000-0000-000000000000
   - target:          arm64-ios
-    value:           0FCE4DEE-9C44-3784-9704-0A2951ED1EE7
+    value:           F61FA1A9-C2F2-3D48-B206-FF7D23237DC2
   - target:          arm64e-ios
-    value:           9070D27E-4C89-3F6B-A391-1F5076BE1076
+    value:           AE3FD5BB-D884-3F67-AA5D-59133C893163
 install-name:    '/usr/lib/swift/libswiftPencilKit.dylib'
 current-version: 5
 swift-abi-version: 7

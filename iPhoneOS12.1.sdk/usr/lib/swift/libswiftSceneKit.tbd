@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           A286B40A-F682-3A64-AAF7-A7E311FBBF8A
   - target:          arm64-ios
-    value:           F59CF428-E2BA-3ECB-94F3-4DF772730E54
+    value:           DCCC40E5-715D-3AA0-A373-3C9D637C09CC
   - target:          arm64e-ios
-    value:           E5032228-D4D0-3177-B2AB-69D336C88D7B
+    value:           229966F3-4AB6-3BBC-8169-3A3745C7891C
 install-name:    '/usr/lib/swift/libswiftSceneKit.dylib'
 current-version: 1.1
 swift-abi-version: 7

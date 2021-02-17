@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           00000000-0000-0000-0000-000000000000
   - target:          arm64-ios
-    value:           9283908D-CE32-3D73-A501-8AE6640B1F66
+    value:           501DC012-8233-31A9-BB7F-692B87FDC1EE
   - target:          arm64e-ios
-    value:           B0F0C61E-8C97-3B02-9BF8-6FE2BE8F4269
+    value:           333F6E50-9F53-397E-9AD4-3CD0C255E123
 install-name:    '/System/Library/Frameworks/PDFKit.framework/PDFKit'
 exports:
   - targets:         [ arm64-ios, arm64e-ios, armv7-ios, armv7s-ios ]

@@ -1,7 +1,7 @@
 ---
 archs:                 [ armv7, armv7s, arm64 ]
-platform:              ios
-install-name:          "/System/Library/PrivateFrameworks/GameCenter.framework/GameCenter"
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/GameCenter.framework/GameCenter
 current-version:       563.125
 compatibility-version: 1
 exports:

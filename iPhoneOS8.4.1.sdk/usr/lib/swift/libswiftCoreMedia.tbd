@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           EF98589E-DDD8-310E-B500-D3EAC99ED53E
   - target:          arm64-ios
-    value:           2FC32807-5CE2-37DC-BCE8-0621F7B1173D
+    value:           493E5611-BBFC-3E28-8BCF-CABA0677AF1D
   - target:          arm64e-ios
-    value:           612DB1DE-AC3D-3A30-8C3A-CBE62372C0F0
+    value:           73BC3D9E-D67B-37A0-8967-474BE3A185B8
 install-name:    '/usr/lib/swift/libswiftCoreMedia.dylib'
 swift-abi-version: 7
 exports:

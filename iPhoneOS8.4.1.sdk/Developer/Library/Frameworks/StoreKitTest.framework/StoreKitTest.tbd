@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           00000000-0000-0000-0000-000000000000
   - target:          arm64-ios
-    value:           2CF27989-654B-3238-B4EC-8D4D67AC5EE7
+    value:           72DDB53C-06B6-3F63-ACAB-56AE2E863EDF
   - target:          arm64e-ios
-    value:           71A1CF91-0670-3D0E-AA58-A28677658B7B
+    value:           6BD6E299-CE33-333C-8E9C-0F09E3057C6A
 install-name:    '/Developer/Library/Frameworks/StoreKitTest.framework/StoreKitTest'
 exports:
   - targets:         [ arm64-ios, arm64e-ios, armv7-ios, armv7s-ios ]

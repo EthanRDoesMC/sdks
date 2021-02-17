@@ -1,7 +1,7 @@
 ---
 archs:                 [ armv7, armv7s, arm64 ]
-platform:              ios
-install-name:          "/System/Library/PrivateFrameworks/AvatarKit.framework/AvatarKit"
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/AvatarKit.framework/AvatarKit
 current-version:       225.6
 compatibility-version: 1
 exports:

@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           11013E6D-9722-3B81-8363-66F264EEA048
   - target:          arm64-ios
-    value:           5554612B-AA1F-3DE9-B710-C2DE18CF3716
+    value:           2DDC6C38-4130-3D2E-AB48-4E88E8008D5F
   - target:          arm64e-ios
-    value:           40DD903A-FA29-3F48-811E-9DE41F6B20F7
+    value:           980FE091-1D95-37B8-8CA3-34F211ACFECB
 install-name:    '/usr/lib/libipconfig.dylib'
 exports:
   - targets:         [ armv7-ios, armv7s-ios ]

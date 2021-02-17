@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           454DEB10-D5CB-309E-BB57-DC780AA68417
   - target:          arm64-ios
-    value:           A41574D7-AD53-3667-97B3-EFC3D8D24BA2
+    value:           9F05436C-097A-3BF9-873F-7464C949ED5E
   - target:          arm64e-ios
-    value:           082EFD03-2C5B-3E73-9254-20C82218DB6B
+    value:           7E865E35-A2FD-3A5B-A899-9019E19A11BC
 install-name:    '/usr/lib/libipsec.A.dylib'
 current-version: 300
 exports:

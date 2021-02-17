@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           8EAEDBF2-D2FF-3433-9BF1-2CEB3DA89DE7
   - target:          arm64-ios
-    value:           DE79958F-7371-35C5-B976-AB4C27E7B9F6
+    value:           18FA589F-A808-3E75-8660-7BCFF89DAC75
   - target:          arm64e-ios
-    value:           77630173-04B7-3C35-8DB8-17D963C2A18F
+    value:           AA940236-47E7-3D2F-9A83-ACFA23A5A8F3
 install-name:    '/System/Library/Frameworks/AdSupport.framework/AdSupport'
 exports:
   - targets:         [ arm64-ios, arm64e-ios, armv7-ios, armv7s-ios ]

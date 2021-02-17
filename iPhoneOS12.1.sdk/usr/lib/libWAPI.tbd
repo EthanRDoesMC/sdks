@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           839BE777-1490-3F4E-8313-D036F6866108
   - target:          arm64-ios
-    value:           3BAD6C57-7DD2-3D47-B395-B84CB6C12CEA
+    value:           DC02F655-6234-3064-AAA2-C718C86FF700
   - target:          arm64e-ios
-    value:           1044E820-9545-3B50-9F71-B10947D24E52
+    value:           87F7C9B7-F6A9-33C3-8C53-1C7CF701D2E6
 install-name:    '/usr/lib/libWAPI.dylib'
 exports:
   - targets:         [ arm64-ios, arm64e-ios, armv7-ios, armv7s-ios ]

@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           00000000-0000-0000-0000-000000000000
   - target:          arm64-ios
-    value:           29A8FBA5-1CE2-32C5-884D-9AABD91302B1
+    value:           4D9A4F00-A6EA-3B78-9692-B1DC1DAF0581
   - target:          arm64e-ios
-    value:           B88CF674-9D93-3D6B-88EA-80E227EDF2D0
+    value:           D43DC940-2A6C-3DAA-9994-658116E61065
 install-name:    '/usr/lib/libAudioStatistics.dylib'
 exports:
   - targets:         [ arm64-ios, arm64e-ios, armv7-ios, armv7s-ios ]

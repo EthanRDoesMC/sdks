@@ -1,7 +1,7 @@
 ---
 archs:                 [ armv7, armv7s, arm64 ]
-platform:              ios
-install-name:          "/System/Library/PrivateFrameworks/CameraEffectsKit.framework/CameraEffectsKit"
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/CameraEffectsKit.framework/CameraEffectsKit
 current-version:       322.2.48
 compatibility-version: 1
 exports:

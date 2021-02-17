@@ -1,7 +1,7 @@
 ---
 archs:                 [ armv7, armv7s, arm64 ]
-platform:              ios
-install-name:          "/System/Library/PrivateFrameworks/H3ISPServices.framework/H3ISPServices"
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/H3ISPServices.framework/H3ISPServices
 current-version:       1
 compatibility-version: 1
 exports:

@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           01481A1E-9DE3-3B25-927C-A13017084114
   - target:          arm64-ios
-    value:           7561BB21-A65D-31D5-A819-6895BA579738
+    value:           5DBBE179-7833-3126-8D20-1115239E3AF8
   - target:          arm64e-ios
-    value:           19DDF003-3A13-35F9-88DB-71A917C18C90
+    value:           5D0E2DF6-3A2A-323A-8024-C52F71626AEC
 install-name:    '/usr/lib/libTelephonyUSBDynamic.dylib'
 exports:
   - targets:         [ arm64-ios, arm64e-ios, armv7-ios, armv7s-ios ]

@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           700C76F2-983F-30D8-8C98-72234AAAD598
   - target:          arm64-ios
-    value:           F7A2184A-F470-3FB0-A45E-8DC1222B595A
+    value:           22C1F3BF-3D61-3B67-836B-E8FAD9E315F1
   - target:          arm64e-ios
-    value:           013FC0B9-0D57-33A3-8C5F-CAFB4F531CA3
+    value:           4E796553-69F3-3FBF-9E66-C74DA713576D
 install-name:    '/usr/lib/libMatch.1.dylib'
 exports:
   - targets:         [ armv7-ios, armv7s-ios ]

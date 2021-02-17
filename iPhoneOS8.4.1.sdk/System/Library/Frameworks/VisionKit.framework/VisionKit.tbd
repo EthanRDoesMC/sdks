@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           00000000-0000-0000-0000-000000000000
   - target:          arm64-ios
-    value:           6502DCB3-0F08-352B-A955-1E78F9DD1AE1
+    value:           869640E1-565D-389B-8D90-43FACF1DF947
   - target:          arm64e-ios
-    value:           F809BD27-7CB0-3C55-B2E1-692B3DFAF728
+    value:           060851A2-993E-308F-9439-6A3C54F6655E
 install-name:    '/System/Library/Frameworks/VisionKit.framework/VisionKit'
 reexported-libraries:
   - targets:         [ armv7-ios, armv7s-ios, arm64-ios, arm64e-ios ]
@@ -23,9 +23,9 @@ uuids:
   - target:          armv7s-ios
     value:           00000000-0000-0000-0000-000000000000
   - target:          arm64-ios
-    value:           331BD8DF-8711-3AE1-9B7B-024516D010D7
+    value:           AC1D5655-8877-3A91-97C4-77944B70116A
   - target:          arm64e-ios
-    value:           8EDA25E9-03A8-3B78-A288-27CD772D4D81
+    value:           8BEC857A-F489-3737-B089-D31ACC876D22
 install-name:    '/System/Library/PrivateFrameworks/DocumentCamera.framework/DocumentCamera'
 current-version: 74
 exports:

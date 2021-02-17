@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           00000000-0000-0000-0000-000000000000
   - target:          arm64-ios
-    value:           52A6FEF6-637C-3403-A264-1F99FAE80A52
+    value:           4F4DD786-8797-318B-ABDC-E05543CA0118
   - target:          arm64e-ios
-    value:           D12A9AAB-7F24-3F7D-895E-5797294EFF83
+    value:           042A2FB0-B73F-38C4-B4E9-1AC4262918E5
 install-name:    '/System/Library/Frameworks/SwiftUI.framework/SwiftUI'
 swift-abi-version: 7
 exports:
@@ -5487,6 +5487,8 @@ exports:
                        '_$s7SwiftUI4ViewPAAE11lineSpacingyQr12CoreGraphics7CGFloatVF', 
                        '_$s7SwiftUI4ViewPAAE11lineSpacingyQr12CoreGraphics7CGFloatVFQOMQ', 
                        '_$s7SwiftUI4ViewPAAE11onDisappear7performQryycSg_tF', '_$s7SwiftUI4ViewPAAE11onDisappear7performQryycSg_tFQOMQ', 
+                       '_$s7SwiftUI4ViewPAAE11pageCommand5value2in4stepQrAA7BindingVyqd__G_SNyqd__Gqd__tSzRd__lF', 
+                       '_$s7SwiftUI4ViewPAAE11pageCommand5value2in4stepQrAA7BindingVyqd__G_SNyqd__Gqd__tSzRd__lFQOMQ', 
                        '_$s7SwiftUI4ViewPAAE11pickerStyleyQrqd__AA06PickerE0Rd__lF', 
                        '_$s7SwiftUI4ViewPAAE11pickerStyleyQrqd__AA06PickerE0Rd__lFQOMQ', 
                        '_$s7SwiftUI4ViewPAAE11scaleEffect1x1y6anchorQr12CoreGraphics7CGFloatV_AjA9UnitPointVtF', 

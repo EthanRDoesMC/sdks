@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           E0B9835E-DC76-35F9-AD73-7482849DCFB0
   - target:          arm64-ios
-    value:           FFEEA253-4A23-36DB-B382-A82DE405DD3A
+    value:           97392416-E45C-3541-A628-42EF2A3E165C
   - target:          arm64e-ios
-    value:           B608C4C0-34B5-37F4-883D-3F276738A6C5
+    value:           BA0CF267-B59B-327A-A9CA-1E3BD4A1CA49
 install-name:    '/System/Library/Frameworks/iAd.framework/iAd'
 exports:
   - targets:         [ armv7-ios, armv7s-ios ]

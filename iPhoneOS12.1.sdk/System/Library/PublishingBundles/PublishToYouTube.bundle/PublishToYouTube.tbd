@@ -1,7 +1,7 @@
 ---
 archs:                 [ armv7, armv7s, arm64 ]
-platform:              ios
-install-name:          "/System/Library/PublishingBundles/PublishToYouTube.bundle/PublishToYouTube"
+platform:              (null)
+install-name:          /System/Library/PublishingBundles/PublishToYouTube.bundle/PublishToYouTube
 current-version:       1
 compatibility-version: 1
 exports:

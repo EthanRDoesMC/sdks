@@ -1,7 +1,7 @@
 ---
 archs:                 [ armv7, armv7s, arm64 ]
 platform:              ios
-install-name:          /usr/lib/libheimdal-asn1.dylib
+install-name:          "/usr/lib/libheimdal-asn1.dylib"
 current-version:       1
 compatibility-version: 1
 exports:

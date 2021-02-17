@@ -1,7 +1,7 @@
 ---
 archs:                 [ armv7, armv7s, arm64 ]
-platform:              ios
-install-name:          "/System/Library/PrivateFrameworks/HangTracer.framework/HangTracer"
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/HangTracer.framework/HangTracer
 current-version:       97
 compatibility-version: 1
 exports:

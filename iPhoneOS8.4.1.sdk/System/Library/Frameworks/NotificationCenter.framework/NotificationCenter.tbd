@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           D2ED7121-4108-3F86-9EEA-4E71906ADBCC
   - target:          arm64-ios
-    value:           40C07C13-0D21-35D0-BA84-C4F71A873B41
+    value:           DE927D08-F901-367B-A107-9E86E3FC74F1
   - target:          arm64e-ios
-    value:           6153734C-DE92-3B1F-8496-55D219A7E2DC
+    value:           250F04DB-70B4-3A1D-B5DF-6D7934113E17
 install-name:    '/System/Library/Frameworks/NotificationCenter.framework/NotificationCenter'
 exports:
   - targets:         [ armv7-ios, armv7s-ios ]

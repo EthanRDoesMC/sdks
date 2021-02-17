@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           AA1E1032-B798-3B14-A671-82B2ED039E53
   - target:          arm64-ios
-    value:           36DD56CA-87A3-3B8B-BC2E-9EE086E82284
+    value:           B1091AD1-3282-317A-B94C-5F10B27BC38B
   - target:          arm64e-ios
-    value:           ECF46B53-D778-3906-8AE9-3E009F1AFA56
+    value:           0F27F2F9-302F-3797-8C08-4CD6CEC38432
 install-name:    '/usr/lib/libcompression.dylib'
 exports:
   - targets:         [ armv7-ios, armv7s-ios ]

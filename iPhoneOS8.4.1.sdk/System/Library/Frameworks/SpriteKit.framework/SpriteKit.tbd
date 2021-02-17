@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           BD7C5D21-D05A-3713-ADA2-D83D11123700
   - target:          arm64-ios
-    value:           7CF1960F-B30F-3B0D-898D-7F5AC5D93D40
+    value:           2B8FEC6B-831C-3294-9B4F-5874993CD258
   - target:          arm64e-ios
-    value:           E1295C42-0609-3E97-B268-B5173A27A54E
+    value:           B694CFAE-6F2D-3D19-81BC-B1C33991802D
 install-name:    '/System/Library/Frameworks/SpriteKit.framework/SpriteKit'
 current-version: 43
 exports:

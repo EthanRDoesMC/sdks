@@ -1,7 +1,7 @@
 ---
 archs:                 [ armv7, armv7s, arm64 ]
-platform:              ios
-install-name:          "/System/Library/PrivateFrameworks/AirTraffic.framework/AirTraffic"
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/AirTraffic.framework/AirTraffic
 current-version:       116
 compatibility-version: 1
 exports:

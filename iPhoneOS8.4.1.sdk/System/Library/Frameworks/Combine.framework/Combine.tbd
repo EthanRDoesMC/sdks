@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           00000000-0000-0000-0000-000000000000
   - target:          arm64-ios
-    value:           2BBB065F-4220-393D-AF69-91CC2525B429
+    value:           7EAFE790-735A-3C7C-A373-A544D8F8BC4C
   - target:          arm64e-ios
-    value:           A0C0268F-BE0F-3009-9D07-5D89046B76A7
+    value:           15B9213C-5959-36BE-871F-3F582776B8C4
 install-name:    '/System/Library/Frameworks/Combine.framework/Combine'
 current-version: 252.100
 swift-abi-version: 7

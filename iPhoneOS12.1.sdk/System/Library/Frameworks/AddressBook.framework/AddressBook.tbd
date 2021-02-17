@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           5F9B2AAE-FA4D-3CA9-81BB-D78C114A89CD
   - target:          arm64-ios
-    value:           EE86C431-C9DC-332D-9C65-6D9693951B11
+    value:           DDAB847C-199A-32C8-A2C6-3AB867E172E7
   - target:          arm64e-ios
-    value:           F6D8247E-9206-3044-8D74-A1126F1BC14B
+    value:           C14193C9-4AF2-36AF-8BB6-2EA248A770EB
 install-name:    '/System/Library/Frameworks/AddressBook.framework/AddressBook'
 exports:
   - targets:         [ armv7-ios, armv7s-ios ]

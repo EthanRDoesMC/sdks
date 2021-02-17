@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           00000000-0000-0000-0000-000000000000
   - target:          arm64-ios
-    value:           01741345-1829-3266-812F-A875A47764EF
+    value:           481655C5-A9A6-3EDE-B437-8D0692CE2B06
   - target:          arm64e-ios
-    value:           2A30BF40-1D89-38C8-85F6-31F457E3329F
+    value:           E1DD87A4-688D-3B04-8AF1-E4EBB9A57620
 install-name:    '/System/Library/Frameworks/DeveloperToolsSupport.framework/DeveloperToolsSupport'
 current-version: 8
 swift-abi-version: 7

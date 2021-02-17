@@ -7,8 +7,8 @@ uuids:
   - target:          armv7s-ios
     value:           00000000-0000-0000-0000-000000000000
   - target:          arm64-ios
-    value:           2BB546DD-0BF8-3C0A-9EB5-70E231139F2C
+    value:           AE03DF06-7A35-3D26-B865-4E4A42D22E8C
   - target:          arm64e-ios
-    value:           80081392-1A53-3F42-9F1C-9F3C36D459C0
+    value:           E272C2F8-E552-3FAB-9997-9434E1BBBB26
 install-name:    '/usr/lib/libAppleSSEExt.dylib'
 ...

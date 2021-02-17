@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           9B8B6971-C54E-38BC-BDD7-F43A55AB4706
   - target:          arm64-ios
-    value:           D8A19E52-36A7-3779-BC6C-D9DCC921B9AA
+    value:           58AA5B25-D757-35EE-866D-3D1EA93878B0
   - target:          arm64e-ios
-    value:           37F94697-EFC2-3353-A794-5F7ACBD58583
+    value:           57C5515D-AFCC-3B0A-A5E2-935D22551DF7
 install-name:    '/usr/lib/libDHCPServer.A.dylib'
 exports:
   - targets:         [ armv7-ios, armv7s-ios ]

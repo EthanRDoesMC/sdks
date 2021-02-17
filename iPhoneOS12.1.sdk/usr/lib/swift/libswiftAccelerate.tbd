@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           96588F43-C027-3B90-A19C-D6F816FF623B
   - target:          arm64-ios
-    value:           75527FE1-7C34-3879-8713-04D0771C36EF
+    value:           80F6D56B-4BB3-31F4-95BE-6408E4B82517
   - target:          arm64e-ios
-    value:           C40D65D8-7287-396C-8764-6B6080203D7E
+    value:           9638D42D-D2B1-37EA-8616-68D47A86870D
 install-name:    '/usr/lib/swift/libswiftAccelerate.dylib'
 current-version: 10.40.1
 swift-abi-version: 7

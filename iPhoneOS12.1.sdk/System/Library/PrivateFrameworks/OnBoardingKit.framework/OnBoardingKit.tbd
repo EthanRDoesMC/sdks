@@ -1,7 +1,7 @@
 ---
 archs:                 [ armv7, armv7s, arm64 ]
-platform:              ios
-install-name:          "/System/Library/PrivateFrameworks/OnBoardingKit.framework/OnBoardingKit"
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/OnBoardingKit.framework/OnBoardingKit
 current-version:       1
 compatibility-version: 1
 exports:

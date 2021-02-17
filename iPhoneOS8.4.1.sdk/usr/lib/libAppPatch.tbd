@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           7A7B45C4-9243-35E0-85A7-2208372F9A01
   - target:          arm64-ios
-    value:           830155DD-4FD2-34D0-8CDC-74FDD1B05535
+    value:           BD6BD915-F1AA-3ADC-AA00-643F82B3137F
   - target:          arm64e-ios
-    value:           C71B3EA7-C003-3C6D-821F-88B4B2BB7F72
+    value:           32A2F17E-00EE-34E7-8AA7-FD52A76BE4DC
 install-name:    '/usr/lib/libAppPatch.dylib'
 exports:
   - targets:         [ arm64-ios, arm64e-ios, armv7-ios, armv7s-ios ]

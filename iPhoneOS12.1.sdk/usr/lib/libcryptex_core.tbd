@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           00000000-0000-0000-0000-000000000000
   - target:          arm64-ios
-    value:           A47D475F-EB37-34BE-A77C-4A203D0BA3A8
+    value:           69202D21-BCB4-3917-A6E6-8BF4E190B2E1
   - target:          arm64e-ios
-    value:           83E6F614-BCAD-3FB4-89EA-ABA80ED9A98B
+    value:           35D0AED1-58A3-3DF9-9EDC-8773C84C25B5
 install-name:    '/usr/lib/libcryptex_core.dylib'
 current-version: 84.40.6
 exports:

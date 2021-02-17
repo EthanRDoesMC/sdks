@@ -1,7 +1,7 @@
 ---
 archs:                 [ armv7, armv7s, arm64 ]
-platform:              ios
-install-name:          "/System/Library/PrivateFrameworks/DocumentManagerCore.framework/DocumentManagerCore"
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/DocumentManagerCore.framework/DocumentManagerCore
 current-version:       68.100.38
 compatibility-version: 1
 exports:

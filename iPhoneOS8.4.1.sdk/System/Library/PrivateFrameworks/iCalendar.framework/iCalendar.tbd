@@ -1,7 +1,7 @@
 ---
 archs:                 [ armv7, armv7s, arm64 ]
-platform:              ios
-install-name:          "/System/Library/PrivateFrameworks/iCalendar.framework/iCalendar"
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/iCalendar.framework/iCalendar
 current-version:       200.2
 compatibility-version: 1
 exports:

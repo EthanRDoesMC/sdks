@@ -1,7 +1,7 @@
 ---
 archs:                 [ armv7, armv7s, arm64 ]
-platform:              ios
-install-name:          "/System/Library/PrivateFrameworks/CoreNLP.framework/CoreNLP"
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/CoreNLP.framework/CoreNLP
 current-version:       130.15.22
 compatibility-version: 1
 exports:

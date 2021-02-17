@@ -1,7 +1,7 @@
 ---
 archs:                 [ armv7, armv7s, arm64 ]
-platform:              ios
-install-name:          "/System/Library/PrivateFrameworks/Sharing.framework/Sharing"
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/Sharing.framework/Sharing
 current-version:       312.4.40
 compatibility-version: 1
 exports:

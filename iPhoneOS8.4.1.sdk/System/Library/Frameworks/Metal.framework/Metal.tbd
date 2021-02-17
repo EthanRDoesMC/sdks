@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           D2497235-9991-3537-9433-B8CBB3CC4430
   - target:          arm64-ios
-    value:           4601D687-B481-344A-8E91-3602165F9416
+    value:           41DF550E-AEB2-3AD2-8370-A0E6D8E51186
   - target:          arm64e-ios
-    value:           7EBA2500-A6BB-3049-ADF3-BB6649B0E3CA
+    value:           B19644EC-655D-330F-B502-2316136A7B66
 install-name:    '/System/Library/Frameworks/Metal.framework/Metal'
 current-version: 244.40.1
 exports:

@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           00000000-0000-0000-0000-000000000000
   - target:          arm64-ios
-    value:           9759A4D7-E317-3C10-90C7-D3CF23C33F0E
+    value:           7FAE02EE-ED59-3542-A2E4-890A7BE0F45E
   - target:          arm64e-ios
-    value:           117A8B16-D9B2-396C-8888-0B4CE9B581C6
+    value:           2AC11145-1393-32A9-8580-5FF6843EC804
 install-name:    '/System/Library/Frameworks/PencilKit.framework/PencilKit'
 exports:
   - targets:         [ arm64-ios, arm64e-ios, armv7-ios, armv7s-ios ]

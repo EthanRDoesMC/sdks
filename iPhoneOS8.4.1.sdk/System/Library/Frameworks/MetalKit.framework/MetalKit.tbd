@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           C8AAE596-C26E-3BF3-9694-10B8EEF50B42
   - target:          arm64-ios
-    value:           C322EE90-8C1A-3988-B0B6-BA1F6B6CBD0D
+    value:           9D23FE8A-1AF7-33FF-A6F7-23AEC3C82BAE
   - target:          arm64e-ios
-    value:           2069B340-B16D-3791-9865-EB19CE9BC0D7
+    value:           E2A1B550-D07A-35C6-8BA7-321E53F7531E
 install-name:    '/System/Library/Frameworks/MetalKit.framework/MetalKit'
 current-version: 147.1
 exports:

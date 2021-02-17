@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           00000000-0000-0000-0000-000000000000
   - target:          arm64-ios
-    value:           CFB3188B-2B99-3BBF-924D-872D03EACB79
+    value:           12C25F34-E3E2-3564-A23D-18C6E3436959
   - target:          arm64e-ios
-    value:           0337D28F-F120-3B97-8546-8CF81228B4F4
+    value:           DB63F6BC-6FDA-3977-9228-4F85556F7818
 install-name:    '/usr/lib/libexpat.1.dylib'
 current-version: 8
 compatibility-version: 7

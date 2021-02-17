@@ -1,7 +1,7 @@
 ---
 archs:                 [ armv7, armv7s, arm64 ]
-platform:              ios
-install-name:          "/System/Library/PrivateFrameworks/Swift/libswiftSwiftOnoneSupport.dylib"
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/Swift/libswiftSwiftOnoneSupport.dylib
 current-version:       1000.2.30
 compatibility-version: 1
 exports:

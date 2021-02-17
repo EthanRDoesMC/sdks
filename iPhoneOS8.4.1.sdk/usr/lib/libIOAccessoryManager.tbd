@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           2B8F2681-171A-3563-997E-4653431007EF
   - target:          arm64-ios
-    value:           24BA7A45-46CC-3854-9160-483BA3E47CAE
+    value:           1E020043-80BC-3EFC-8249-F4D3F23EF9AD
   - target:          arm64e-ios
-    value:           75C51EF0-14CC-3001-B4EA-1709D3019E45
+    value:           AE227A34-431E-3087-9F84-14847998135A
 install-name:    '/usr/lib/libIOAccessoryManager.dylib'
 exports:
   - targets:         [ arm64-ios, arm64e-ios, armv7-ios, armv7s-ios ]

@@ -1,7 +1,7 @@
 ---
 archs:                 [ armv7, armv7s, arm64 ]
-platform:              ios
-install-name:          "/System/Library/Messages/PlugIns/SMS.imservice/SMS"
+platform:              (null)
+install-name:          /System/Library/Messages/PlugIns/SMS.imservice/SMS
 current-version:       1000
 compatibility-version: 1
 exports:

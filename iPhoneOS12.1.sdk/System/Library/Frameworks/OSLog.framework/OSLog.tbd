@@ -7,11 +7,11 @@ uuids:
   - target:          armv7s-ios
     value:           00000000-0000-0000-0000-000000000000
   - target:          arm64-ios
-    value:           079AAD10-3626-3315-B977-9A937BD52D37
+    value:           4E81A9DA-ED79-34EF-B4E3-4796F212E519
   - target:          arm64e-ios
-    value:           ED2A063B-D76F-3F74-962E-24D772AD3CB8
+    value:           52E1693A-A38F-38B3-9CF5-BBC9D7C778C9
 install-name:    '/System/Library/Frameworks/OSLog.framework/OSLog'
-current-version: 1277.40.18
+current-version: 1277.80.2
 exports:
   - targets:         [ arm64-ios, arm64e-ios, armv7-ios, armv7s-ios ]
     symbols:         [ __catalog_create, __catalog_create_with_chunk, __catalog_destroy, 

@@ -1,7 +1,7 @@
 ---
 archs:                 [ armv7, armv7s, arm64 ]
-platform:              ios
-install-name:          "/System/Library/TextInput/TextInput_mr.bundle/TextInput_mr"
+platform:              (null)
+install-name:          /System/Library/TextInput/TextInput_mr.bundle/TextInput_mr
 current-version:       1
 compatibility-version: 1
 exports:

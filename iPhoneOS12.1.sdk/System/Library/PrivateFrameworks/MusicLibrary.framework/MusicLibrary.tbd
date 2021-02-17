@@ -1,7 +1,7 @@
 ---
 archs:                 [ armv7, armv7s, arm64 ]
-platform:              ios
-install-name:          "/System/Library/PrivateFrameworks/MusicLibrary.framework/MusicLibrary"
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/MusicLibrary.framework/MusicLibrary
 current-version:       18
 compatibility-version: 1
 exports:

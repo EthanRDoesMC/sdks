@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           37B6538C-104B-3E82-AB44-4FFF9759A104
   - target:          arm64-ios
-    value:           F7D06B67-3F2F-3866-886A-6480A6D9BDC2
+    value:           CF1BE5AA-2F57-3BE8-8D2F-E7C82898F9E7
   - target:          arm64e-ios
-    value:           89B04920-9BF6-3FAF-AD85-E581CBBBAE1C
+    value:           84F79BF6-4549-38E5-BAA9-00B73A0B82F7
 install-name:    '/usr/lib/libnfshared.dylib'
 exports:
   - targets:         [ armv7-ios, armv7s-ios ]

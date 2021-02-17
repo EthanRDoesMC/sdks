@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           00000000-0000-0000-0000-000000000000
   - target:          arm64-ios
-    value:           DC19A112-399F-3EE4-8472-A46EDB35C452
+    value:           37506223-2361-379A-AC7E-BD2495CF8564
   - target:          arm64e-ios
-    value:           1C57EFCB-F564-3B3B-9B9A-BD94DA19E545
+    value:           7C188B3C-AABF-3A80-8FF3-F076D83402D0
 install-name:    '/usr/lib/ACIPCBTLib.dylib'
 exports:
   - targets:         [ arm64-ios, arm64e-ios ]

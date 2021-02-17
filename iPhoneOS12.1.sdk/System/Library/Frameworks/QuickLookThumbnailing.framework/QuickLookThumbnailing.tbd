@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           00000000-0000-0000-0000-000000000000
   - target:          arm64-ios
-    value:           459F92B2-1D32-39E4-A902-2FB937DC4AE7
+    value:           6D444C79-B7A2-3BDE-9A1D-EA12CE37059F
   - target:          arm64e-ios
-    value:           39662265-8373-348E-B037-5C6F9EC089EF
+    value:           B5EB6198-584D-3520-AADB-6283DE3848C7
 install-name:    '/System/Library/Frameworks/QuickLookThumbnailing.framework/QuickLookThumbnailing'
 current-version: 0
 exports:

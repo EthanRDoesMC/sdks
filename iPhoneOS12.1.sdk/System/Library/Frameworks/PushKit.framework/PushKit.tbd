@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           3609F0D4-7838-3E7E-B034-A51BF2CA4FAD
   - target:          arm64-ios
-    value:           BDFDA167-0AFC-3471-9D29-F14918D5A56A
+    value:           629D513A-FD1D-3994-8E9B-AA7BEF62158C
   - target:          arm64e-ios
-    value:           FBFFAA0F-AD46-3F78-B1B9-9C48BC4AA066
+    value:           EA9B2FF9-825F-30A2-9DC3-8FE3E70FD6DE
 install-name:    '/System/Library/Frameworks/PushKit.framework/PushKit'
 exports:
   - targets:         [ armv7-ios, armv7s-ios ]

@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           EFE9577B-ADF9-3374-A409-A6B298ACE3CF
   - target:          arm64-ios
-    value:           A1F7DA42-6C93-34EB-84DF-EF5FE486B6C5
+    value:           5B3411EC-1EF9-3D99-950D-05153C95ECD6
   - target:          arm64e-ios
-    value:           2404D60F-613D-3CE9-BFB7-86FF20297EB9
+    value:           2B2A82D9-36BC-336A-B959-E41706195FEA
 install-name:    '/usr/lib/libFDRDecode.dylib'
 exports:
   - targets:         [ armv7-ios, armv7s-ios ]

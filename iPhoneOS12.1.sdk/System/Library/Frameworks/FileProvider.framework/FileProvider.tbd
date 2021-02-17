@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           00000000-0000-0000-0000-000000000000
   - target:          arm64-ios
-    value:           0E4C8A5E-6B79-3ECD-988B-46F9675D7BA3
+    value:           9FCA752E-2E8F-3A52-BEF8-65ACD263D21C
   - target:          arm64e-ios
-    value:           837422B0-FDB2-379A-BA3D-ABAE17CFD66D
+    value:           D9607B48-E828-313D-8873-3480C22FBC28
 install-name:    '/System/Library/Frameworks/FileProvider.framework/FileProvider'
 exports:
   - targets:         [ arm64-ios, arm64e-ios, armv7-ios, armv7s-ios ]

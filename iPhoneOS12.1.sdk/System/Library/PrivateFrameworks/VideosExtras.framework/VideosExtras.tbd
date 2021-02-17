@@ -1,7 +1,7 @@
 ---
 archs:                 [ armv7, armv7s, arm64 ]
-platform:              ios
-install-name:          "/System/Library/PrivateFrameworks/VideosExtras.framework/VideosExtras"
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/VideosExtras.framework/VideosExtras
 current-version:       0
 compatibility-version: 0
 exports:

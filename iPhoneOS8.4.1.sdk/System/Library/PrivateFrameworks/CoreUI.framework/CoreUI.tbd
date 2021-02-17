@@ -1,7 +1,7 @@
 ---
 archs:                 [ armv7, armv7s, arm64 ]
-platform:              ios
-install-name:          "/System/Library/PrivateFrameworks/CoreUI.framework/CoreUI"
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/CoreUI.framework/CoreUI
 current-version:       307.3
 compatibility-version: 1
 exports:

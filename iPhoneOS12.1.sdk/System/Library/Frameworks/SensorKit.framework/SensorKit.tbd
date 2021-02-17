@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           00000000-0000-0000-0000-000000000000
   - target:          arm64-ios
-    value:           D08D6EB8-CA9E-3D16-AAD8-A7CE9AB5EDD8
+    value:           56A15D3C-D0E0-38E0-A5DE-943D63DE0DAB
   - target:          arm64e-ios
-    value:           6E3D890F-442E-317B-BC46-1576362FC168
+    value:           3B374D9B-78AE-3AC0-8B53-BB0BD3D59B94
 install-name:    '/System/Library/Frameworks/SensorKit.framework/SensorKit'
 exports:
   - targets:         [ arm64-ios, arm64e-ios, armv7-ios, armv7s-ios ]

@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           680103A4-3772-31F8-AF86-7E8B61C78553
   - target:          arm64-ios
-    value:           31F39518-1A7D-3128-AD2B-D50FE7F63A78
+    value:           40D201E1-981A-3F9C-BD0D-7016969B2889
   - target:          arm64e-ios
-    value:           76E40B9E-A9AF-3BC7-B676-C5175F7A5C6F
+    value:           99055F89-33A0-3E60-A559-FF1BFFF3770B
 install-name:    '/usr/lib/libICEClient.dylib'
 exports:
   - targets:         [ armv7-ios, armv7s-ios ]

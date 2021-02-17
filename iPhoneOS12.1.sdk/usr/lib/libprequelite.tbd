@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           DAB38FA6-8195-3EA9-8618-78070C148682
   - target:          arm64-ios
-    value:           50E53775-AE20-3C69-948A-BFFFB5F0AAC1
+    value:           81B60574-AE62-3D7B-8171-CEBE82CA4714
   - target:          arm64e-ios
-    value:           0769F4C5-597D-3A8C-ABB3-DD2F4150832B
+    value:           1849A2DC-033A-3AAA-8D60-FCF4B10B499C
 install-name:    '/usr/lib/libprequelite.dylib'
 current-version: 103
 exports:

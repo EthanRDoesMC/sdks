@@ -1,7 +1,7 @@
 ---
 archs:                 [ armv7, armv7s, arm64 ]
-platform:              ios
-install-name:          "/System/Library/PrivateFrameworks/CloudPhotoLibrary.framework/CloudPhotoLibrary"
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/CloudPhotoLibrary.framework/CloudPhotoLibrary
 current-version:       3412.9.230
 compatibility-version: 1
 exports:

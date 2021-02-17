@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           00000000-0000-0000-0000-000000000000
   - target:          arm64-ios
-    value:           EECEB590-6AEF-3738-B1A6-58C15817273E
+    value:           9E25A20F-D639-3851-9161-1A81C63E59C7
   - target:          arm64e-ios
-    value:           16998CB2-6CC4-3C9B-B5AC-0BC18A67BB66
+    value:           273430F1-2B46-35F3-85F5-65B6937F4AA8
 install-name:    '/System/Library/Frameworks/FileProviderUI.framework/FileProviderUI'
 current-version: 35
 exports:

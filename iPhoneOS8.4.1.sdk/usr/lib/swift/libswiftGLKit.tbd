@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           2DFFD189-514B-3BE9-B73F-90F41F10852E
   - target:          arm64-ios
-    value:           4A7C297E-E75B-3C07-A92D-419CD29B6801
+    value:           4CA808A0-C909-33C1-9320-E0B051102D57
   - target:          arm64e-ios
-    value:           DC8508EB-B798-3808-88B3-71D21EC25A42
+    value:           68078E9B-10B1-3EA3-8B16-292C7C02B13E
 install-name:    '/usr/lib/swift/libswiftGLKit.dylib'
 current-version: 1.1
 swift-abi-version: 7

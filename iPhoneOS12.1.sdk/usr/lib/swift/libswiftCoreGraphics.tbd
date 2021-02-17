@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           9FAC1322-2F94-3187-AA5B-AF07890A4295
   - target:          arm64-ios
-    value:           A1566D3C-40CA-3540-9A4B-E98A484640A9
+    value:           08E8E7A6-4362-308A-AD2A-4437CD7C27C0
   - target:          arm64e-ios
-    value:           C7F5C3D4-27B0-3BFB-B96F-1006F4188B73
+    value:           05D0F019-B7A4-30F5-B754-BD60EA5B8559
 install-name:    '/usr/lib/swift/libswiftCoreGraphics.dylib'
 current-version: 2
 swift-abi-version: 7

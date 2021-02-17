@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           5CE944D4-FD81-3B44-9975-9BBE2C01A593
   - target:          arm64-ios
-    value:           5870F7D2-8993-3B3A-AF5F-D142DBE15D65
+    value:           2C92B898-BF6A-397E-AB4D-409588151CA4
   - target:          arm64e-ios
-    value:           45713DBA-2F40-33B5-B253-13A1C64106FD
+    value:           810C9ED7-D974-38E1-9CA1-8FAC779BAB84
 install-name:    '/System/Library/Frameworks/CoreTelephony.framework/CoreTelephony'
 current-version: 0
 exports:

@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           00000000-0000-0000-0000-000000000000
   - target:          arm64-ios
-    value:           A09547A1-90DA-3E24-B6B6-9D608D32C524
+    value:           28F0C53B-AF1C-3399-BD89-629848E3033A
   - target:          arm64e-ios
-    value:           8AA2C50F-D7B9-357F-8840-273CFE8D2273
+    value:           6E08DCB2-711F-3684-865F-97A289ABEF54
 install-name:    '/System/Library/Frameworks/ImageCaptureCore.framework/ImageCaptureCore'
 exports:
   - targets:         [ arm64-ios, arm64e-ios, armv7-ios, armv7s-ios ]

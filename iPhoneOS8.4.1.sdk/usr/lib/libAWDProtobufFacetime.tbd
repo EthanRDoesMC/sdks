@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           CB595720-E2A2-3824-B3C4-08FECAD850F5
   - target:          arm64-ios
-    value:           8E3CAC05-5242-348F-9D55-D00C1110E238
+    value:           CE0360B5-6C92-37C5-8067-BCC321388FB9
   - target:          arm64e-ios
-    value:           865216C8-700C-3AAF-940D-3ACBDAE02E1E
+    value:           4CEF262C-4083-3407-89FD-1D7972B00FD0
 install-name:    '/usr/lib/libAWDProtobufFacetime.dylib'
 exports:
   - targets:         [ armv7-ios, armv7s-ios ]

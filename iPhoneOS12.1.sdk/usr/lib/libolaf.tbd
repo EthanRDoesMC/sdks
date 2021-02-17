@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           00000000-0000-0000-0000-000000000000
   - target:          arm64-ios
-    value:           BFB6765B-E7DE-391E-A98F-C06E3B6B35C7
+    value:           A24B03DC-18ED-330A-AE6B-17B55015F0EA
   - target:          arm64e-ios
-    value:           BDFD2842-F771-3151-9112-63B98AE0835D
+    value:           6798C175-0408-31A2-B5B4-4D08866FC222
 install-name:    '/usr/lib/libolaf.dylib'
 exports:
   - targets:         [ arm64-ios, arm64e-ios ]

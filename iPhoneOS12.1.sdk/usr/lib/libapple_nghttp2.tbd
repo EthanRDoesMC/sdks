@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           00000000-0000-0000-0000-000000000000
   - target:          arm64-ios
-    value:           741CBE1E-00F9-3A20-B845-D77885621920
+    value:           5D86842D-169C-33A8-9224-B69E440A3C3B
   - target:          arm64e-ios
-    value:           A0AE5DC7-3319-38E5-AAFE-1BB7D5BA9410
+    value:           AA7DF81A-69C1-3795-A303-86BF158FDD61
 install-name:    '/usr/lib/libapple_nghttp2.dylib'
 current-version: 1.41
 exports:

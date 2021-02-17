@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           AD348A51-3F43-3637-ABF1-246A5AC7DE28
   - target:          arm64-ios
-    value:           F79D93AB-8DF7-3DEB-84D9-860D89419D66
+    value:           71370EDD-13B1-34FE-950E-EEBDE1088416
   - target:          arm64e-ios
-    value:           793D1BC5-94F7-30F3-BCCC-C6F62782E09A
+    value:           0F8BC0F1-5986-3934-A5EE-115852E7AFAE
 install-name:    '/usr/lib/libamsupport.dylib'
 exports:
   - targets:         [ armv7-ios, armv7s-ios ]

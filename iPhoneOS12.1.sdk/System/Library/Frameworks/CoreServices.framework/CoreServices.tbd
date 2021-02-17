@@ -7,11 +7,11 @@ uuids:
   - target:          armv7s-ios
     value:           00000000-0000-0000-0000-000000000000
   - target:          arm64-ios
-    value:           DD083B69-2280-3F7E-9136-46C9246B4A9D
+    value:           21CF36FC-C454-3672-8228-B93D58FF00C8
   - target:          arm64e-ios
-    value:           F0369990-2892-3BD3-9CCB-7D9436A145CB
+    value:           C46F42D6-98C9-323B-8CEE-8E04F50BCE45
 install-name:    '/System/Library/Frameworks/CoreServices.framework/CoreServices'
-current-version: 1116.2.4
+current-version: 1116.3.7
 exports:
   - targets:         [ arm64-ios, arm64e-ios, armv7-ios, armv7s-ios ]
     symbols:         [ '$ld$install_name$os10.0$/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices', 

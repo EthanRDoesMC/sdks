@@ -7,8 +7,8 @@ uuids:
   - target:          armv7s-ios
     value:           00000000-0000-0000-0000-000000000000
   - target:          arm64-ios
-    value:           9AA707C4-5432-3116-8850-4302FDB8BDB2
+    value:           2C02CA47-C4F3-373A-B1E0-C904C0302F37
   - target:          arm64e-ios
-    value:           283F8863-1EA0-36B1-80B5-4D42CAA12437
+    value:           6AE41468-6EA3-3115-BB39-7B678C4C5224
 install-name:    '/usr/lib/libFaultOrdering.dylib'
 ...

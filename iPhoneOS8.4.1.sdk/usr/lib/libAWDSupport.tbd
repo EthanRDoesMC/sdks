@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           C475CB28-52DE-3D7B-BAA5-3C31250191ED
   - target:          arm64-ios
-    value:           37773B7B-BAA9-3666-9E25-E456E5781ED7
+    value:           5D0C5A90-2864-3E75-9ED5-95483B16D443
   - target:          arm64e-ios
-    value:           EC9D86E1-A42F-395B-964F-700B1918A1EB
+    value:           EFA3C25A-AE05-38D6-A1EA-C37C389EF4F2
 install-name:    '/usr/lib/libAWDSupport.dylib'
 exports:
   - targets:         [ armv7-ios, armv7s-ios ]

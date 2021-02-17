@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           48866ECE-855F-33AD-9821-DE65749A5511
   - target:          arm64-ios
-    value:           810D15FF-7E42-32AC-9F2D-001EDF7F05B2
+    value:           272002FC-1F6D-3F37-8B34-B0C563E21A7D
   - target:          arm64e-ios
-    value:           6AD9BD20-6DD9-35D6-825E-D286B68E50C3
+    value:           BD69EF25-A910-316B-8A59-8936B813B638
 install-name:    '/usr/lib/libedit.3.dylib'
 current-version: 3
 compatibility-version: 2

@@ -1,7 +1,7 @@
 ---
 archs:                 [ armv7, armv7s, arm64 ]
-platform:              ios
-install-name:          "/System/Library/PrivateFrameworks/ScreenReaderCore.framework/ScreenReaderCore"
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/ScreenReaderCore.framework/ScreenReaderCore
 current-version:       390
 compatibility-version: 1
 exports:

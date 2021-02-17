@@ -1,7 +1,7 @@
 ---
 archs:                 [ armv7, armv7s, arm64 ]
-platform:              (null)
-install-name:          /System/Library/TextInput/TextInput_ja.bundle/TextInput_ja
+platform:              ios
+install-name:          "/System/Library/TextInput/TextInput_ja.bundle/TextInput_ja"
 current-version:       1
 compatibility-version: 1
 exports:

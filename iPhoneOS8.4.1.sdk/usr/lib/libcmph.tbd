@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           3E6A5869-36E8-3113-9589-163F9E791D78
   - target:          arm64-ios
-    value:           CD8B8030-0744-3345-9087-EFBCDA7CF3C9
+    value:           32B4CCAD-F15B-39D0-BFF1-6F84DCEE363E
   - target:          arm64e-ios
-    value:           E74D75FE-B9AA-3351-ACE0-B11B0048A262
+    value:           100CE536-7C15-31E0-93FE-B698ED397D75
 install-name:    '/usr/lib/libcmph.dylib'
 exports:
   - targets:         [ armv7-ios, armv7s-ios ]

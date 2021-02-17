@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           00000000-0000-0000-0000-000000000000
   - target:          arm64-ios
-    value:           1D363130-131D-3FA1-8503-9941F4610F94
+    value:           A822D1BE-05A3-3084-AD9C-19AD857D5DED
   - target:          arm64e-ios
-    value:           24DEFEB4-202C-3ABE-AC91-2354962273F9
+    value:           BEFB31C4-0433-351A-BDD7-04DCB5ECB2C9
 install-name:    '/usr/lib/libSMC.dylib'
 current-version: 20
 exports:

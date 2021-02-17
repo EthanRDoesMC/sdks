@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           B959ECB0-466D-3C82-9DA0-EE8FDC41FB6B
   - target:          arm64-ios
-    value:           389804E1-D819-30CD-BA63-480199F3ADD5
+    value:           CF3D8046-685B-3092-805C-B1FB5F855A80
   - target:          arm64e-ios
-    value:           1B58248F-BC88-38E5-9709-781D5A079700
+    value:           3155EF05-23AD-3312-B9DF-92B86E597546
 install-name:    '/System/Library/Frameworks/Social.framework/Social'
 current-version: 87
 exports:

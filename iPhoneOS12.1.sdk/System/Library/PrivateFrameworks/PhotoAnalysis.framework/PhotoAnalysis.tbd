@@ -1,7 +1,7 @@
 ---
 archs:                 [ armv7, armv7s, arm64 ]
-platform:              (null)
-install-name:          /System/Library/PrivateFrameworks/PhotoAnalysis.framework/PhotoAnalysis
+platform:              ios
+install-name:          "/System/Library/PrivateFrameworks/PhotoAnalysis.framework/PhotoAnalysis"
 current-version:       3412.4.180
 compatibility-version: 1
 exports:

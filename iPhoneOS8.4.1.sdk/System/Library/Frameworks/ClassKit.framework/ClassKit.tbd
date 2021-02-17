@@ -7,11 +7,11 @@ uuids:
   - target:          armv7s-ios
     value:           00000000-0000-0000-0000-000000000000
   - target:          arm64-ios
-    value:           4B7CBE89-5A35-3A23-9E02-6CA1C29DA47D
+    value:           55DF4D6A-0665-36F5-9649-EA0CCEBB3043
   - target:          arm64e-ios
-    value:           DF0F8EBB-071C-3654-AEEB-6A7FB095EB44
+    value:           23A16D30-64AB-340F-9F3F-ED083A2B18A4
 install-name:    '/System/Library/Frameworks/ClassKit.framework/ClassKit'
-current-version: 146.3.3
+current-version: 146.1.11
 exports:
   - targets:         [ arm64-ios, arm64e-ios, armv7-ios, armv7s-ios ]
     symbols:         [ _CLSAdoptPersonaUniqueIdentifier, _CLSAppleContactsPrivateEntitlement, 

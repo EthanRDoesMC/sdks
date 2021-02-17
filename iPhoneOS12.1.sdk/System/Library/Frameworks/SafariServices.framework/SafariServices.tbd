@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           404D60FA-F652-3486-B548-FB68220924FC
   - target:          arm64-ios
-    value:           54EC938A-21F4-3679-8097-587F9932DEE5
+    value:           9E09A219-87D5-3596-A635-BBC9084F1F9C
   - target:          arm64e-ios
-    value:           BBCF7230-9EE5-3773-9B34-5B0CC53CAEED
+    value:           9052EA6B-254F-3F51-9D34-AAAEE21565B8
 install-name:    '/System/Library/Frameworks/SafariServices.framework/SafariServices'
 exports:
   - targets:         [ armv7-ios, armv7s-ios ]
@@ -115,8 +115,8 @@ exports:
                        __SFScreenNativeScale, __SFScreenScale, __SFSearchEngineBaidu, 
                        __SFSearchEngineBing, __SFSearchEngineControllerDefaultSearchEngineDidChangeNotification, 
                        __SFSearchEngineControllerInstanceDidFinishPopulatingSearchEnginesNotification, 
-                       __SFSearchEngineDuckDuckGo, __SFSearchEngineEcosia, __SFSearchEngineGoogle, 
-                       __SFSearchEngineQihoo, __SFSearchEngineSogou, __SFSearchEngineStringDefaultsKey, 
+                       __SFSearchEngineDuckDuckGo, __SFSearchEngineGoogle, __SFSearchEngineQihoo, 
+                       __SFSearchEngineSogou, __SFSearchEngineStringDefaultsKey, 
                        __SFSearchEngineYahoo, __SFSearchEngineYandex, __SFSearchProviderBaiduTrackingCodeiPadKey, 
                        __SFSearchProviderBaiduTrackingCodeiPhoneKey, __SFSearchProviderBaiduTrackingCodeiPodTouchKey, 
                        __SFSetAggdKey, __SFSetAggdKeyAlways, __SFShouldCaptureAudioInUIProcessKey, 

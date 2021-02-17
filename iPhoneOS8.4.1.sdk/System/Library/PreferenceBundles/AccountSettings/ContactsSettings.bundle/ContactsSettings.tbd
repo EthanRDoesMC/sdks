@@ -1,7 +1,7 @@
 ---
 archs:                 [ armv7, armv7s, arm64 ]
-platform:              (null)
-install-name:          /System/Library/PreferenceBundles/AccountSettings/ContactsSettings.bundle/ContactsSettings
+platform:              ios
+install-name:          "/System/Library/PreferenceBundles/AccountSettings/ContactsSettings.bundle/ContactsSettings"
 current-version:       1
 compatibility-version: 1
 exports:

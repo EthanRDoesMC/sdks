@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           78264755-7585-3BEE-B6B0-F01871AF16E4
   - target:          arm64-ios
-    value:           E07AE46C-0379-3BFF-8FB7-BC9AFA0CF8CD
+    value:           A3296C9C-5C24-3F5F-9169-45B51C1D87D2
   - target:          arm64e-ios
-    value:           E6E45988-4B8E-3431-B5CC-A2EC8F50E678
+    value:           2FC9C0C8-246F-3AD9-849C-5ABBE6B9756E
 install-name:    '/usr/lib/libPCITransport.dylib'
 exports:
   - targets:         [ armv7-ios, armv7s-ios ]

@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           00000000-0000-0000-0000-000000000000
   - target:          arm64-ios
-    value:           A52AA599-FEA3-3D26-938B-F9CBE1C53804
+    value:           CC33BED1-2E7C-3D78-B790-D82D8920B57D
   - target:          arm64e-ios
-    value:           43F56572-9C41-3154-8CED-9A0761210FF0
+    value:           8FB7A465-3989-31EC-94E2-B177BE04C78D
 install-name:    '/usr/lib/libxpc_datastores.dylib'
 exports:
   - targets:         [ arm64-ios, arm64e-ios, armv7-ios, armv7s-ios ]

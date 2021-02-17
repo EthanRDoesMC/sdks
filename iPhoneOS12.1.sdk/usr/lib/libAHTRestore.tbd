@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           00000000-0000-0000-0000-000000000000
   - target:          arm64-ios
-    value:           E5341B47-C7DB-3944-AA5D-8FCD80F6EAFD
+    value:           A599C045-DB41-3A2B-9EB2-1297D315E278
   - target:          arm64e-ios
-    value:           3FC5BA62-ED45-3A76-9EE3-F211A4EC2DAE
+    value:           6BCFFB9E-BDBC-3AE5-9994-5205C96EE9BE
 install-name:    '/usr/lib/libAHTRestore.dylib'
 current-version: 4101.1
 exports:

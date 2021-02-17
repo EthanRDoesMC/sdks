@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           AD86E452-050E-3A8E-8809-63B88E14577A
   - target:          arm64-ios
-    value:           7CCC7CB3-06DC-3ABF-B861-72BA8FE12175
+    value:           9FD89C87-5D8C-3120-B459-821F4A15515F
   - target:          arm64e-ios
-    value:           48E77331-A983-378C-8EB4-B7CC854F4A89
+    value:           1F761AB8-F313-3006-83E0-1BFD02ECCFED
 install-name:    '/usr/lib/libMobileGestalt.dylib'
 exports:
   - targets:         [ arm64-ios, arm64e-ios, armv7-ios, armv7s-ios ]

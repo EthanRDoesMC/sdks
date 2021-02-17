@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           00000000-0000-0000-0000-000000000000
   - target:          arm64-ios
-    value:           97A62716-F2B3-3820-A6E2-9A3594671E3A
+    value:           B70B34FD-9C4F-3A8F-A2B8-96F496CFCED5
   - target:          arm64e-ios
-    value:           B499B779-618F-3A87-82A2-83017000304A
+    value:           EDBC3763-3CE8-3854-B64E-696EC94A3328
 install-name:    '/usr/lib/libnetworkextension.dylib'
 exports:
   - targets:         [ arm64-ios, arm64e-ios, armv7-ios, armv7s-ios ]

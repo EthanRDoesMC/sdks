@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           EF70D595-F4B6-3A8D-9AA0-73078DE8D03F
   - target:          arm64-ios
-    value:           7403032B-46D6-3F9E-8384-04339C7EF367
+    value:           49E93159-3939-360B-B031-0716E712C473
   - target:          arm64e-ios
-    value:           62B83683-7F22-37F8-9CD6-AED24461DF2C
+    value:           336301A0-2EAD-3660-92DA-724AB7A9F370
 install-name:    '/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox'
 current-version: 1000
 reexported-libraries:
@@ -279,9 +279,9 @@ uuids:
   - target:          armv7s-ios
     value:           00000000-0000-0000-0000-000000000000
   - target:          arm64-ios
-    value:           C4986294-45DA-3D4D-A065-1AE13AB9EBA2
+    value:           CB1E498D-648C-337C-9182-850A4B862FEF
   - target:          arm64e-ios
-    value:           D1CB61EF-AD60-3BD3-B0D2-006E7F6C5476
+    value:           EDB6C63A-7E73-38DB-8048-DFEA5C3F4E7A
 install-name:    '/System/Library/PrivateFrameworks/AudioToolboxCore.framework/AudioToolboxCore'
 exports:
   - targets:         [ arm64-ios, arm64e-ios ]

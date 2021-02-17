@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           AB40A532-1090-37E7-80CE-3D2D6F087DDB
   - target:          arm64-ios
-    value:           BEA0CF45-473A-3323-9954-3D328CA22492
+    value:           7492CDA7-6D81-3D44-9CDF-57E23704F687
   - target:          arm64e-ios
-    value:           1936CE0C-A27A-3C51-A62F-A9E49548A234
+    value:           4BB104F2-FCCC-3EAC-A148-E50933C1A14C
 install-name:    '/usr/lib/libKTLDynamic.dylib'
 exports:
   - targets:         [ armv7-ios, armv7s-ios ]

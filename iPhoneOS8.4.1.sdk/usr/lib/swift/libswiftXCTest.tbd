@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           003F8A5F-7CE3-33D3-A7EF-5A48392AEE3F
   - target:          arm64-ios
-    value:           BA790329-F7C7-34AC-A7BE-FF8E5290A1CF
+    value:           4E8547D4-B2A2-3803-ABBC-8E27E3DB833F
   - target:          arm64e-ios
-    value:           A32DFEEC-ECB4-3C8B-A04F-92009B5FAF84
+    value:           29EFE55D-9B3F-3AC3-88F2-B74EFA539C3E
 install-name:    '/usr/lib/swift/libswiftXCTest.dylib'
 current-version: 0
 swift-abi-version: 7

@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           00000000-0000-0000-0000-000000000000
   - target:          arm64-ios
-    value:           3FC140D2-2528-341E-8581-426F86A3EEF3
+    value:           4E2312C0-8A41-3A87-918D-41A7343B7935
   - target:          arm64e-ios
-    value:           EEDF9CC5-33D7-319C-B520-90C3C738C5D9
+    value:           9882F6B7-5DE4-33D3-BA47-A6B56A580D27
 install-name:    '/usr/lib/libWirelessAudioIPC.dylib'
 exports:
   - targets:         [ arm64-ios, arm64e-ios ]

@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           00000000-0000-0000-0000-000000000000
   - target:          arm64-ios
-    value:           86CA8747-A70A-3C39-91C2-81ACBFB824C6
+    value:           D974A1EA-D905-3E2A-832C-7BB50C21C4B7
   - target:          arm64e-ios
-    value:           9FAEA80B-F393-30C0-BB2E-8F40A71E49EB
+    value:           59E2BD71-C0C9-3304-9BF4-2440C423FB49
 install-name:    '/usr/lib/libFusionComponentCheck.dylib'
 current-version: 0
 compatibility-version: 0

@@ -47,7 +47,6 @@
 
 #import <GameController/GCMicroGamepad.h>
 #import <GameController/GCMicroGamepadSnapshot.h>
-#import <GameController/GCDirectionalGamepad.h>
 
 #import <GameController/GCDevice.h>
 #import <GameController/GCController.h>

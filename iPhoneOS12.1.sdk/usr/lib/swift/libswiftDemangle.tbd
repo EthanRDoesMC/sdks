@@ -3,9 +3,9 @@ tbd-version:     4
 targets:         [ arm64-ios, arm64e-ios ]
 uuids:
   - target:          arm64-ios
-    value:           56126D5F-B0EE-3FC5-8E4A-070763899D57
+    value:           658C5D1E-236C-361F-AF88-9C630B95FEB9
   - target:          arm64e-ios
-    value:           43578120-CCCE-3BC4-A76F-F7BF053A8817
+    value:           9DCEF994-07F1-3B91-9033-146BC6A6E97A
 install-name:    '/usr/lib/swift/libswiftDemangle.dylib'
 current-version: 0
 exports:

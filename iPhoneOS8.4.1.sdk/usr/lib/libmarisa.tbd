@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           EFC9EE84-8603-3767-A66A-23219B2AD723
   - target:          arm64-ios
-    value:           07F781E7-14D7-3662-8F42-B3BD4F558CBE
+    value:           EF1439C4-033A-3F57-9316-09283992183A
   - target:          arm64e-ios
-    value:           70BF5BF6-A701-3D38-B349-3F7723AD9FA9
+    value:           D95D4744-CDD0-3993-9AE4-834EA0F6892B
 install-name:    '/usr/lib/libmarisa.dylib'
 current-version: 19
 exports:

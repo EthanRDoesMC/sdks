@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           79C146A6-236C-354C-812C-7E49CC72FB5A
   - target:          arm64-ios
-    value:           253D4ADA-9E01-3707-BC6C-44E2E0E18F87
+    value:           48AA6981-11F2-3E2E-AFAA-90539EE6AA6B
   - target:          arm64e-ios
-    value:           9634FFDF-937B-3DEE-A808-6EB5AF2188C8
+    value:           C98C1AC9-00E2-3465-AF8B-F339F2C41AFF
 install-name:    '/usr/lib/libktrace.dylib'
 reexported-libraries:
   - targets:         [ armv7-ios, armv7s-ios, arm64-ios, arm64e-ios ]
@@ -109,11 +109,11 @@ uuids:
   - target:          armv7s-ios
     value:           00000000-0000-0000-0000-000000000000
   - target:          arm64-ios
-    value:           BE11E473-AE0A-3498-BC8A-896F919E03FF
+    value:           E82CB070-779F-33F1-9B61-1DF084ACB3F3
   - target:          arm64e-ios
-    value:           0FD4ACE2-5E6C-3E0C-A5E1-8B2AA5F4457F
+    value:           DDFB6A09-DDC7-34A9-BDE8-6DB4E94B5C03
 install-name:    '/System/Library/PrivateFrameworks/ktrace.framework/ktrace'
-current-version: 406.60.1
+current-version: 406.40.10
 exports:
   - targets:         [ arm64-ios, arm64e-ios ]
     symbols:         [ __Z25ktrace_address_space_sortP20ktrace_address_space, __Z27ktrace_address_space_appendP20ktrace_address_space11SymbolOwner, 

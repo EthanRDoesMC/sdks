@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           00000000-0000-0000-0000-000000000000
   - target:          arm64-ios
-    value:           58A33998-85B8-36B8-8B4E-356E040AC13A
+    value:           D940F49F-CCDB-30FB-A482-CE27FCC25910
   - target:          arm64e-ios
-    value:           447C883B-2ABB-3025-939C-950642F25A1C
+    value:           C1381173-4830-3BB2-AA1C-39F5199177C6
 install-name:    '/System/Library/Frameworks/_StoreKit_SwiftUI.framework/_StoreKit_SwiftUI'
 swift-abi-version: 7
 exports:

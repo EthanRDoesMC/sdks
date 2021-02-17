@@ -1,7 +1,7 @@
 ---
 archs:                 [ armv7, armv7s, arm64 ]
-platform:              (null)
-install-name:          /System/Library/PrivateFrameworks/SafariCore.framework/SafariCore
+platform:              ios
+install-name:          "/System/Library/PrivateFrameworks/SafariCore.framework/SafariCore"
 current-version:       606.2.104
 compatibility-version: 0
 exports:

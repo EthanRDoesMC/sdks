@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           00000000-0000-0000-0000-000000000000
   - target:          arm64-ios
-    value:           4A771E95-2DDE-3164-8E9A-B27D7C8B4CC2
+    value:           8D5FF13A-C0D0-3E11-9C16-CE91BAAB11C5
   - target:          arm64e-ios
-    value:           FD73FD92-CED2-3B1A-B02C-6FFDEE31EECE
+    value:           2C43D251-A320-3915-B1F1-91A5CC2CEA5F
 install-name:    '/System/Library/Frameworks/NaturalLanguage.framework/NaturalLanguage'
 current-version: 84
 exports:

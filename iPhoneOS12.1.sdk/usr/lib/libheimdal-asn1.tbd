@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           99793317-DBFB-3A95-B737-FEA553B94879
   - target:          arm64-ios
-    value:           68EB7E8D-5B5B-3B69-9BB8-7BE9BFCBFD73
+    value:           BEF00F7D-A5B3-31CE-82D1-AD74CC86FB0D
   - target:          arm64e-ios
-    value:           FF93656C-73C6-37E0-83A8-8A38141CA58C
+    value:           2CF60E4C-5949-3C18-9916-07CFD599CC25
 install-name:    '/usr/lib/libheimdal-asn1.dylib'
 exports:
   - targets:         [ arm64-ios, arm64e-ios, armv7-ios, armv7s-ios ]

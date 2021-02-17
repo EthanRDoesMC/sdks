@@ -1,7 +1,7 @@
 ---
 archs:                 [ armv7, armv7s, arm64 ]
 platform:              ios
-install-name:          "/System/Library/Internet Plug-Ins/QuickTime Plugin.webplugin/QuickTime Plugin"
+install-name:          /System/Library/Internet Plug-Ins/QuickTime Plugin.webplugin/QuickTime Plugin
 current-version:       0
 compatibility-version: 0
 exports:

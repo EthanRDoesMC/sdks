@@ -7,11 +7,11 @@ uuids:
   - target:          armv7s-ios
     value:           00000000-0000-0000-0000-000000000000
   - target:          arm64-ios
-    value:           15848F8F-8A35-3B49-A58B-0F0EDE5D4838
+    value:           93BBB744-17FB-393E-BA66-EEC0A56002A9
   - target:          arm64e-ios
-    value:           155016F0-AA3C-3AC5-AD37-D01CB29D95D8
+    value:           508FFFA0-25B3-33B9-9984-560789497C56
 install-name:    '/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib'
-current-version: 632
+current-version: 631.7
 swift-abi-version: 7
 exports:
   - targets:         [ arm64-ios, arm64e-ios, armv7-ios, armv7s-ios ]

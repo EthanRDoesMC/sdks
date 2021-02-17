@@ -1,7 +1,7 @@
 ---
 archs:                 [ armv7, armv7s, arm64 ]
-platform:              (null)
-install-name:          /System/Library/PrivateFrameworks/NLP.framework/NLP
+platform:              ios
+install-name:          "/System/Library/PrivateFrameworks/NLP.framework/NLP"
 current-version:       122.15.20
 compatibility-version: 1
 exports:

@@ -7,11 +7,11 @@ uuids:
   - target:          armv7s-ios
     value:           00000000-0000-0000-0000-000000000000
   - target:          arm64-ios
-    value:           D67FA035-811C-37C7-BE7D-A886924BBBE9
+    value:           DF176D3B-B4C5-3BF1-BB41-FB587D54BB80
   - target:          arm64e-ios
-    value:           99A66885-786F-384E-900A-ECED1B5D58EB
+    value:           353DFAC6-8DCD-3C4A-878A-689364FD97C1
 install-name:    '/usr/lib/swift/libswiftCryptoTokenKit.dylib'
-current-version: 487.80.3
+current-version: 487.40.9
 swift-abi-version: 7
 exports:
   - targets:         [ arm64-ios, arm64e-ios, armv7-ios, armv7s-ios ]

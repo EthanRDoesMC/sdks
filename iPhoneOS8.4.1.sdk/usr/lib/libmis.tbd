@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           256A2C14-0204-31DA-9ECE-BAFAF23FDBA6
   - target:          arm64-ios
-    value:           813EF02A-1718-3C11-A187-54D6D6A9AF8E
+    value:           D033EDC0-4A88-3DA0-A1A5-6FBA3C4571B9
   - target:          arm64e-ios
-    value:           B5DD4A39-6826-3402-8AD0-A01B9C3FA881
+    value:           B1EE6BB4-6E3A-341B-A9D8-44A59634DF67
 install-name:    '/usr/lib/libmis.dylib'
 exports:
   - targets:         [ armv7-ios, armv7s-ios ]

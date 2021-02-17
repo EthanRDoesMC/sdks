@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           BC47A03D-CD90-32DF-9A26-030580F65A9C
   - target:          arm64-ios
-    value:           76E44FBE-FF62-350A-92B5-2B2A542C2830
+    value:           7890551E-70EA-3AED-8D7A-01410424B2A3
   - target:          arm64e-ios
-    value:           6B4F60BE-8729-33C4-836F-BAADFD002C99
+    value:           EA202096-D29A-30D4-AA41-D216014EE2D0
 install-name:    '/usr/lib/libAWDProtobufBluetooth.dylib'
 exports:
   - targets:         [ armv7-ios, armv7s-ios ]

@@ -1,7 +1,7 @@
 ---
 archs:                 [ armv7, armv7s, arm64 ]
-platform:              (null)
-install-name:          /System/Library/PrivateFrameworks/Message.framework/MailServices/POP.framework/POP
+platform:              ios
+install-name:          "/System/Library/PrivateFrameworks/Message.framework/MailServices/POP.framework/POP"
 current-version:       3445.100.42
 compatibility-version: 1
 exports:

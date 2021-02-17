@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           EDFC5F33-2310-34F4-8AAF-C00A19A6BBFD
   - target:          arm64-ios
-    value:           081ED7D0-EE20-3754-8249-D3811007EBAC
+    value:           6EA8A08D-F36C-3A4F-916D-96C41C566F78
   - target:          arm64e-ios
-    value:           4E9F13DA-0DDC-3E06-A316-13A927291D8E
+    value:           413CE8EB-9A2C-3832-B466-95E1A6A16C23
 install-name:    '/usr/lib/libFDR.dylib'
 exports:
   - targets:         [ armv7-ios, armv7s-ios ]

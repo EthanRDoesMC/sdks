@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           653258B0-E00F-3069-B144-3C26BB68E7E8
   - target:          arm64-ios
-    value:           5BA186C5-C2B6-309B-896E-4802350B3E66
+    value:           1F28D9EF-7EAE-3B6B-80B7-BDEE84FEF92B
   - target:          arm64e-ios
-    value:           8E4DA35C-97CB-3302-9581-6318B2BFE59D
+    value:           FBBE12F0-051A-3451-A3FA-22601CB16452
 install-name:    '/usr/lib/libQMIParserDynamic.dylib'
 exports:
   - targets:         [ armv7-ios, armv7s-ios ]

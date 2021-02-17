@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           90FA13FC-A8DB-3A60-AB0C-CECDB553232D
   - target:          arm64-ios
-    value:           D7B80039-DB48-325F-A8AF-6CD98591A63E
+    value:           00CBB14D-750F-3112-BD16-C54E86476F19
   - target:          arm64e-ios
-    value:           6D0B9153-8759-39F4-8EBF-C48DFDC4D77C
+    value:           F494CDBC-87ED-3D46-8471-EF36CF95674A
 install-name:    '/usr/lib/swift/libswiftObjectiveC.dylib'
 swift-abi-version: 7
 exports:

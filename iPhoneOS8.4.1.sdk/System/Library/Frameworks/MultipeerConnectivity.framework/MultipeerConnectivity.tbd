@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           52693111-D97C-392C-A792-3D5740385180
   - target:          arm64-ios
-    value:           E85174DB-311C-3FC2-A5ED-8410975EEBCA
+    value:           645B56B2-CC12-38D1-83CA-FD72EF57688D
   - target:          arm64e-ios
-    value:           6E898F33-7314-3680-800F-0206BC6C4571
+    value:           EC3E172F-1EC2-31CE-9F31-92C0646679B8
 install-name:    '/System/Library/Frameworks/MultipeerConnectivity.framework/MultipeerConnectivity'
 current-version: 172
 exports:

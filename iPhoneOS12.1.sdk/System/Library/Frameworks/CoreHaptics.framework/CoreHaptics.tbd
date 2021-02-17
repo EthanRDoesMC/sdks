@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           00000000-0000-0000-0000-000000000000
   - target:          arm64-ios
-    value:           E53F5A5F-9F63-3799-9D57-C7C9471248F1
+    value:           CF8486AB-F83B-3A7A-8D4C-47AF334E51A2
   - target:          arm64e-ios
-    value:           BBD7402F-C1B3-3E1A-9258-307051360494
+    value:           1D611347-327D-3381-8C2E-C40DBB144BC5
 install-name:    '/System/Library/Frameworks/CoreHaptics.framework/CoreHaptics'
 exports:
   - targets:         [ arm64-ios, arm64e-ios, armv7-ios, armv7s-ios ]

@@ -1,7 +1,7 @@
 ---
 archs:                 [ armv7, armv7s, arm64 ]
-platform:              (null)
-install-name:          /System/Library/PrivateFrameworks/ROCKit.framework/ROCKit
+platform:              ios
+install-name:          "/System/Library/PrivateFrameworks/ROCKit.framework/ROCKit"
 current-version:       24
 compatibility-version: 1
 exports:

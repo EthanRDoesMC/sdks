@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           3CC038EC-F456-3CBF-9A62-1A1DB0D566C5
   - target:          arm64-ios
-    value:           92F2F395-BFE9-3879-94A8-C015489A3AF4
+    value:           9FC7DAC3-DEED-3A47-9ABB-E36867045BA5
   - target:          arm64e-ios
-    value:           CB72D6A6-CEEF-313B-88E7-842DA8DE15CC
+    value:           844C0712-3224-38DC-B019-D7D4BBBDDF17
 install-name:    '/usr/lib/libicucore.A.dylib'
 current-version: 66.1
 exports:

@@ -1,7 +1,7 @@
 ---
 archs:                 [ armv7, armv7s, arm64 ]
-platform:              (null)
-install-name:          /System/Library/PrivateFrameworks/PhotosPlayer.framework/PhotosPlayer
+platform:              ios
+install-name:          "/System/Library/PrivateFrameworks/PhotosPlayer.framework/PhotosPlayer"
 current-version:       3412.8.200
 compatibility-version: 1
 exports:

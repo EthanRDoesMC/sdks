@@ -1,7 +1,7 @@
 ---
 archs:                 [ armv7, armv7s, arm64 ]
-platform:              (null)
-install-name:          /System/Library/PrivateFrameworks/VectorKit.framework/VectorKit
+platform:              ios
+install-name:          "/System/Library/PrivateFrameworks/VectorKit.framework/VectorKit"
 current-version:       992.56
 compatibility-version: 1
 exports:

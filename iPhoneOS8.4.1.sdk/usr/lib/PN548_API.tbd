@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           F4340891-A940-3928-8B30-415623ADA8BE
   - target:          arm64-ios
-    value:           9539CD60-9FB3-3044-9344-CCE01551219A
+    value:           A5A08536-858B-3369-BCB4-04FEC80214BB
   - target:          arm64e-ios
-    value:           92FA1454-F572-3C64-883B-684D35B71149
+    value:           179124B7-2D73-32E7-B71B-8C450CC97643
 install-name:    '/usr/lib/PN548_API.dylib'
 exports:
   - targets:         [ armv7-ios, armv7s-ios ]

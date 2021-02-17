@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           00000000-0000-0000-0000-000000000000
   - target:          arm64-ios
-    value:           459E0D34-1879-3332-AFE0-240DA3824799
+    value:           67D123BE-E2F3-31C0-8C75-0E4AFBD145DF
   - target:          arm64e-ios
-    value:           96F0C80E-02FB-343C-B248-E3C4D6075B8C
+    value:           8235D049-1E74-3563-B0AC-049413A09E69
 install-name:    '/usr/lib/libIOACIPC.dylib'
 exports:
   - targets:         [ arm64-ios, arm64e-ios ]

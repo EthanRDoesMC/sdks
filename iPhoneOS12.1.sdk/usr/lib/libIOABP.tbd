@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           00000000-0000-0000-0000-000000000000
   - target:          arm64-ios
-    value:           3A44703D-0558-39FE-B65B-58D661B6599A
+    value:           40B5E364-BF19-3A0D-899D-8A075E172376
   - target:          arm64e-ios
-    value:           522457F7-6A67-3662-AC56-E995BC60CB84
+    value:           E293D5BF-20C1-3FC0-BCA2-1CE78CD56F5B
 install-name:    '/usr/lib/libIOABP.dylib'
 exports:
   - targets:         [ arm64-ios, arm64e-ios ]

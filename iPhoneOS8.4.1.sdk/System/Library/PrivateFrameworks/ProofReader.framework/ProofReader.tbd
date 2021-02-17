@@ -1,7 +1,7 @@
 ---
 archs:                 [ armv7, armv7s, arm64 ]
-platform:              (null)
-install-name:          /System/Library/PrivateFrameworks/ProofReader.framework/ProofReader
+platform:              ios
+install-name:          "/System/Library/PrivateFrameworks/ProofReader.framework/ProofReader"
 current-version:       282
 compatibility-version: 1
 exports:

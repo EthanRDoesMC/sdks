@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           7DF7605F-C55E-337F-A8A1-C4A69F92C1CE
   - target:          arm64-ios
-    value:           11011DF0-0388-3670-8AE0-A85B8BD76BD8
+    value:           3F08ED94-C815-3C8E-93E6-9DDEC12CD12D
   - target:          arm64e-ios
-    value:           2B24CAD6-B6C3-30A5-82F9-88225413D310
+    value:           7F3BDC3F-BCCF-3052-BB17-44D0D178F6C3
 install-name:    '/System/Library/Frameworks/VideoToolbox.framework/VideoToolbox'
 exports:
   - targets:         [ armv7-ios, armv7s-ios ]

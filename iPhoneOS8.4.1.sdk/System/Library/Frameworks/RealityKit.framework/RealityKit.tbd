@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           00000000-0000-0000-0000-000000000000
   - target:          arm64-ios
-    value:           60999F98-4261-3043-B139-F816EA57221F
+    value:           ABE21D4E-37F5-3852-BC40-B5D544D30079
   - target:          arm64e-ios
-    value:           3314B2B1-10DC-34C3-92BF-4CC64913240C
+    value:           C162FD79-E088-3297-9175-27397B2BAAAB
 install-name:    '/System/Library/Frameworks/RealityKit.framework/RealityKit'
 current-version: 60.45
 swift-abi-version: 7

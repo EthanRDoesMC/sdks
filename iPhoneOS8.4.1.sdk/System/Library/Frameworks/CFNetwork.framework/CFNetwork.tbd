@@ -7,11 +7,11 @@ uuids:
   - target:          armv7s-ios
     value:           7402F244-87C1-3B6B-A000-DD266C92DFA8
   - target:          arm64-ios
-    value:           9D46B4F5-CD9E-31ED-BA2D-28F8BDC5E810
+    value:           E261FA71-30E2-3E6A-8DB2-32ECF79B30BF
   - target:          arm64e-ios
-    value:           0EBB3119-A8CE-35DA-9624-5B5528802FC8
+    value:           F8C7B816-49AB-3947-9309-B8975A7CCEA0
 install-name:    '/System/Library/Frameworks/CFNetwork.framework/CFNetwork'
-current-version: 1220.1
+current-version: 1206
 exports:
   - targets:         [ armv7-ios, armv7s-ios ]
     symbols:         [ '$ld$hide$os4.3$_NSHTTPCookieComment', '$ld$hide$os4.3$_NSHTTPCookieCommentURL', 

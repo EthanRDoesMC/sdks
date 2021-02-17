@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           9ABB1A7D-DC7C-3DAD-AB7C-C84FFF9F3F9D
   - target:          arm64-ios
-    value:           3F00F112-F303-3159-A801-3B87FCA9E894
+    value:           2673E045-5C0F-3253-A3CD-F6E7EDA8F0C1
   - target:          arm64e-ios
-    value:           6918464A-FFE0-3199-B261-4026E35CD5CF
+    value:           8AA46E2F-D9B0-3E3B-B000-2CC75F0EC9C0
 install-name:    '/usr/lib/swift/libswiftUIKit.dylib'
 current-version: 19
 swift-abi-version: 7

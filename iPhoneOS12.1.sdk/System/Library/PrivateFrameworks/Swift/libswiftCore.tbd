@@ -1,7 +1,7 @@
 ---
 archs:                 [ armv7, armv7s, arm64 ]
-platform:              (null)
-install-name:          /System/Library/PrivateFrameworks/Swift/libswiftCore.dylib
+platform:              ios
+install-name:          "/System/Library/PrivateFrameworks/Swift/libswiftCore.dylib"
 current-version:       1000.2.30
 compatibility-version: 1
 exports:

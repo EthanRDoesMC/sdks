@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           00000000-0000-0000-0000-000000000000
   - target:          arm64-ios
-    value:           E20B7286-C6F4-3CDC-B027-D91118ADDB2C
+    value:           F445E40D-428E-3B08-8826-F271A198DABB
   - target:          arm64e-ios
-    value:           F352B7E8-41E4-3F47-BBEB-CF3A88E94FCC
+    value:           35F985DD-9CEE-3A48-A6FF-E09AAC8B6D2B
 install-name:    '/System/Library/Frameworks/MetalPerformanceShadersGraph.framework/MetalPerformanceShadersGraph'
 exports:
   - targets:         [ arm64-ios, arm64e-ios, armv7-ios, armv7s-ios ]

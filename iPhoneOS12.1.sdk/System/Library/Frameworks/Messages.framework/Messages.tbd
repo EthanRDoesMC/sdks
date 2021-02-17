@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           65AB4119-CBED-3744-83EF-7F17284B5865
   - target:          arm64-ios
-    value:           90E4B66B-3C94-3402-9088-9803E0BEE171
+    value:           9A5921A6-5373-30DF-9451-67CA67816746
   - target:          arm64e-ios
-    value:           5234D8DB-BE37-3403-8985-4A86F3C40A3E
+    value:           EB155CE8-6921-31BA-91E4-084E5779C6E2
 install-name:    '/System/Library/Frameworks/Messages.framework/Messages'
 exports:
   - targets:         [ armv7-ios, armv7s-ios ]

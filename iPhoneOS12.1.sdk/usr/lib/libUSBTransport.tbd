@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           00000000-0000-0000-0000-000000000000
   - target:          arm64-ios
-    value:           FB81F8AA-26B1-36B6-860E-C2C7D321FC5C
+    value:           450AEF6A-ACD6-3CE5-8DFA-9C7E31C298AA
   - target:          arm64e-ios
-    value:           3681F853-72C9-3A8D-BA04-0F519ADD9B33
+    value:           786881E3-3243-32D2-BA55-88B0564AE857
 install-name:    '/usr/lib/libUSBTransport.dylib'
 exports:
   - targets:         [ arm64-ios, arm64e-ios ]

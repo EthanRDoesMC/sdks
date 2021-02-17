@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           00000000-0000-0000-0000-000000000000
   - target:          arm64-ios
-    value:           8913E5A3-58C9-3AD2-A8ED-30F32EF60FF1
+    value:           E63EADBE-9EB0-393C-BA9D-FE3453B4F9D7
   - target:          arm64e-ios
-    value:           C901706D-D966-38D7-8A98-E632D0103D36
+    value:           5D96FA7F-0713-31E5-BE77-E36816EC884C
 install-name:    '/usr/lib/libAudioToolboxUtility.dylib'
 allowable-clients:
   - targets:         [ armv7-ios, armv7s-ios, arm64-ios, arm64e-ios ]

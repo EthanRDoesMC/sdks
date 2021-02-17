@@ -1,7 +1,7 @@
 ---
 archs:                 [ armv7, armv7s, arm64 ]
-platform:              (null)
-install-name:          /System/Library/Frameworks/LocalAuthentication.framework/Support/SharedUtils.framework/SharedUtils
+platform:              ios
+install-name:          "/System/Library/Frameworks/LocalAuthentication.framework/Support/SharedUtils.framework/SharedUtils"
 current-version:       1
 compatibility-version: 1
 exports:

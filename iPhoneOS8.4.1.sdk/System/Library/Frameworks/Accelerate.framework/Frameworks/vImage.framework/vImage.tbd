@@ -1,7 +1,7 @@
 ---
 archs:                 [ armv7, armv7s, arm64 ]
-platform:              (null)
-install-name:          /System/Library/Frameworks/Accelerate.framework/Frameworks/vImage.framework/vImage
+platform:              ios
+install-name:          "/System/Library/Frameworks/Accelerate.framework/Frameworks/vImage.framework/vImage"
 current-version:       293
 compatibility-version: 1
 exports:

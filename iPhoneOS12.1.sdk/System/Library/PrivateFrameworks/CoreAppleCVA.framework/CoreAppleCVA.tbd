@@ -1,7 +1,7 @@
 ---
 archs:                 [ armv7, armv7s, arm64 ]
-platform:              (null)
-install-name:          /System/Library/PrivateFrameworks/CoreAppleCVA.framework/CoreAppleCVA
+platform:              ios
+install-name:          "/System/Library/PrivateFrameworks/CoreAppleCVA.framework/CoreAppleCVA"
 current-version:       2.2
 compatibility-version: 2.2
 exports:

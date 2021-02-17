@@ -19,7 +19,6 @@
 #import <CoreMotion/CMDeviceMotion.h>
 #import <CoreMotion/CMError.h>
 #import <CoreMotion/CMErrorDomain.h>
-#import <CoreMotion/CMFallDetectionManager.h>
 #import <CoreMotion/CMGyro.h>
 #import <CoreMotion/CMLogItem.h>
 #import <CoreMotion/CMMagnetometer.h>

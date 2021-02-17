@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           C78CCB48-5431-3923-AB84-64952246E78C
   - target:          arm64-ios
-    value:           DC821B6C-01B5-3A22-AB8D-57851F25C687
+    value:           26235F80-36D2-3436-982D-658BE6278284
   - target:          arm64e-ios
-    value:           0EBC4655-E564-32CE-8C96-15E4A0C8F068
+    value:           76EA5ED4-68BC-3DBA-AFE4-69D7BEF012A7
 install-name:    '/System/Library/Frameworks/IntentsUI.framework/IntentsUI'
 exports:
   - targets:         [ arm64-ios, arm64e-ios, armv7-ios, armv7s-ios ]

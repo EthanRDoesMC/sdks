@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           00000000-0000-0000-0000-000000000000
   - target:          arm64-ios
-    value:           04861228-776A-3A43-A769-9D2EC06FBA7D
+    value:           773B5B5F-E407-3461-B811-8F678AA1F087
   - target:          arm64e-ios
-    value:           91097561-3857-3A08-9D15-7D766F944C84
+    value:           91BDC878-0C87-376F-9AE6-CAE2C6712A9E
 install-name:    '/usr/lib/libcryptex_interface.dylib'
 current-version: 84.40.6
 allowable-clients:

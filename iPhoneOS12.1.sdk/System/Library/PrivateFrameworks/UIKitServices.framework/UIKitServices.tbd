@@ -1,7 +1,7 @@
 ---
 archs:                 [ armv7, armv7s, arm64 ]
-platform:              (null)
-install-name:          /System/Library/PrivateFrameworks/UIKitServices.framework/UIKitServices
+platform:              ios
+install-name:          "/System/Library/PrivateFrameworks/UIKitServices.framework/UIKitServices"
 current-version:       61000
 compatibility-version: 1
 exports:

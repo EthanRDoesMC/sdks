@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           990477D0-C93B-35C3-B119-14F17487A835
   - target:          arm64-ios
-    value:           140A54C1-1A67-3B7A-A770-B96D6481A403
+    value:           ACDECDE3-905F-3A14-9B99-CD2EB4144DD1
   - target:          arm64e-ios
-    value:           D81292F3-B0BB-3852-B0B2-47BD8CBC24A6
+    value:           6BAE89E5-0137-3FCB-A31E-C70C089F6281
 install-name:    '/usr/lib/libprotobuf.dylib'
 reexported-libraries:
   - targets:         [ armv7-ios, armv7s-ios, arm64-ios, arm64e-ios ]

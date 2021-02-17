@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           843F33DE-02E7-3756-A650-62BF6771F971
   - target:          arm64-ios
-    value:           D38C5C60-8635-397C-B266-CC86ADEE706C
+    value:           896613FD-B16C-3AC6-86E8-151AAFD9B2AB
   - target:          arm64e-ios
-    value:           60A30E6E-9362-3DF5-A241-C3E6DA6B5508
+    value:           BB24637B-0975-301C-AAD3-B032EED30390
 install-name:    '/System/Library/Frameworks/EventKitUI.framework/EventKitUI'
 exports:
   - targets:         [ armv7-ios, armv7s-ios ]

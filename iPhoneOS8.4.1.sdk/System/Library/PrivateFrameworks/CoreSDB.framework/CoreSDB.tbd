@@ -1,7 +1,7 @@
 ---
 archs:                 [ armv7, armv7s, arm64 ]
-platform:              (null)
-install-name:          /System/Library/PrivateFrameworks/CoreSDB.framework/CoreSDB
+platform:              ios
+install-name:          "/System/Library/PrivateFrameworks/CoreSDB.framework/CoreSDB"
 current-version:       800
 compatibility-version: 1
 exports:

@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           00000000-0000-0000-0000-000000000000
   - target:          arm64-ios
-    value:           8BA25ABC-79F4-3458-BC19-AEBB4D827148
+    value:           13864808-285B-3E38-96B0-347FDAF26B37
   - target:          arm64e-ios
-    value:           238C5CAC-B32D-3A82-B319-BE8226D72517
+    value:           745F50D7-90AD-3DA2-B37F-62A7772758A7
 install-name:    '/System/Library/Frameworks/MLCompute.framework/MLCompute'
 exports:
   - targets:         [ arm64-ios, arm64e-ios, armv7-ios, armv7s-ios ]

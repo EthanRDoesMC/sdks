@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           3C3216AD-12AB-3043-9F0F-04921852A0F6
   - target:          arm64-ios
-    value:           F6E72F17-FBFC-3475-8E3F-927C41E02D50
+    value:           C94D0AAA-1854-36F0-8A44-CA7E69CA1B76
   - target:          arm64e-ios
-    value:           72F43649-6D0E-393F-B34B-E744BC401840
+    value:           A3356399-7B90-3223-82F9-94CC8F653F8E
 install-name:    '/usr/lib/swift/libswiftCoreData.dylib'
 current-version: 3
 swift-abi-version: 7

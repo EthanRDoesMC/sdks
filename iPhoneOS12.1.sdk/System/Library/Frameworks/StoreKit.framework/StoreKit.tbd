@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           6FACECE4-1D18-3B6D-8B27-77FB22101F74
   - target:          arm64-ios
-    value:           581F5293-FC42-30CE-9AD7-5645786ED5B0
+    value:           AD0EFB89-B7D0-36E3-ABE7-3C7EF4AF2620
   - target:          arm64e-ios
-    value:           C15DD601-BCBA-3A5F-815D-CC6A70B50B80
+    value:           E8001F10-F701-34A4-B4E2-A976E329FECD
 install-name:    '/System/Library/Frameworks/StoreKit.framework/StoreKit'
 exports:
   - targets:         [ armv7-ios, armv7s-ios ]

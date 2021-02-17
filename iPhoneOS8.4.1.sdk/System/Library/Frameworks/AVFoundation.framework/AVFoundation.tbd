@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           243105D9-A6F1-3373-A5D5-8263F506499E
   - target:          arm64-ios
-    value:           54BD69AF-2FB5-385E-AE5B-1B817CF58E25
+    value:           67D1FB04-4553-3FD0-980D-831C4DE638E8
   - target:          arm64e-ios
-    value:           CA17A2AF-1410-3FFD-9465-2F9F0C7A05CE
+    value:           FDEC8B1F-34CC-3133-9102-13A928CF181D
 install-name:    '/System/Library/Frameworks/AVFoundation.framework/AVFoundation'
 current-version: 2
 reexported-libraries:
@@ -1401,9 +1401,9 @@ uuids:
   - target:          armv7s-ios
     value:           0D640C72-3716-3A23-BA03-57B13635E926
   - target:          arm64-ios
-    value:           B31E0531-42AE-36E2-8142-85398A9687AD
+    value:           D581E902-542E-387C-99F7-CBD1B3A163B7
   - target:          arm64e-ios
-    value:           F41C217C-594D-3800-AFAA-6724FA74C6E4
+    value:           53161832-5A1C-3C33-AF53-6816B1D1C2C5
 install-name:    '/System/Library/Frameworks/AVFoundation.framework/Frameworks/AVFAudio.framework/AVFAudio'
 exports:
   - targets:         [ armv7-ios, armv7s-ios ]
@@ -1519,9 +1519,9 @@ uuids:
   - target:          armv7s-ios
     value:           00000000-0000-0000-0000-000000000000
   - target:          arm64-ios
-    value:           083B23EB-2DC8-3813-817B-6F1A40C9EC24
+    value:           39F4C2F8-D756-38AC-9280-C576331D45B8
   - target:          arm64e-ios
-    value:           69A24B66-80D2-3B65-A9A9-0CCF8FEC7E69
+    value:           7C929AA5-47C5-31E7-8A35-5566A1551613
 install-name:    '/System/Library/PrivateFrameworks/AVFCapture.framework/AVFCapture'
 allowable-clients:
   - targets:         [ armv7-ios, armv7s-ios, arm64-ios, arm64e-ios ]
@@ -1607,20 +1607,20 @@ exports:
                        _AVCaptureWhiteBalanceGainsCurrent, _AVMediaTypeCameraCalibrationData, 
                        _AVMediaTypePointCloudData, _AVMediaTypeVisionData, _AVMetadataMakeDependentSpecificationsForValue, 
                        _AVMetadataMakeMetadataObjectFromBoxedMetadata, _AVMetadataObjectCreateBoxedMetadataFromObjectAndFormatDescription, 
-                       _AVMetadataObjectTypeAppClipCode, _AVMetadataObjectTypeAztecCode, 
-                       _AVMetadataObjectTypeCatBody, _AVMetadataObjectTypeCode128Code, 
-                       _AVMetadataObjectTypeCode39Code, _AVMetadataObjectTypeCode39Mod43Code, 
-                       _AVMetadataObjectTypeCode93Code, _AVMetadataObjectTypeDataMatrixCode, 
-                       _AVMetadataObjectTypeDogBody, _AVMetadataObjectTypeEAN13Code, 
-                       _AVMetadataObjectTypeEAN8Code, _AVMetadataObjectTypeFace, 
-                       _AVMetadataObjectTypeHumanBody, _AVMetadataObjectTypeITF14Code, 
-                       _AVMetadataObjectTypeInterleaved2of5Code, _AVMetadataObjectTypeOfflineVideoStabilizationMotion, 
-                       _AVMetadataObjectTypePDF417Code, _AVMetadataObjectTypeQRCode, 
-                       _AVMetadataObjectTypeSaliencyHeatMap, _AVMetadataObjectTypeSalientObject, 
-                       _AVMetadataObjectTypeTrackedFaces, _AVMetadataObjectTypeUPCECode, 
-                       _AVMetadataObjectTypeVideoPreviewHistogram, _AVSemanticSegmentationMatteTypeGlasses, 
-                       _AVSemanticSegmentationMatteTypeHair, _AVSemanticSegmentationMatteTypeSkin, 
-                       _AVSemanticSegmentationMatteTypeTeeth, _kAVFCaptureSCMVersion ]
+                       _AVMetadataObjectTypeAztecCode, _AVMetadataObjectTypeCatBody, 
+                       _AVMetadataObjectTypeCode128Code, _AVMetadataObjectTypeCode39Code, 
+                       _AVMetadataObjectTypeCode39Mod43Code, _AVMetadataObjectTypeCode93Code, 
+                       _AVMetadataObjectTypeDataMatrixCode, _AVMetadataObjectTypeDogBody, 
+                       _AVMetadataObjectTypeEAN13Code, _AVMetadataObjectTypeEAN8Code, 
+                       _AVMetadataObjectTypeFace, _AVMetadataObjectTypeHumanBody, 
+                       _AVMetadataObjectTypeITF14Code, _AVMetadataObjectTypeInterleaved2of5Code, 
+                       _AVMetadataObjectTypeOfflineVideoStabilizationMotion, _AVMetadataObjectTypePDF417Code, 
+                       _AVMetadataObjectTypeQRCode, _AVMetadataObjectTypeSaliencyHeatMap, 
+                       _AVMetadataObjectTypeSalientObject, _AVMetadataObjectTypeTrackedFaces, 
+                       _AVMetadataObjectTypeUPCECode, _AVMetadataObjectTypeVideoPreviewHistogram, 
+                       _AVSemanticSegmentationMatteTypeGlasses, _AVSemanticSegmentationMatteTypeHair, 
+                       _AVSemanticSegmentationMatteTypeSkin, _AVSemanticSegmentationMatteTypeTeeth, 
+                       _kAVFCaptureSCMVersion ]
     objc-classes:    [ AVApplePortraitMetadata, AVCameraCalibrationData, AVCaptureAudioChannel, 
                        AVCaptureAudioDataOutput, AVCaptureAutoExposureBracketedStillImageSettings, 
                        AVCaptureBracketedStillImageSettings, AVCaptureCameraCalibrationDataOutput, 
@@ -1656,6 +1656,10 @@ uuids:
     value:           00000000-0000-0000-0000-000000000000
   - target:          armv7s-ios
     value:           00000000-0000-0000-0000-000000000000
+  - target:          arm64-ios
+    value:           8CDC508C-3C8E-336B-9F29-D32C4EEDCE43
+  - target:          arm64e-ios
+    value:           9C33E4C6-8809-3247-BB1C-4C42E305232F
 install-name:    '/System/Library/PrivateFrameworks/AVFCore.framework/AVFCore'
 allowable-clients:
   - targets:         [ armv7-ios, armv7s-ios, arm64-ios, arm64e-ios ]
@@ -1692,8 +1696,7 @@ exports:
                        _AVAssetDownloadSessioniTunesStoreContentIDKey, _AVAssetDownloadSessioniTunesStoreContentInfoKey, 
                        _AVAssetDownloadSessioniTunesStoreContentPurchasedMediaKindKey, 
                        _AVAssetDownloadSessioniTunesStoreContentTypeKey, _AVAssetDownloadSessioniTunesStoreContentUserAgentKey, 
-                       _AVAssetDownloadTaskAllowHighDynamicRangeKey, _AVAssetDownloadTaskClientIsCatalyst, 
-                       _AVAssetDownloadTaskClientIsIOSAppOnMac, _AVAssetDownloadTaskDestinationURLKey, 
+                       _AVAssetDownloadTaskAllowHighDynamicRangeKey, _AVAssetDownloadTaskDestinationURLKey, 
                        _AVAssetDownloadTaskMediaSelectionKey, _AVAssetDownloadTaskMediaSelectionPrefersMultichannelForMostPreferredLanguageOnlyKey, 
                        _AVAssetDownloadTaskMediaSelectionPrefersMultichannelKey, 
                        _AVAssetDownloadTaskMediaSelectionsForMultichannelKey, _AVAssetDownloadTaskMinimumRequiredMediaBitrateForHEVCKey, 
@@ -1740,10 +1743,10 @@ exports:
                        _AVAudioSessionMediaPlayerOnlyModeSpokenAudio, _AVAudioSessionPickableRoutesDidChangeNotification, 
                        _AVAudioTimePitchAlgorithmLowQualityZeroLatency, _AVAudioTimePitchAlgorithmSpectral, 
                        _AVAudioTimePitchAlgorithmTimeDomain, _AVAudioTimePitchAlgorithmVarispeed, 
-                       _AVBacktraceAsString, _AVBeginUpdatingIncrementalCodeCoverageData, 
-                       _AVCGPointFromNSValue, _AVCGRectFromNSValue, _AVCGSizeFromNSValue, 
-                       _AVContentAuthorizationInfoPlayInfoKey, _AVContentAuthorizationInfoSessionIDKey, 
-                       _AVContentKeyRequestProtocolVersionsKey, _AVContentKeyRequestRequiresExtendedValidationDataInSecureTokenKey, 
+                       _AVBeginUpdatingIncrementalCodeCoverageData, _AVCGPointFromNSValue, 
+                       _AVCGRectFromNSValue, _AVCGSizeFromNSValue, _AVContentAuthorizationInfoPlayInfoKey, 
+                       _AVContentAuthorizationInfoSessionIDKey, _AVContentKeyRequestProtocolVersionsKey, 
+                       _AVContentKeyRequestRequiresExtendedValidationDataInSecureTokenKey, 
                        _AVContentKeyRequestRequiresValidationDataInSecureTokenKey, 
                        _AVContentKeyRequestRetryReasonReceivedObsoleteContentKey, 
                        _AVContentKeyRequestRetryReasonReceivedResponseWithExpiredLease, 
@@ -1787,11 +1790,10 @@ exports:
                        _AVFragmentedMovieTrackTimeRangeDidChangeNotification, _AVFragmentedMovieWasDefragmentedNotification, 
                        _AVFullMethodName, _AVFullMethodNameFromClass, _AVInitializeProtectedContentPlaybackSupportExternalProtectionKey, 
                        _AVInitializeProtectedContentPlaybackSupportStorageURLKey, 
-                       _AVInitializeProtectedContentPlaybackSupportVideoKey, _AVIsKnownExtendedLanguageTagMissingLocaleDisplayName, 
-                       _AVIsSpecialSpokenExtendedLanguageTag, _AVLanguageCodeFromExtendedLanguageTag, 
-                       _AVLanguageCodeFromPackedLanguageCode, _AVLayerVideoGravityResize, 
-                       _AVLayerVideoGravityResizeAspect, _AVLayerVideoGravityResizeAspectFill, 
-                       _AVLocalizedError, _AVLocalizedErrorWithUnderlyingOSStatus, 
+                       _AVInitializeProtectedContentPlaybackSupportVideoKey, _AVIsSpecialSpokenExtendedLanguageTag, 
+                       _AVLanguageCodeFromExtendedLanguageTag, _AVLanguageCodeFromPackedLanguageCode, 
+                       _AVLayerVideoGravityResize, _AVLayerVideoGravityResizeAspect, 
+                       _AVLayerVideoGravityResizeAspectFill, _AVLocalizedError, _AVLocalizedErrorWithUnderlyingOSStatus, 
                        _AVLocalizedStringFromTable, _AVLocalizedStringFromTableWithBundleIdentifier, 
                        _AVLocalizedStringFromTableWithLocale, _AVMakeBlockSchedulerThatExecutesBlocksSynchronously, 
                        _AVMakeBlockSchedulerThatSerializesBlocksPrefersSynchronousExecutionAndAllowsReentrantExecution, 
@@ -2128,10 +2130,9 @@ exports:
                        _AVOutOfBandAlternateTrackIdentifierKey, _AVOutOfBandAlternateTrackIsDefaultKey, 
                        _AVOutOfBandAlternateTrackMediaCharactersticsKey, _AVOutOfBandAlternateTrackSourceKey, 
                        _AVOutputContextAddOutputDeviceOptionAuthorizationToken, _AVOutputContextAddOutputDeviceOptionCancelIfAuthRequired, 
-                       _AVOutputContextAddOutputDeviceOptionFadePlayback, _AVOutputContextAddOutputDeviceOptionInitiator, 
-                       _AVOutputContextCanSetVolumeDidChangeNotification, _AVOutputContextCommunicationChannelControlTypeDirect, 
-                       _AVOutputContextCommunicationChannelControlTypeRelayed, _AVOutputContextCommunicationChannelOptionControlType, 
-                       _AVOutputContextDestinationChangeCancellationReasonAuthorizationSkipped, 
+                       _AVOutputContextAddOutputDeviceOptionInitiator, _AVOutputContextCanSetVolumeDidChangeNotification, 
+                       _AVOutputContextCommunicationChannelControlTypeDirect, _AVOutputContextCommunicationChannelControlTypeRelayed, 
+                       _AVOutputContextCommunicationChannelOptionControlType, _AVOutputContextDestinationChangeCancellationReasonAuthorizationSkipped, 
                        _AVOutputContextDestinationChangeDeviceIDKey, _AVOutputContextDestinationChangeInitiatedNotification, 
                        _AVOutputContextDestinationChangeInitiatorKey, _AVOutputContextDestinationChangeKey, 
                        _AVOutputContextDestinationChangePreviousDeviceIDsKey, _AVOutputContextDestinationChangeReasonIdleDisconnect, 
@@ -2144,19 +2145,16 @@ exports:
                        _AVOutputContextGlobalOutputDeviceConfigurationDidChangeNotification, 
                        _AVOutputContextManagerFailureReasonKey, _AVOutputContextManagerOutputContextDidFailToConnectToOutputDeviceNotification, 
                        _AVOutputContextManagerOutputDeviceKey, _AVOutputContextOutputDeviceDidChangeNotification, 
-                       _AVOutputContextOutputDevicesDidChangeNotification, _AVOutputContextPredictedOutputDeviceDidChangeNotification, 
-                       _AVOutputContextProvidesControlForAllVolumeFeaturesDidChangeNotification, 
+                       _AVOutputContextOutputDevicesDidChangeNotification, _AVOutputContextProvidesControlForAllVolumeFeaturesDidChangeNotification, 
                        _AVOutputContextRemoveOutputDeviceOptionContinuePlayingAfterLastDeviceRemoved, 
-                       _AVOutputContextRemoveOutputDeviceOptionFadePlayback, _AVOutputContextRemoveOutputDeviceOptionInitiator, 
-                       _AVOutputContextSetOutputDeviceCancelIfAuthRequiredKey, _AVOutputContextSetOutputDeviceFadePlaybackKey, 
+                       _AVOutputContextRemoveOutputDeviceOptionInitiator, _AVOutputContextSetOutputDeviceCancelIfAuthRequiredKey, 
                        _AVOutputContextSetOutputDeviceInitiatorKey, _AVOutputContextSetOutputDevicePasswordKey, 
                        _AVOutputContextSetOutputDeviceSuppressUserInteractionOnSenderOnlyKey, 
-                       _AVOutputContextSetOutputDevicesOptionFadePlayback, _AVOutputContextSetOutputDevicesOptionInitiator, 
-                       _AVOutputContextTypeAudio, _AVOutputContextTypeGroupControl, 
-                       _AVOutputContextTypeScreen, _AVOutputContextTypeSharedAudioPresentation, 
-                       _AVOutputContextTypeSharedSystemAudio, _AVOutputContextTypeSharedSystemScreen, 
-                       _AVOutputContextTypeVideo, _AVOutputContextVolumeDidChangeNotification, 
-                       _AVOutputDeviceAuthorizationRequestRetryReasonIncorrectAuthorizationToken, 
+                       _AVOutputContextSetOutputDevicesOptionInitiator, _AVOutputContextTypeAudio, 
+                       _AVOutputContextTypeGroupControl, _AVOutputContextTypeScreen, 
+                       _AVOutputContextTypeSharedAudioPresentation, _AVOutputContextTypeSharedSystemAudio, 
+                       _AVOutputContextTypeSharedSystemScreen, _AVOutputContextTypeVideo, 
+                       _AVOutputContextVolumeDidChangeNotification, _AVOutputDeviceAuthorizationRequestRetryReasonIncorrectAuthorizationToken, 
                        _AVOutputDeviceAuthorizationTokenTypePIN, _AVOutputDeviceAuthorizationTokenTypePassword, 
                        _AVOutputDeviceBatteryLevelCaseKey, _AVOutputDeviceBatteryLevelLeftKey, 
                        _AVOutputDeviceBatteryLevelRightKey, _AVOutputDeviceBluetoothListeningModeActiveNoiseCancellation, 
@@ -2285,16 +2283,16 @@ exports:
                        _AVUnsupportedOutputURLPathExtensions, _AVVideoAllowFrameReorderingKey, 
                        _AVVideoAllowWideColorKey, _AVVideoApertureModeCleanAperture, 
                        _AVVideoApertureModeEncodedPixels, _AVVideoApertureModeProductionAperture, 
-                       _AVVideoAppleProRAWBitDepthKey, _AVVideoAverageBitRateKey, 
-                       _AVVideoAverageNonDroppableFrameRateKey, _AVVideoCleanApertureHeightKey, 
-                       _AVVideoCleanApertureHorizontalOffsetKey, _AVVideoCleanApertureKey, 
-                       _AVVideoCleanApertureVerticalOffsetKey, _AVVideoCleanApertureWidthKey, 
-                       _AVVideoCodecH264, _AVVideoCodecHEVC, _AVVideoCodecJPEG, _AVVideoCodecKey, 
-                       _AVVideoCodecTypeAppleProRes422, _AVVideoCodecTypeAppleProRes422HQ, 
-                       _AVVideoCodecTypeAppleProRes422LT, _AVVideoCodecTypeAppleProRes422Proxy, 
-                       _AVVideoCodecTypeAppleProRes4444, _AVVideoCodecTypeFromCMVideoCodecType, 
-                       _AVVideoCodecTypeH264, _AVVideoCodecTypeHEVC, _AVVideoCodecTypeHEVCWithAlpha, 
-                       _AVVideoCodecTypeJPEG, _AVVideoColorPrimariesKey, _AVVideoColorPrimaries_ITU_R_2020, 
+                       _AVVideoAverageBitRateKey, _AVVideoAverageNonDroppableFrameRateKey, 
+                       _AVVideoCleanApertureHeightKey, _AVVideoCleanApertureHorizontalOffsetKey, 
+                       _AVVideoCleanApertureKey, _AVVideoCleanApertureVerticalOffsetKey, 
+                       _AVVideoCleanApertureWidthKey, _AVVideoCodecH264, _AVVideoCodecHEVC, 
+                       _AVVideoCodecJPEG, _AVVideoCodecKey, _AVVideoCodecTypeAppleProRes422, 
+                       _AVVideoCodecTypeAppleProRes422HQ, _AVVideoCodecTypeAppleProRes422LT, 
+                       _AVVideoCodecTypeAppleProRes422Proxy, _AVVideoCodecTypeAppleProRes4444, 
+                       _AVVideoCodecTypeFromCMVideoCodecType, _AVVideoCodecTypeH264, 
+                       _AVVideoCodecTypeHEVC, _AVVideoCodecTypeHEVCWithAlpha, _AVVideoCodecTypeJPEG, 
+                       _AVVideoColorPrimariesKey, _AVVideoColorPrimaries_ITU_R_2020, 
                        _AVVideoColorPrimaries_ITU_R_709_2, _AVVideoColorPrimaries_P3_D65, 
                        _AVVideoColorPrimaries_SMPTE_C, _AVVideoColorPropertiesKey, 
                        _AVVideoCompressionPropertiesKey, _AVVideoDecompressionPropertiesKey, 

@@ -7,11 +7,11 @@ uuids:
   - target:          armv7s-ios
     value:           00000000-0000-0000-0000-000000000000
   - target:          arm64-ios
-    value:           848A9100-7EDC-3576-A021-D294F000F68E
+    value:           363FBE9C-7B33-3DED-AAB6-F35F148948BF
   - target:          arm64e-ios
-    value:           D43F5FBB-6C8D-39CB-8406-E5CF98D4B578
+    value:           631A9A5D-AC31-3702-8514-2FA1D840121D
 install-name:    '/System/Library/Frameworks/LinkPresentation.framework/LinkPresentation'
-current-version: 146.8
+current-version: 146.5
 reexported-libraries:
   - targets:         [ armv7-ios, armv7s-ios, arm64-ios, arm64e-ios ]
     libraries:       [ '/System/Library/PrivateFrameworks/URLFormatting.framework/URLFormatting' ]
@@ -58,11 +58,11 @@ uuids:
   - target:          armv7s-ios
     value:           00000000-0000-0000-0000-000000000000
   - target:          arm64-ios
-    value:           B1F9795E-D453-3685-B7AD-F32E1669C9C9
+    value:           2D14F097-5DEE-398A-9201-9787068A518A
   - target:          arm64e-ios
-    value:           359AA25A-10A2-3332-90B9-3CB58F491102
+    value:           6B66226E-C8C6-34F3-BD66-7A4AF030A07C
 install-name:    '/System/Library/PrivateFrameworks/URLFormatting.framework/URLFormatting'
-current-version: 146.8
+current-version: 146.5
 exports:
   - targets:         [ arm64-ios, arm64e-ios, armv7-ios, armv7s-ios ]
     objc-classes:    [ URLFormattingTestingOverrides ]

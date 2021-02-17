@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           00000000-0000-0000-0000-000000000000
   - target:          arm64-ios
-    value:           3BC673BE-9B70-3824-9675-43478596CC49
+    value:           A79AD523-E6FA-3174-8DBD-CD9CCBD2516C
   - target:          arm64e-ios
-    value:           7955CEC1-DCCD-371F-A142-3628016E11A2
+    value:           FFB83F0D-B1D7-3A83-B501-C1A7B7582F99
 install-name:    '/System/Library/Frameworks/_AVKit_SwiftUI.framework/_AVKit_SwiftUI'
 swift-abi-version: 7
 exports:

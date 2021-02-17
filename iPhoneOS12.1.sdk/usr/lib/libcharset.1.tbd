@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           E723F7C6-F77A-362A-BD48-CA7F874EA960
   - target:          arm64-ios
-    value:           D1407B95-6F81-3959-ADEB-1916C10D0246
+    value:           72B0C36F-725F-38FE-A357-9A515AAF64B9
   - target:          arm64e-ios
-    value:           B28F9D66-3D72-3A41-9856-6FD8D095045A
+    value:           C1FEECDC-E642-3177-8A18-A6B9E83D29D1
 install-name:    '/usr/lib/libcharset.1.dylib'
 current-version: 2
 compatibility-version: 2

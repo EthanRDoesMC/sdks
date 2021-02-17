@@ -7,11 +7,11 @@ uuids:
   - target:          armv7s-ios
     value:           383EF69C-7227-3492-A8F7-A7DAD4FC2D79
   - target:          arm64-ios
-    value:           F63E0E46-2ED6-3613-9120-A5DE51B372EF
+    value:           B1852788-7325-349F-A353-3EB855686D67
   - target:          arm64e-ios
-    value:           B79346CD-A6DF-3C71-B7F8-5A320C5A19F3
+    value:           5994C803-7606-31C7-8B28-6BE1B7CB058F
 install-name:    '/System/Library/Frameworks/MessageUI.framework/MessageUI'
-current-version: 3654.60
+current-version: 3654.20
 exports:
   - targets:         [ armv7-ios, armv7s-ios ]
     symbols:         [ _MFABPropertyForRecentsKind, _MFAccessibilityLargeTextEnabled, 
@@ -203,20 +203,19 @@ exports:
                        _MFMailComposeViewControllerIsBeingDismissed, _MFMailComposeViewDidDismiss, 
                        _MFMailComposeViewDidDrawNotification, _MFMailComposeViewDidFirstVisuallyNonEmptyDrawNotification, 
                        _MFMailComposeViewDidShow, _MFMailComposeViewDidSortSearchResults, 
-                       _MFMailComposeViewFirstDraw, _MFMailComposeViewWindowKey, 
-                       _MFMailCompositionValuesAutosaveIdentifier, _MFMailCompositionValuesBccRecipients, 
-                       _MFMailCompositionValuesBody, _MFMailCompositionValuesBodyIsHTML, 
-                       _MFMailCompositionValuesCaretPosition, _MFMailCompositionValuesCcRecipients, 
-                       _MFMailCompositionValuesCloudPhotoIDs, _MFMailCompositionValuesContentInitiallyVisible, 
-                       _MFMailCompositionValuesContentText, _MFMailCompositionValuesContentURLs, 
-                       _MFMailCompositionValuesContentVariations, _MFMailCompositionValuesDefaultContentVariationIndex, 
-                       _MFMailCompositionValuesPhotoIDs, _MFMailCompositionValuesPreferredSendingEmailAddress, 
-                       _MFMailCompositionValuesShareSheetSessionID, _MFMailCompositionValuesShowKeyboardImmediately, 
-                       _MFMailCompositionValuesSourceAccountManagement, _MFMailCompositionValuesSubject, 
-                       _MFMailCompositionValuesToRecipients, _MFMailCompositionValuesURL, 
-                       _MFMailCompositionValuesUTITypes, _MFMailDidDismissPopoverNotification, 
-                       _MFMailTypeIdentifiersAttachment, _MFMailWillPresentPopoverNotification, 
-                       _MFMessageComposeViewControllerAttachmentAlternateFilename, 
+                       _MFMailComposeViewFirstDraw, _MFMailCompositionValuesAutosaveIdentifier, 
+                       _MFMailCompositionValuesBccRecipients, _MFMailCompositionValuesBody, 
+                       _MFMailCompositionValuesBodyIsHTML, _MFMailCompositionValuesCaretPosition, 
+                       _MFMailCompositionValuesCcRecipients, _MFMailCompositionValuesCloudPhotoIDs, 
+                       _MFMailCompositionValuesContentInitiallyVisible, _MFMailCompositionValuesContentText, 
+                       _MFMailCompositionValuesContentURLs, _MFMailCompositionValuesContentVariations, 
+                       _MFMailCompositionValuesDefaultContentVariationIndex, _MFMailCompositionValuesPhotoIDs, 
+                       _MFMailCompositionValuesPreferredSendingEmailAddress, _MFMailCompositionValuesShareSheetSessionID, 
+                       _MFMailCompositionValuesShowKeyboardImmediately, _MFMailCompositionValuesSourceAccountManagement, 
+                       _MFMailCompositionValuesSubject, _MFMailCompositionValuesToRecipients, 
+                       _MFMailCompositionValuesURL, _MFMailCompositionValuesUTITypes, 
+                       _MFMailDidDismissPopoverNotification, _MFMailTypeIdentifiersAttachment, 
+                       _MFMailWillPresentPopoverNotification, _MFMessageComposeViewControllerAttachmentAlternateFilename, 
                        _MFMessageComposeViewControllerAttachmentURL, _MFMessageComposeViewControllerIsBeingDismissed, 
                        _MFMessageComposeViewControllerTextMessageAvailabilityDidChangeNotification, 
                        _MFMessageComposeViewControllerTextMessageAvailabilityKey, 

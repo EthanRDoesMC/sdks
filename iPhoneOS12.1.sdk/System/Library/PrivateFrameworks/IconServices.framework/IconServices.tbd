@@ -1,7 +1,7 @@
 ---
 archs:                 [ armv7, armv7s, arm64 ]
-platform:              (null)
-install-name:          /System/Library/PrivateFrameworks/IconServices.framework/IconServices
+platform:              ios
+install-name:          "/System/Library/PrivateFrameworks/IconServices.framework/IconServices"
 current-version:       377
 compatibility-version: 1
 exports:

@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           00000000-0000-0000-0000-000000000000
   - target:          arm64-ios
-    value:           292D797C-8156-3FE7-B2A5-D65329FBDD9B
+    value:           9D042DC2-C6BC-3D45-BFF0-E3806A928DDB
   - target:          arm64e-ios
-    value:           DBA397A5-9646-3CED-8309-0BD12AF2520D
+    value:           56184C3C-DE0F-37D4-8041-D9134B9AEEDA
 install-name:    '/System/Library/Frameworks/CarPlay.framework/CarPlay'
 exports:
   - targets:         [ arm64-ios, arm64e-ios, armv7-ios, armv7s-ios ]

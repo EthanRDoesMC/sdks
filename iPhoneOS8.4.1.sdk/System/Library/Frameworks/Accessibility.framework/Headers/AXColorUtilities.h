@@ -5,8 +5,6 @@
 //  Copyright © 2020 Apple Inc. All rights reserved.
 //
 
-#import <Accessibility/AXFoundation.h>
-
 NS_ASSUME_NONNULL_BEGIN
 
 // Returns a localized description of the CGColorRef for use in accessibility attributes.

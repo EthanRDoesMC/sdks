@@ -1,7 +1,7 @@
 ---
 archs:                 [ armv7, armv7s, arm64 ]
-platform:              (null)
-install-name:          /System/Library/PrivateFrameworks/AppleBasebandManager.framework/AppleBasebandManager
+platform:              ios
+install-name:          "/System/Library/PrivateFrameworks/AppleBasebandManager.framework/AppleBasebandManager"
 current-version:       555
 compatibility-version: 1
 exports:

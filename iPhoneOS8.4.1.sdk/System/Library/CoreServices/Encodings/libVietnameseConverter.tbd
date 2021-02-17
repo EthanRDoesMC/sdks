@@ -1,7 +1,7 @@
 ---
 archs:                 [ armv7, armv7s, arm64 ]
-platform:              (null)
-install-name:          /System/Library/CoreServices/Encodings/libVietnameseConverter.dylib
+platform:              ios
+install-name:          "/System/Library/CoreServices/Encodings/libVietnameseConverter.dylib"
 current-version:       62
 compatibility-version: 1
 exports:

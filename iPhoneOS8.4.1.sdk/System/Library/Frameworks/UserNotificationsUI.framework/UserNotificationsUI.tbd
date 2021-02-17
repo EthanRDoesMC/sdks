@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           F4DEBF8C-D3A1-3733-947C-09366DAEB634
   - target:          arm64-ios
-    value:           DC6E78B8-3891-3664-83BD-422A00DA79C8
+    value:           F20A29F0-A56A-3F69-A594-605FC091C6CB
   - target:          arm64e-ios
-    value:           9D8CA0D2-586F-3285-A401-069D2CEBC4A2
+    value:           B304C6F1-9B9A-387C-8B38-7BA6D708EF90
 install-name:    '/System/Library/Frameworks/UserNotificationsUI.framework/UserNotificationsUI'
 exports:
   - targets:         [ armv7-ios, armv7s-ios ]

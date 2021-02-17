@@ -7,9 +7,9 @@ uuids:
   - target:          armv7s-ios
     value:           00000000-0000-0000-0000-000000000000
   - target:          arm64-ios
-    value:           F72D1984-CE43-3AF6-BE84-C27D64EED928
+    value:           9239558F-BCEB-3F72-944E-DEAA4F922734
   - target:          arm64e-ios
-    value:           DF974C1D-35FE-3485-AF2B-FE0D53F4EC62
+    value:           98ECA939-DFAC-3BA8-B54F-39FD4B655EFD
 install-name:    '/System/Library/Frameworks/SoundAnalysis.framework/SoundAnalysis'
 exports:
   - targets:         [ arm64-ios, arm64e-ios, armv7-ios, armv7s-ios ]

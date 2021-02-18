@@ -16,4 +16,4 @@ In the near future, I'd like to make these into full SDKs; that is, using header
 That would need to be automated, too - partially because I'm lazy, and partially as a future-proofed offering to the community :)
 
 
-nota bene: the iOS 8.4 SDK is taken from Xcode 6.4. The 8.4*.1* SDK is built using the 14.4 SDK as a base. You'll probably have issues with the latter if you aren't using a Mac.
+nota bene: the iOS 8.4 SDK is taken from Xcode 6.4. The 8.4.1 SDK is built using the 14.4 SDK as a base. You'll probably have issues with the latter if you aren't using a Mac.
